@@ -1,0 +1,1358 @@
+[
+  {
+    "Title": "Wild Hogs",
+    "Genre": "Comedy",
+    "Date": "2007-03-10",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Disturbia",
+    "Genre": "Thriller",
+    "Date": "2007-04-14",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Spiderman 3",
+    "Genre": "Sci-Fi",
+    "Date": "2007-05-26",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "I Now Pronounce You Chuck & Larry",
+    "Genre": "Comedy",
+    "Date": "2007-07-23",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Prom Night",
+    "Genre": "Thriller",
+    "Date": "2008-04-19",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Harold & Kumar Escape from Guantanamo Bay",
+    "Genre": "Comedy",
+    "Date": "2008-05-10",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Hancock",
+    "Genre": "Action",
+    "Date": "2008-07-19",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Tropic Thunder",
+    "Genre": "Action",
+    "Date": "2008-08-17",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Traitor",
+    "Genre": "Action",
+    "Date": "2008-09-06",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Four Christmases",
+    "Genre": "Drama",
+    "Date": "2008-12-16",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Yes Man",
+    "Genre": "Comedy",
+    "Date": "2008-12-28",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Friday the 13th",
+    "Genre": "Horror",
+    "Date": "2009-02-13",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "He's Just Not That Into You",
+    "Genre": "Romance",
+    "Date": "2009-03-10",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "I Love You, Man",
+    "Genre": "Romance",
+    "Date": "2009-03-29",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Terminator Salvation",
+    "Genre": "Thriller",
+    "Date": "2009-05-22",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Terminator Salvation",
+    "Genre": "Thriller",
+    "Date": "2009-05-25",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Night at the Museum",
+    "Genre": "Fantasy",
+    "Date": "2009-05-31",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Hangover",
+    "Genre": "Comedy",
+    "Date": "2009-06-08",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Transformers: Revenge of the Fallen",
+    "Genre": "Sci-Fi",
+    "Date": "2009-06-24",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Year One",
+    "Genre": "Comedy",
+    "Date": "2009-06-29",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Bruno",
+    "Genre": "Comedy",
+    "Date": "2009-07-11",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Proposal",
+    "Genre": "Drama",
+    "Date": "2009-07-13",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Harry Potter and the Half-Blood Prince",
+    "Genre": "Fantasy",
+    "Date": "2009-07-15",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Funny People",
+    "Genre": "Comedy",
+    "Date": "2009-08-20",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Funny People",
+    "Genre": "Comedy",
+    "Date": "2009-08-22",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Halloween 2",
+    "Genre": "Horror",
+    "Date": "2009-08-28",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Final Destination",
+    "Genre": "Horror",
+    "Date": "2009-09-02",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Zombieland",
+    "Genre": "Comedy",
+    "Date": "2009-10-03",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "All About Steve",
+    "Genre": "Comedy",
+    "Date": "2009-10-05",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Stepfather",
+    "Genre": "Thriller",
+    "Date": "2009-10-16",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Paranormal",
+    "Genre": "Thriller",
+    "Date": "2009-10-23",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Saw VI",
+    "Genre": "Horror",
+    "Date": "2009-10-31",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "4th Kind",
+    "Genre": "Sci-Fi",
+    "Date": "2009-11-06",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": 2012,
+    "Genre": "Sci-Fi",
+    "Date": "2009-11-13",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": 2012,
+    "Genre": "Sci-Fi",
+    "Date": "2009-11-21",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Twilight Saga: New Moon",
+    "Genre": "Fantasy",
+    "Date": "2009-12-01",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Brothers",
+    "Genre": "Drama",
+    "Date": "2009-12-11",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Avatar 3D",
+    "Genre": "Sci-Fi",
+    "Date": "2009-12-26",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Did You Hear About the Morgans?",
+    "Genre": "Romance",
+    "Date": "2009-12-27",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Youth in Revolt",
+    "Genre": "Drama",
+    "Date": "2010-01-09",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Up in the Air",
+    "Genre": "Drama",
+    "Date": "2010-01-13",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Lovely Bones",
+    "Genre": "Drama",
+    "Date": "2010-01-15",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Valentine's Day",
+    "Genre": "Romance",
+    "Date": "2010-02-18",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Shutter Island",
+    "Genre": "Thriller",
+    "Date": "2010-02-19",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "How to Train Your Dragon",
+    "Genre": "Fantasy",
+    "Date": "2010-03-26",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Green Zone",
+    "Genre": "Thriller",
+    "Date": "2010-03-29",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Last Song",
+    "Genre": "Romance",
+    "Date": "2010-03-31",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Robin Hood",
+    "Genre": "Drama",
+    "Date": "2010-05-14",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Get Him to the Greek",
+    "Genre": "Thriller",
+    "Date": "2010-06-05",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Karate Kid",
+    "Genre": "Action",
+    "Date": "2010-06-12",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The A-Team",
+    "Genre": "Thriller",
+    "Date": "2010-06-21",
+    "Theater": "Regal Entertainment Group"
+  },
+  {
+    "Title": "Knight & Day",
+    "Genre": "Action",
+    "Date": "2010-07-01",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Twilight Saga: Eclipse",
+    "Genre": "Fantasy",
+    "Date": "2010-07-09",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Predators",
+    "Genre": "Sci-Fi",
+    "Date": "2010-07-13",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Dinner for Schmucks",
+    "Genre": "Comedy",
+    "Date": "2010-07-30",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Step Up 3D",
+    "Genre": "Drama",
+    "Date": "2010-08-07",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Other Guys",
+    "Genre": "Crime",
+    "Date": "2010-08-13",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Town",
+    "Genre": "Crime",
+    "Date": "2010-09-25",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Jackass 3D",
+    "Genre": "Comedy",
+    "Date": "2010-10-22",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Mechanic",
+    "Genre": "Thriller",
+    "Date": "2011-02-13",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Bad Teacher",
+    "Genre": "Comedy",
+    "Date": "2011-07-01",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Harry Potter and the Deathly Hallows – Part 2",
+    "Genre": "Fantasy",
+    "Date": "2011-07-16",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Hangover 2",
+    "Genre": "Comedy",
+    "Date": "2011-06-12",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Contagion",
+    "Genre": "Sci-Fi",
+    "Date": "2011-09-17",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Safe House",
+    "Genre": "Thriller",
+    "Date": "2012-02-12",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Project X",
+    "Genre": "Comedy",
+    "Date": "2012-03-04",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Act of Valor",
+    "Genre": "Drama",
+    "Date": "2012-03-05",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Battleship",
+    "Genre": "Sci-Fi",
+    "Date": "2012-05-19",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Men in Black 3",
+    "Genre": "Sci-Fi",
+    "Date": "2012-05-25",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Chernobyl",
+    "Genre": "Horror",
+    "Date": "2012-05-28",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Snow White and the Huntsman",
+    "Genre": "Fantasy",
+    "Date": "2012-06-04",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Snow White and the Huntsman",
+    "Genre": "Fantasy",
+    "Date": "2012-06-12",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Prometheus",
+    "Genre": "Sci-Fi",
+    "Date": "2012-06-16",
+    "Theater": "AMC Empire 25"
+  },
+  {
+    "Title": "Ted",
+    "Genre": "Comedy",
+    "Date": "2012-06-30",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Magic Mike",
+    "Genre": "Drama",
+    "Date": "2012-07-08",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Ted",
+    "Genre": "Comedy",
+    "Date": "2012-07-10",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Magic Mike",
+    "Genre": "Drama",
+    "Date": "2012-07-15",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Dark Knight Rises",
+    "Genre": "Crime",
+    "Date": "2012-07-23",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Step Up Revolution",
+    "Genre": "Drama",
+    "Date": "2012-07-27",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Ice Age: Continental Drift",
+    "Genre": "Fantasy",
+    "Date": "2012-08-04",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "End of Watch",
+    "Genre": "Crime",
+    "Date": "2012-09-23",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Twilight Saga: Breaking Dawn – Part 2",
+    "Genre": "Fantasy",
+    "Date": "2012-11-15",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Monsters, Inc. 3D",
+    "Genre": "Fantasy",
+    "Date": "2012-12-24",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Zero Dark Thirty",
+    "Genre": "Action",
+    "Date": "2013-01-11",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Zero Dark Thirty",
+    "Genre": "Action",
+    "Date": "2013-01-14",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Warm Bodies",
+    "Genre": "Drama",
+    "Date": "2013-02-02",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "A Good Day to Die Hard",
+    "Genre": "Action",
+    "Date": "2013-02-17",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Olympus Has Fallen",
+    "Genre": "Action",
+    "Date": "2013-03-24",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Jurassic 3D",
+    "Genre": "Fantasy",
+    "Date": "2013-04-05",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "G.I. Joe: Retaliation",
+    "Genre": "Action",
+    "Date": "2013-04-08",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Oblivion",
+    "Genre": "Action",
+    "Date": "2013-04-21",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Pain & Gain",
+    "Genre": "Crime",
+    "Date": "2013-04-28",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Pain & Gain",
+    "Genre": "Crime",
+    "Date": "2013-05-10",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Hangover 3",
+    "Genre": "Comedy",
+    "Date": "2013-05-24",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Purge",
+    "Genre": "Thriller",
+    "Date": "2013-06-08",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "This is the End",
+    "Genre": "Fantasy",
+    "Date": "2013-06-09",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "World War Z",
+    "Genre": "Thriller",
+    "Date": "2013-06-23",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "World War Z",
+    "Genre": "Thriller",
+    "Date": "2013-07-09",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Pacific Rim",
+    "Genre": "Sci-Fi",
+    "Date": "2013-07-14",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Monsters University",
+    "Genre": "Fantasy",
+    "Date": "2013-07-21",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Red 2",
+    "Genre": "Crime",
+    "Date": "2013-07-23",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "The Family",
+    "Genre": "Thriller",
+    "Date": "2013-09-15",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Captain Phillips",
+    "Genre": "Thriller",
+    "Date": "2013-10-22",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Bad Grandpa",
+    "Genre": "Comedy",
+    "Date": "2013-10-25",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Thor: The Dark World",
+    "Genre": "Fantasy",
+    "Date": "2013-11-24",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "47 Ronin",
+    "Genre": "Fantasy",
+    "Date": "2013-12-28",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "3 Days to Kill",
+    "Genre": "Drama",
+    "Date": "2014-03-02",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Need for Speed",
+    "Genre": "Drama",
+    "Date": "2014-03-14",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Sabotage",
+    "Genre": "Crime",
+    "Date": "2014-03-31",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Godzilla",
+    "Genre": "Thriller",
+    "Date": "2014-05-16",
+    "Theater": "Carmike Cinemas"
+  },
+  {
+    "Title": "Edge of Tomorrow",
+    "Genre": "Sci-Fi",
+    "Date": "2014-06-08",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "A Million Ways to Die in the West",
+    "Genre": "Comedy",
+    "Date": "2014-06-12",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "22 Jump Street",
+    "Genre": "Comedy",
+    "Date": "2014-06-13",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Hercules",
+    "Genre": "Fantasy",
+    "Date": "2014-07-27",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Expendables 3",
+    "Genre": "Action",
+    "Date": "2014-08-17",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Ghostbusters",
+    "Genre": "Action",
+    "Date": "2014-08-30",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Equalizer",
+    "Genre": "Action",
+    "Date": "2014-09-28",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Fury",
+    "Genre": "Action",
+    "Date": "2014-10-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Beetlejuice",
+    "Genre": "Comedy",
+    "Date": "2014-10-30",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Nightmare on Elm Street",
+    "Genre": "Horror",
+    "Date": "2014-10-30",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Nightcrawler",
+    "Genre": "Crime",
+    "Date": "2014-11-13",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Dumb and Dumber To",
+    "Genre": "Comedy",
+    "Date": "2014-11-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Penguins of Madagascar",
+    "Genre": "Adventure",
+    "Date": "2014-12-11",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "American Sniper",
+    "Genre": "Action",
+    "Date": "2015-01-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Fifty Shades of Grey",
+    "Genre": "Drama",
+    "Date": "2015-02-13",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Entourage",
+    "Genre": "Drama",
+    "Date": "2015-06-03",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Jurassic World",
+    "Genre": "Fantasy",
+    "Date": "2015-06-12",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Mission Impossible: Rogue Nation",
+    "Genre": "Action",
+    "Date": "2015-08-07",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Straight Outta Compton",
+    "Genre": "Drama",
+    "Date": "2015-08-17",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Man from U.N.C.L.E.",
+    "Genre": "Action",
+    "Date": "2015-08-29",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Black Mass",
+    "Genre": "Crime",
+    "Date": "2015-09-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Sicario",
+    "Genre": "Thriller",
+    "Date": "2015-10-08",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Spectre",
+    "Genre": "Action",
+    "Date": "2015-11-05",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Night Before",
+    "Genre": "Comedy",
+    "Date": "2015-11-19",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Victor Frankenstein",
+    "Genre": "Sci-Fi",
+    "Date": "2015-11-28",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Krampus",
+    "Genre": "Horror",
+    "Date": "2015-12-04",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Star Wars: The Force Awakens",
+    "Genre": "Sci-Fi",
+    "Date": "2015-12-26",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Pride and Prejudice and Zombies",
+    "Genre": "Thriller",
+    "Date": "2016-02-12",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Deadpool",
+    "Genre": "Fantasy",
+    "Date": "2016-02-16",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Hardcore Henry",
+    "Genre": "Action",
+    "Date": "2016-04-07",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Independence Day: Resurgence",
+    "Genre": "Sci-Fi",
+    "Date": "2016-06-23",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Hell or High Water",
+    "Genre": "Crime",
+    "Date": "2016-09-11",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Rogue One: A Star Wars Story",
+    "Genre": "Sci-Fi",
+    "Date": "2016-12-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Warcraft",
+    "Genre": "Fantasy",
+    "Date": "2016-06-09",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Patriots Day",
+    "Genre": "Thriller",
+    "Date": "2017-01-19",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Fifty Shades Darker",
+    "Genre": "Drama",
+    "Date": "2017-02-09",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "John Wick: Chapter 2",
+    "Genre": "Action",
+    "Date": "2017-02-13",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "John Wick: Chapter 2",
+    "Genre": "Action",
+    "Date": "2017-02-14",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Beauty and the Beast",
+    "Genre": "Fantasy",
+    "Date": "2017-03-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Guardians of the Galaxy Vol. 2",
+    "Genre": "Sci-Fi",
+    "Date": "2017-05-13",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Alien: Covenant",
+    "Genre": "Sci-Fi",
+    "Date": "2017-05-19",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "It Comes at Night",
+    "Genre": "Thriller",
+    "Date": "2017-06-10",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Megan Leavey",
+    "Genre": "Drama",
+    "Date": "2017-06-11",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Mummy",
+    "Genre": "Thriller",
+    "Date": "2017-06-25",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The House",
+    "Genre": "Comedy",
+    "Date": "2017-07-01",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Baby Driver",
+    "Genre": "Crime",
+    "Date": "2017-07-11",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Baby Driver",
+    "Genre": "Crime",
+    "Date": "2017-07-13",
+    "Theater": "AMC Empire 25"
+  },
+  {
+    "Title": "Dunkirk",
+    "Genre": "Drama",
+    "Date": "2017-07-23",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Hitmans Bodyguard",
+    "Genre": "Action",
+    "Date": "2017-08-26",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "It",
+    "Genre": "Horror",
+    "Date": "2017-09-07",
+    "Theater": "Cinemark Tinseltown Grapevine"
+  },
+  {
+    "Title": "It",
+    "Genre": "Horror",
+    "Date": "2017-09-10",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Blade Runner 2049",
+    "Genre": "Sci-Fi",
+    "Date": "2017-10-05",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Foreigner",
+    "Genre": "Action",
+    "Date": "2017-10-15",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Geostorm",
+    "Genre": "Sci-Fi",
+    "Date": "2017-10-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Jigsaw",
+    "Genre": "Horror",
+    "Date": "2017-10-28",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Murder on the Orient Express",
+    "Genre": "Mystery",
+    "Date": "2017-11-12",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Godzilla",
+    "Genre": "Sci-Fi",
+    "Date": "2017-11-18",
+    "Theater": "TOHO Cinemas Shinjuku"
+  },
+  {
+    "Title": "Star Wars: The Last Jedi",
+    "Genre": "Sci-Fi",
+    "Date": "2017-12-26",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "12 Strong",
+    "Genre": "Action",
+    "Date": "2018-01-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Jumanji: Welcome to the Jungle",
+    "Genre": "Fantasy",
+    "Date": "2018-01-27",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Den of Thieves",
+    "Genre": "Crime",
+    "Date": "2018-01-28",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The 15:17 to Paris",
+    "Genre": "Thriller",
+    "Date": "2018-02-13",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Red Sparrow",
+    "Genre": "Thriller",
+    "Date": "2018-03-05",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Pacific Rim Uprising",
+    "Genre": "Sci-Fi",
+    "Date": "2018-03-24",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Ready Player One",
+    "Genre": "Fantasy",
+    "Date": "2018-03-29",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "A Quiet Place",
+    "Genre": "Thriller",
+    "Date": "2018-04-06",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Super Troopers 2",
+    "Genre": "Crime",
+    "Date": "2018-04-20",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Die Hard",
+    "Genre": "Action",
+    "Date": "2018-04-26",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Life of the Party",
+    "Genre": "Comedy",
+    "Date": "2018-05-12",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Deadpool 2",
+    "Genre": "Fantasy",
+    "Date": "2018-05-20",
+    "Theater": "Sambíó Egilshöll"
+  },
+  {
+    "Title": "Solo: A Star Wars Story",
+    "Genre": "Sci-Fi",
+    "Date": "2018-05-26",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Jurassic World: Fallen Kingdom",
+    "Genre": "Fantasy",
+    "Date": "2018-06-23",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Sicario: Day of the Soldado",
+    "Genre": "Thriller",
+    "Date": "2018-06-29",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Sicario: Day of the Soldado",
+    "Genre": "Thriller",
+    "Date": "2018-07-01",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Skyscraper",
+    "Genre": "Crime",
+    "Date": "2018-07-14",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Equalizer 2",
+    "Genre": "Action",
+    "Date": "2018-07-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Equalizer 2",
+    "Genre": "Action",
+    "Date": "2018-07-29",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Mission Impossible: Fallout",
+    "Genre": "Action",
+    "Date": "2018-08-04",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Meg",
+    "Genre": "Thriller",
+    "Date": "2018-08-11",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Meg",
+    "Genre": "Thriller",
+    "Date": "2018-08-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Predator",
+    "Genre": "Thriller",
+    "Date": "2018-09-15",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "First Man",
+    "Genre": "Drama",
+    "Date": "2018-10-12",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Halloween",
+    "Genre": "Thriller",
+    "Date": "2018-10-19",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Halloween",
+    "Genre": "Thriller",
+    "Date": "2018-10-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Hell Fest",
+    "Genre": "Horror",
+    "Date": "2018-10-30",
+    "Theater": "Konsertpaleet"
+  },
+  {
+    "Title": "Overlord",
+    "Genre": "Thriller",
+    "Date": "2018-11-11",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Mule",
+    "Genre": "Drama",
+    "Date": "2018-12-23",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Avengers: Endgame",
+    "Genre": "Fantasy",
+    "Date": "2019-05-05",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Pokemon: Detective Pikachu",
+    "Genre": "Fantasy",
+    "Date": "2019-05-10",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "John Wick: Chapter 3",
+    "Genre": "Action",
+    "Date": "2019-05-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "John Wick: Chapter 3",
+    "Genre": "Action",
+    "Date": "2019-05-20",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Brightburn",
+    "Genre": "Sci-Fi",
+    "Date": "2019-05-27",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Godzilla: King of the Monsters",
+    "Genre": "Fantasy",
+    "Date": "2019-06-01",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Child's Play",
+    "Genre": "Thriller",
+    "Date": "2019-06-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Dead Don't Die",
+    "Genre": "Fantasy",
+    "Date": "2019-06-29",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Toy Story 4",
+    "Genre": "Fantasy",
+    "Date": "2019-07-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Scary Stories to Tell in the Dark",
+    "Genre": "Thriller",
+    "Date": "2019-08-10",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Fast & Furious Presents: Hobbs & Shaw",
+    "Genre": "Action",
+    "Date": "2019-08-17",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Angel Has Fallen",
+    "Genre": "Action",
+    "Date": "2019-08-23",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "47 Meters Down: Uncaged",
+    "Genre": "Thriller",
+    "Date": "2019-08-25",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Good Boys",
+    "Genre": "Comedy",
+    "Date": "2019-09-01",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "It: Chapter Two",
+    "Genre": "Horror",
+    "Date": "2019-09-07",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Ad Astra",
+    "Genre": "Drama",
+    "Date": "2019-09-20",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Rambo: Last Blood",
+    "Genre": "Action",
+    "Date": "2019-09-21",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "The Karate Kid",
+    "Genre": "Drama",
+    "Date": "2019-09-26",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Joker",
+    "Genre": "Drama",
+    "Date": "2019-10-05",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Joker",
+    "Genre": "Drama",
+    "Date": "2019-10-10",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Gemini Man",
+    "Genre": "Drama",
+    "Date": "2019-10-12",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Zombieland: Double Tap",
+    "Genre": "Action",
+    "Date": "2019-10-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "21 Bridges",
+    "Genre": "Drama",
+    "Date": "2019-11-23",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Dark Waters",
+    "Genre": "Drama",
+    "Date": "2019-12-07",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Star Wars: Episode IX",
+    "Genre": "Fantasy",
+    "Date": "2019-12-22",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Underwater",
+    "Genre": "Drama",
+    "Date": "2020-01-11",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": 1917,
+    "Genre": "Drama",
+    "Date": "2020-01-18",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Jojo Rabbit",
+    "Genre": "Drama",
+    "Date": "2020-01-24",
+    "Theater": "Thomas Theatre Group"
+  },
+  {
+    "Title": "Bad Boys for Life",
+    "Genre": "Thriller",
+    "Date": "2020-01-25",
+    "Theater": "Thomas Theatre Group"
+  }
+]

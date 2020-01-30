@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+{{ $year2020 := 0 }}
+
+{{ range .Site.Data.movies }}
+  {{ if eq ( dateFormat "2006" .Date ) "2020" }}
+    {{ $year2020 = add $year2020 1 }}
+  {{ end }}
+{{ end }}
+
+<section>
+  <header>
+    <h1>Tickets</h1>
+  </header>
+
+  <h2>Number of movies: {{ len .Site.Data.movies }}</h2>
+
+  <span>Movies watched in 2020: {{ $year2020 }}</span>
+
+  <ul class="grid grid--three-column">
+    {{ range .Site.Data.movies }}
+      <li>
+        {{ .Title }}
+      </li>
+    {{ end }}
+  </ul>
+
+</section>
+
+{{ end }}

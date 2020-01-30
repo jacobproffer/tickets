@@ -1,0 +1,10 @@
+<a
+  {{ if .IsHome }}
+    class="justify-start active"
+  {{ else }}
+    class="justify-start"
+  {{ end }}
+  href="{{ .Site.BaseURL }}"
+>
+  Home
+</a>

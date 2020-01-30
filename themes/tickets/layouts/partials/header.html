@@ -1,0 +1,16 @@
+<div class="main-header">
+  <div class="container">
+
+    <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
+
+    <div class="grid grid--two-column">
+
+      {{ partial "navigation/main/home-link.html" . }}
+
+      {{ if .Site.Menus.main }}
+        {{ partial "navigation/main/main-navigation" . }}
+      {{ end }}
+
+    </div>
+  </div>
+</div>
