@@ -8,6 +8,7 @@
   --gray: #d0c7c0;
   --border: var(--midGray);
   --orange: #ff572b;
+  --purple: #793ed8;
   --spacing: 150px;
   --sans-serif: 'Montserrat', sans-serif;
 
@@ -91,7 +92,10 @@ a {
   }
 }
 
-span,
 time {
-  display: block;
+  display: inline-block;
+}
+
+small {
+  font-size: .75rem;
 }

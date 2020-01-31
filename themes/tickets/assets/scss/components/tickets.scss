@@ -1,5 +1,13 @@
 .tickets {
+  &__header {
+    background-color: #ffb661;
+  }
+
+  &__count {
+    background-color: var(--gray);
+  }
+
   &__list {
-    padding: 0 20px 20px;
+    padding: 20px;
   }
 }

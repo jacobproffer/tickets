@@ -1,28 +1,36 @@
 {{ define "main" }}
 
-{{ $year2020 := 0 }}
+{{ $currentYear := now.Format "2006" }}
+{{ $currentYearMovies := 0 }}
 
 {{ range .Site.Data.movies }}
-  {{ if eq ( dateFormat "2006" .Date ) "2020" }}
-    {{ $year2020 = add $year2020 1 }}
+  {{ if eq ( dateFormat "2006" .Date ) $currentYear }}
+    {{ $currentYearMovies = add $currentYearMovies 1 }}
   {{ end }}
 {{ end }}
 
-<section class="tickets">
-  <header>
-    <h1>Tickets</h1>
+<section class="tickets" id="content">
+  <header class="full-height center-content tickets__header">
+    <h1 id="ticket-list">Tickets</h1>
   </header>
 
-  <h2>Number of movies: {{ len .Site.Data.movies }}</h2>
+  <div class="full-height center-content tickets__count">
+    <h2>Number of tickets: {{ len .Site.Data.movies }}</h2>
+  </div>
 
-  <span>Movies watched in 2020: {{ $year2020 }}</span>
+  <span>Movies watched in {{ $currentYear }}: {{ $currentYearMovies }}</span>
 
-  <ul class="unstyled-list grid grid--three-column tickets__list">
+  <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
     {{ range sort .Site.Data.movies "Date" "desc" }}
       <li class="ticket">
-        <small class="ticket__location">{{ .Theater }} Presents</small>
-        <h3>{{ .Title }}</h3>
-        <time class="ticket__time">{{ dateFormat "Mon 01/02/2006" .Date }}</time>
+        <small>{{ .Theater }}<br /> Presenting</small>
+        <header>
+          <h3>{{ .Title }}</h3>
+        </header>
+        <time class="ticket__time" datetime="{{ .Date }}">
+          {{ dateFormat "Mon 01/02/2006" .Date }}
+        </time>
+        <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
       </li>
     {{ end }}
   </ul>
