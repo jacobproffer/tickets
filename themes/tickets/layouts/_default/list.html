@@ -18,7 +18,7 @@
     <h2>Number of tickets: {{ len .Site.Data.movies }}</h2>
   </div>
 
-  <span>Movies watched in {{ $currentYear }}: {{ $currentYearMovies }}</span>
+  {{/*  <span>Movies watched in {{ $currentYear }}: {{ $currentYearMovies }}</span>  */}}
 
   <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
     {{ range sort .Site.Data.movies "Date" "desc" }}
