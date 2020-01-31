@@ -1,0 +1,16 @@
+.ticket {
+  padding: 40px 20px;
+  border-right: 1px dashed #a8a19e;
+
+  &__location {
+    font-size: .75rem;
+  }
+
+  &:nth-of-type(odd) {
+    background-color: var(--light-gray);
+  }
+
+  &:nth-of-type(even) {
+    background-color: var(--gray);
+  }
+}

@@ -3,14 +3,13 @@
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #131415;
   --white: #f5f5f5;
-  --lightGray: #d9d8d7;
+  --light-gray: #ded8d8;
   --midGray: #a6a8aa;
-  --gray: #3c403f;
+  --gray: #d0c7c0;
   --border: var(--midGray);
   --orange: #ff572b;
   --spacing: 150px;
-  --sans-serif: 'Karla', sans-serif;
-  --mono: 'Inconsolata', monospace;
+  --sans-serif: 'Montserrat', sans-serif;
 
   @include screen-below(1680px) {
     --container: 1280px;
@@ -92,8 +91,7 @@ a {
   }
 }
 
-hr {
-  margin: 2rem 0;
-  border: 0;
-  border-top: 1px solid var(--border);
+span,
+time {
+  display: block;
 }

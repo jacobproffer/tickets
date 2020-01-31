@@ -8,7 +8,7 @@
   {{ end }}
 {{ end }}
 
-<section>
+<section class="tickets">
   <header>
     <h1>Tickets</h1>
   </header>
@@ -17,10 +17,12 @@
 
   <span>Movies watched in 2020: {{ $year2020 }}</span>
 
-  <ul class="grid grid--three-column">
-    {{ range .Site.Data.movies }}
-      <li>
-        {{ .Title }}
+  <ul class="unstyled-list grid grid--three-column tickets__list">
+    {{ range sort .Site.Data.movies "Date" "desc" }}
+      <li class="ticket">
+        <small class="ticket__location">{{ .Theater }} Presents</small>
+        <h3>{{ .Title }}</h3>
+        <time class="ticket__time">{{ dateFormat "Mon 01/02/2006" .Date }}</time>
       </li>
     {{ end }}
   </ul>
