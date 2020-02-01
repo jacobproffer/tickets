@@ -4,22 +4,22 @@
   text-align: center;
   text-transform: uppercase;
   border-right: 1px dashed #a8a19e;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
 
   &__time {
     padding: 4px;
     border: 1px solid #a7a19e;
   }
 
-  &__unix {
-    display: block;
-    margin-top: 14px;
+  &__rating {
+    margin: 14px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
   }
 
-  &__background {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  &__barcode {
+    font-family: var(--cursive);
+    font-size: 1.5rem;
   }
 
   &:nth-of-type(odd) {

@@ -11,6 +11,8 @@
   --purple: #793ed8;
   --spacing: 150px;
   --sans-serif: 'Montserrat', sans-serif;
+  --cursive: 'Libre Barcode 128', cursive;
+  --mono: 'VT323', monospace;
 
   @include screen-below(1680px) {
     --container: 1280px;
@@ -92,10 +94,11 @@ a {
   }
 }
 
-time {
-  display: inline-block;
+small,
+span {
+  display: block;
 }
 
-small {
-  font-size: .75rem;
+time {
+  display: inline-block;
 }
