@@ -14,15 +14,34 @@
     <h1 id="ticket-list">Tickets</h1>
   </header>
 
-  <div class="full-height center-content tickets__count">
+  <!-- <div class="full-height center-content tickets__count">
     <h2>Number of tickets: {{ len .Site.Data.movies }}</h2>
-  </div>
+  </div> -->
 
   {{/*  <span>Movies watched in {{ $currentYear }}: {{ $currentYearMovies }}</span>  */}}
 
   <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
+
+    {{ $class := "" }}
+
     {{ range sort .Site.Data.movies "Date" "desc" }}
-      <li class="ticket">
+
+      {{ if .Unique }}
+        {{ $class = "ticket ticket--special" }}
+      {{ else }}
+        {{ $class = "ticket" }}
+      {{ end }}
+
+      <li class="{{ $class }}">
+
+        {{ if eq .Theater "Thomas Theatre Group" }}
+          <div class="ticket__background ticket__background--circle"></div>
+        {{ else if eq .Theater "Carmike Cinemas" }}
+          <div class="ticket__background ticket__background--triangle"></div>
+        {{ else }}
+          <div class="ticket__background ticket__background--default"></div>
+        {{ end }}
+
         <small>{{ .Theater }}<br /> Presenting</small>
         <header>
           <h3>{{ .Title }}</h3>
@@ -34,7 +53,9 @@
         <span class="ticket__barcode" aria-hidden="true">{{ .Genre }}</span>
         <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
       </li>
+
     {{ end }}
+
   </ul>
 
 </section>

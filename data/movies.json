@@ -1166,7 +1166,8 @@
     "Genre": "Sci-Fi",
     "Date": "2017-11-18",
     "Theater": "TOHO Cinemas Shinjuku",
-    "Rating": "PG-13"
+    "Rating": "PG-13",
+    "Unique": true
   },
   {
     "Title": "Star Wars: The Last Jedi",
