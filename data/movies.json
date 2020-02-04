@@ -3,6 +3,7 @@
     "Title": "Wild Hogs",
     "Genre": "Comedy",
     "Date": "2007-03-10",
+    "Price": "$5.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -10,6 +11,7 @@
     "Title": "Disturbia",
     "Genre": "Thriller",
     "Date": "2007-04-14",
+    "Price": "$5.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -17,6 +19,7 @@
     "Title": "Spiderman 3",
     "Genre": "Sci-Fi",
     "Date": "2007-05-26",
+    "Price": "$5.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -25,12 +28,14 @@
     "Genre": "Comedy",
     "Date": "2007-07-23",
     "Theater": "Carmike Cinemas",
+    "Price": "$5.25",
     "Rating": "PG-13"
   },
   {
     "Title": "Prom Night",
     "Genre": "Thriller",
     "Date": "2008-04-19",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -38,6 +43,7 @@
     "Title": "Harold & Kumar Escape from Guantanamo Bay",
     "Genre": "Comedy",
     "Date": "2008-05-10",
+    "Price": "$5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -45,6 +51,7 @@
     "Title": "Hancock",
     "Genre": "Action",
     "Date": "2008-07-19",
+    "Price": "$5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -52,6 +59,7 @@
     "Title": "Tropic Thunder",
     "Genre": "Action",
     "Date": "2008-08-17",
+    "Price": "$5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -59,6 +67,7 @@
     "Title": "Traitor",
     "Genre": "Action",
     "Date": "2008-09-06",
+    "Price": "$5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -66,6 +75,7 @@
     "Title": "Four Christmases",
     "Genre": "Drama",
     "Date": "2008-12-16",
+    "Price": "$7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -73,6 +83,7 @@
     "Title": "Yes Man",
     "Genre": "Comedy",
     "Date": "2008-12-28",
+    "Price": "$7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -80,6 +91,7 @@
     "Title": "Friday the 13th",
     "Genre": "Horror",
     "Date": "2009-02-13",
+    "Price": "$7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -87,6 +99,7 @@
     "Title": "He's Just Not That Into You",
     "Genre": "Romance",
     "Date": "2009-03-10",
+    "Price": "$7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -94,6 +107,7 @@
     "Title": "I Love You, Man",
     "Genre": "Romance",
     "Date": "2009-03-29",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -101,6 +115,7 @@
     "Title": "Terminator Salvation",
     "Genre": "Thriller",
     "Date": "2009-05-22",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -108,6 +123,7 @@
     "Title": "Terminator Salvation",
     "Genre": "Thriller",
     "Date": "2009-05-25",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -115,6 +131,7 @@
     "Title": "Night at the Museum",
     "Genre": "Fantasy",
     "Date": "2009-05-31",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -122,6 +139,7 @@
     "Title": "The Hangover",
     "Genre": "Comedy",
     "Date": "2009-06-08",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -129,6 +147,7 @@
     "Title": "Transformers: Revenge of the Fallen",
     "Genre": "Sci-Fi",
     "Date": "2009-06-24",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -136,6 +155,7 @@
     "Title": "Year One",
     "Genre": "Comedy",
     "Date": "2009-06-29",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -143,6 +163,7 @@
     "Title": "Bruno",
     "Genre": "Comedy",
     "Date": "2009-07-11",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -150,6 +171,7 @@
     "Title": "The Proposal",
     "Genre": "Drama",
     "Date": "2009-07-13",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -157,6 +179,7 @@
     "Title": "Harry Potter and the Half-Blood Prince",
     "Genre": "Fantasy",
     "Date": "2009-07-15",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -164,6 +187,7 @@
     "Title": "Funny People",
     "Genre": "Comedy",
     "Date": "2009-08-20",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -171,6 +195,7 @@
     "Title": "Funny People",
     "Genre": "Comedy",
     "Date": "2009-08-22",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -178,6 +203,7 @@
     "Title": "Halloween 2",
     "Genre": "Horror",
     "Date": "2009-08-28",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -185,6 +211,7 @@
     "Title": "The Final Destination",
     "Genre": "Horror",
     "Date": "2009-09-02",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -192,6 +219,7 @@
     "Title": "Zombieland",
     "Genre": "Comedy",
     "Date": "2009-10-03",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -199,6 +227,7 @@
     "Title": "All About Steve",
     "Genre": "Comedy",
     "Date": "2009-10-05",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -206,6 +235,7 @@
     "Title": "Stepfather",
     "Genre": "Thriller",
     "Date": "2009-10-16",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -213,6 +243,7 @@
     "Title": "Paranormal",
     "Genre": "Thriller",
     "Date": "2009-10-23",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -220,6 +251,7 @@
     "Title": "Saw VI",
     "Genre": "Horror",
     "Date": "2009-10-31",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -227,6 +259,7 @@
     "Title": "4th Kind",
     "Genre": "Sci-Fi",
     "Date": "2009-11-06",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -234,6 +267,7 @@
     "Title": "2012",
     "Genre": "Sci-Fi",
     "Date": "2009-11-13",
+    "Price": "$7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -241,6 +275,7 @@
     "Title": "2012",
     "Genre": "Sci-Fi",
     "Date": "2009-11-21",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -248,6 +283,7 @@
     "Title": "The Twilight Saga: New Moon",
     "Genre": "Fantasy",
     "Date": "2009-12-01",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -255,6 +291,7 @@
     "Title": "Brothers",
     "Genre": "Drama",
     "Date": "2009-12-11",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -262,6 +299,7 @@
     "Title": "Avatar 3D",
     "Genre": "Sci-Fi",
     "Date": "2009-12-26",
+    "Price": "$8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -269,6 +307,7 @@
     "Title": "Did You Hear About the Morgans?",
     "Genre": "Romance",
     "Date": "2009-12-27",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -276,6 +315,7 @@
     "Title": "Youth in Revolt",
     "Genre": "Drama",
     "Date": "2010-01-09",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -283,6 +323,7 @@
     "Title": "Up in the Air",
     "Genre": "Drama",
     "Date": "2010-01-13",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -290,6 +331,7 @@
     "Title": "The Lovely Bones",
     "Genre": "Drama",
     "Date": "2010-01-15",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -297,6 +339,7 @@
     "Title": "Valentine's Day",
     "Genre": "Romance",
     "Date": "2010-02-18",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -304,6 +347,7 @@
     "Title": "Shutter Island",
     "Genre": "Thriller",
     "Date": "2010-02-19",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -311,6 +355,7 @@
     "Title": "How to Train Your Dragon",
     "Genre": "Fantasy",
     "Date": "2010-03-26",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -318,6 +363,7 @@
     "Title": "The Green Zone",
     "Genre": "Thriller",
     "Date": "2010-03-29",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -325,6 +371,7 @@
     "Title": "The Last Song",
     "Genre": "Romance",
     "Date": "2010-03-31",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -332,6 +379,7 @@
     "Title": "Robin Hood",
     "Genre": "Drama",
     "Date": "2010-05-14",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -339,6 +387,7 @@
     "Title": "Get Him to the Greek",
     "Genre": "Thriller",
     "Date": "2010-06-05",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -346,6 +395,7 @@
     "Title": "Karate Kid",
     "Genre": "Action",
     "Date": "2010-06-12",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -353,6 +403,7 @@
     "Title": "The A-Team",
     "Genre": "Thriller",
     "Date": "2010-06-21",
+    "Price": "$7.50",
     "Theater": "Regal Entertainment Group",
     "Rating": "PG-13"
   },
@@ -360,6 +411,7 @@
     "Title": "Knight & Day",
     "Genre": "Action",
     "Date": "2010-07-01",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -367,6 +419,7 @@
     "Title": "The Twilight Saga: Eclipse",
     "Genre": "Fantasy",
     "Date": "2010-07-09",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -374,6 +427,7 @@
     "Title": "Predators",
     "Genre": "Sci-Fi",
     "Date": "2010-07-13",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -381,6 +435,7 @@
     "Title": "Dinner for Schmucks",
     "Genre": "Comedy",
     "Date": "2010-07-30",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -388,6 +443,7 @@
     "Title": "Step Up 3D",
     "Genre": "Drama",
     "Date": "2010-08-07",
+    "Price": "$10.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -395,6 +451,7 @@
     "Title": "The Other Guys",
     "Genre": "Crime",
     "Date": "2010-08-13",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -402,6 +459,7 @@
     "Title": "The Town",
     "Genre": "Crime",
     "Date": "2010-09-25",
+    "Price": "$6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -409,6 +467,7 @@
     "Title": "Jackass 3D",
     "Genre": "Comedy",
     "Date": "2010-10-22",
+    "Price": "$10.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -416,6 +475,7 @@
     "Title": "The Mechanic",
     "Genre": "Thriller",
     "Date": "2011-02-13",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -423,6 +483,7 @@
     "Title": "Bad Teacher",
     "Genre": "Comedy",
     "Date": "2011-07-01",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -430,6 +491,7 @@
     "Title": "Harry Potter and the Deathly Hallows – Part 2",
     "Genre": "Fantasy",
     "Date": "2011-07-16",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -437,6 +499,7 @@
     "Title": "The Hangover 2",
     "Genre": "Comedy",
     "Date": "2011-06-12",
+    "Price": "$7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -444,6 +507,7 @@
     "Title": "Contagion",
     "Genre": "Sci-Fi",
     "Date": "2011-09-17",
+    "Price": "$5.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -451,6 +515,7 @@
     "Title": "Safe House",
     "Genre": "Thriller",
     "Date": "2012-02-12",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -458,6 +523,7 @@
     "Title": "Project X",
     "Genre": "Comedy",
     "Date": "2012-03-04",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -465,6 +531,7 @@
     "Title": "Act of Valor",
     "Genre": "Drama",
     "Date": "2012-03-05",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -472,6 +539,7 @@
     "Title": "Battleship",
     "Genre": "Sci-Fi",
     "Date": "2012-05-19",
+    "Price": "$8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -479,6 +547,7 @@
     "Title": "Men in Black 3",
     "Genre": "Sci-Fi",
     "Date": "2012-05-25",
+    "Price": "$7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -486,6 +555,7 @@
     "Title": "Chernobyl",
     "Genre": "Horror",
     "Date": "2012-05-28",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -493,6 +563,7 @@
     "Title": "Snow White and the Huntsman",
     "Genre": "Fantasy",
     "Date": "2012-06-04",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -500,6 +571,7 @@
     "Title": "Snow White and the Huntsman",
     "Genre": "Fantasy",
     "Date": "2012-06-12",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -507,6 +579,7 @@
     "Title": "Prometheus",
     "Genre": "Sci-Fi",
     "Date": "2012-06-16",
+    "Price": "$20.00",
     "Theater": "AMC Empire 25",
     "Rating": "R"
   },
@@ -514,6 +587,7 @@
     "Title": "Ted",
     "Genre": "Comedy",
     "Date": "2012-06-30",
+    "Price": "$7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -521,6 +595,7 @@
     "Title": "Magic Mike",
     "Genre": "Drama",
     "Date": "2012-07-08",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -528,6 +603,7 @@
     "Title": "Ted",
     "Genre": "Comedy",
     "Date": "2012-07-10",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -535,6 +611,7 @@
     "Title": "Magic Mike",
     "Genre": "Drama",
     "Date": "2012-07-15",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -542,6 +619,7 @@
     "Title": "The Dark Knight Rises",
     "Genre": "Crime",
     "Date": "2012-07-23",
+    "Price": "$7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -549,6 +627,7 @@
     "Title": "Step Up Revolution",
     "Genre": "Drama",
     "Date": "2012-07-27",
+    "Price": "$11.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -556,6 +635,7 @@
     "Title": "Ice Age: Continental Drift",
     "Genre": "Fantasy",
     "Date": "2012-08-04",
+    "Price": "$8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -563,6 +643,7 @@
     "Title": "End of Watch",
     "Genre": "Crime",
     "Date": "2012-09-23",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -570,6 +651,7 @@
     "Title": "The Twilight Saga: Breaking Dawn – Part 2",
     "Genre": "Fantasy",
     "Date": "2012-11-15",
+    "Price": "$15.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -577,6 +659,7 @@
     "Title": "Monsters, Inc. 3D",
     "Genre": "Fantasy",
     "Date": "2012-12-24",
+    "Price": "$9.25",
     "Theater": "Carmike Cinemas",
     "Rating": "G"
   },
@@ -584,6 +667,7 @@
     "Title": "Zero Dark Thirty",
     "Genre": "Action",
     "Date": "2013-01-11",
+    "Price": "$8.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -591,6 +675,7 @@
     "Title": "Zero Dark Thirty",
     "Genre": "Action",
     "Date": "2013-01-14",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -598,6 +683,7 @@
     "Title": "Warm Bodies",
     "Genre": "Drama",
     "Date": "2013-02-02",
+    "Price": "$8.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -605,6 +691,7 @@
     "Title": "A Good Day to Die Hard",
     "Genre": "Action",
     "Date": "2013-02-17",
+    "Price": "$6.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -612,6 +699,7 @@
     "Title": "Olympus Has Fallen",
     "Genre": "Action",
     "Date": "2013-03-24",
+    "Price": "$6.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -619,6 +707,7 @@
     "Title": "Jurassic 3D",
     "Genre": "Fantasy",
     "Date": "2013-04-05",
+    "Price": "$10.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -626,6 +715,7 @@
     "Title": "G.I. Joe: Retaliation",
     "Genre": "Action",
     "Date": "2013-04-08",
+    "Price": "$11.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -633,6 +723,7 @@
     "Title": "Oblivion",
     "Genre": "Action",
     "Date": "2013-04-21",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -640,6 +731,7 @@
     "Title": "Pain & Gain",
     "Genre": "Crime",
     "Date": "2013-04-28",
+    "Price": "$8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -647,6 +739,7 @@
     "Title": "Pain & Gain",
     "Genre": "Crime",
     "Date": "2013-05-10",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -654,6 +747,7 @@
     "Title": "The Hangover 3",
     "Genre": "Comedy",
     "Date": "2013-05-24",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -661,6 +755,7 @@
     "Title": "The Purge",
     "Genre": "Thriller",
     "Date": "2013-06-08",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -668,6 +763,7 @@
     "Title": "This is the End",
     "Genre": "Fantasy",
     "Date": "2013-06-09",
+    "Price": "$7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -675,6 +771,7 @@
     "Title": "World War Z",
     "Genre": "Thriller",
     "Date": "2013-06-23",
+    "Price": "$7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -682,6 +779,7 @@
     "Title": "World War Z",
     "Genre": "Thriller",
     "Date": "2013-07-09",
+    "Price": "$7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -689,6 +787,7 @@
     "Title": "Pacific Rim",
     "Genre": "Sci-Fi",
     "Date": "2013-07-14",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -697,12 +796,14 @@
     "Genre": "Fantasy",
     "Date": "2013-07-21",
     "Theater": "Carmike Cinemas",
+    "Price": "$5.50",
     "Rating": "G"
   },
   {
     "Title": "Red 2",
     "Genre": "Crime",
     "Date": "2013-07-23",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -710,6 +811,7 @@
     "Title": "The Family",
     "Genre": "Thriller",
     "Date": "2013-09-15",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -717,6 +819,7 @@
     "Title": "Captain Phillips",
     "Genre": "Thriller",
     "Date": "2013-10-22",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -724,6 +827,7 @@
     "Title": "Bad Grandpa",
     "Genre": "Comedy",
     "Date": "2013-10-25",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -731,6 +835,7 @@
     "Title": "Thor: The Dark World",
     "Genre": "Fantasy",
     "Date": "2013-11-24",
+    "Price": "$5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -738,6 +843,7 @@
     "Title": "47 Ronin",
     "Genre": "Fantasy",
     "Date": "2013-12-28",
+    "Price": "$9.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -745,6 +851,7 @@
     "Title": "3 Days to Kill",
     "Genre": "Drama",
     "Date": "2014-03-02",
+    "Price": "$7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -752,6 +859,7 @@
     "Title": "Need for Speed",
     "Genre": "Drama",
     "Date": "2014-03-14",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -759,6 +867,7 @@
     "Title": "Sabotage",
     "Genre": "Crime",
     "Date": "2014-03-31",
+    "Price": "$8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -766,6 +875,7 @@
     "Title": "Godzilla",
     "Genre": "Thriller",
     "Date": "2014-05-16",
+    "Price": "$8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },

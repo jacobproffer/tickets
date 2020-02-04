@@ -49,6 +49,9 @@
         <time class="ticket__time" datetime="{{ .Date }}">
           {{ dateFormat "Mon 01/02/2006" .Date }}
         </time>
+        {{ if .Price }}
+          <small class="ticket__price">{{ .Price }}</small>
+        {{ end }}
         <span class="ticket__rating">{{ .Rating }}</span>
         <span class="ticket__barcode" aria-hidden="true">{{ .Genre }}</span>
         <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
