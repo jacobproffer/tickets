@@ -34,27 +34,42 @@
 
       <li class="{{ $class }}">
 
-        {{ if eq .Theater "Thomas Theatre Group" }}
-          <div class="ticket__background ticket__background--circle"></div>
-        {{ else if eq .Theater "Carmike Cinemas" }}
-          <div class="ticket__background ticket__background--triangle"></div>
-        {{ else }}
-          <div class="ticket__background ticket__background--default"></div>
-        {{ end }}
+        <article>
 
-        <small>{{ .Theater }}<br /> Presenting</small>
-        <header>
-          <h3>{{ .Title }}</h3>
-        </header>
-        <time class="ticket__time" datetime="{{ .Date }}">
-          {{ dateFormat "Mon 01/02/2006" .Date }}
-        </time>
-        {{ if .Price }}
-          <small class="ticket__price">{{ .Price }}</small>
-        {{ end }}
-        <span class="ticket__rating">{{ .Rating }}</span>
-        <span class="ticket__barcode" aria-hidden="true">{{ .Genre }}</span>
-        <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
+          {{ if eq .Theater "Thomas Theatre Group" }}
+            <div class="ticket__background ticket__background--circle"></div>
+          {{ else if eq .Theater "Carmike Cinemas" }}
+            <div class="ticket__background ticket__background--triangle"></div>
+          {{ else }}
+            <div class="ticket__background ticket__background--default"></div>
+          {{ end }}
+
+          <small>{{ .Theater }}<br /> Presenting</small>
+          <header>
+            <h3>{{ .Title }}</h3>
+          </header>
+          <ul class="unstyled-list">
+            <li>
+              <time class="ticket__time" datetime="{{ .Date }}">
+                {{ dateFormat "Mon 01/02/2006" .Date }}
+              </time>
+            </li>
+            <li>
+              <small class="ticket__price">{{ .Price }}</small>
+            </li>
+            <li>
+              <span class="ticket__rating">{{ .Rating }}</span>
+            </li>
+            <li>
+              <span class="ticket__barcode" aria-hidden="true">{{ .Genre }}</span>
+            </li>
+            <li>
+              <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
+            </li>
+          </ul>
+
+        </article>
+
       </li>
 
     {{ end }}
