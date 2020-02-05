@@ -1,8 +1,7 @@
 .tickets {
   &__hero {
-    grid-template-columns: 100px 1fr 200px;
+    grid-template-columns: 100px 1fr 100px;
     background-color: var(--gray);
-    overflow: hidden;
   }
 
   &__grid {
@@ -40,29 +39,24 @@
   }
 
   &__left {
+    position: relative;
     border-right: 1px dashed #a8a19e;
   }
 
   &__right {
-    position: relative;
     border-left: 1px dashed #a8a19e;
 
     span {
       font-size: 2rem;
       writing-mode: vertical-lr;
     }
+  }
 
-    &::before {
-      position: absolute;
-      top: 50%;
-      right: -50px;
-      width: 100px;
-      height: 100px;
-      background-color: var(--white);
-      border-radius: 50%;
-      transform: translateY(-50%);
-      content: "";
-    }
+  &__barcode {
+    width: 26px;
+    margin-left: 4px;
+    font-size: 2.5rem;
+    writing-mode: vertical-rl;
   }
 
   &__count {
