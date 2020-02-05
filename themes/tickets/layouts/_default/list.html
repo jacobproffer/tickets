@@ -10,15 +10,36 @@
 {{ end }}
 
 <section class="tickets" id="content">
-  <header class="full-height center-content tickets__header">
-    <h1 id="ticket-list">Tickets</h1>
-  </header>
-
-  <!-- <div class="full-height center-content tickets__count">
-    <h2>Number of tickets: {{ len .Site.Data.movies }}</h2>
-  </div> -->
-
-  {{/*  <span>Movies watched in {{ $currentYear }}: {{ $currentYearMovies }}</span>  */}}
+  <div class="tickets__hero grid">
+    <div class="tickets__left"></div>
+    <div class="tickets__grid">
+      <span class="center">A Movie Ticket Collection</span>
+      <header class="tickets__header center">
+        <h1 id="ticket-list">Dead Man's Brew</h1>
+      </header>
+      <ul class="tickets__stats grid unstyled-list">
+        <li class="tickets__years center">
+          <span class="h2">13</span class="h2">
+          Years
+        </li>
+        <li class="tickets__theaters">
+          <span class="h2">7</span>
+          Theaters Visited
+        </li>
+        <li class="tickets__total">
+          <span class="h2">{{ len .Site.Data.movies }}</span>
+          Tickets Collected
+        </li>
+        <li class="tickets__statement">
+          <span class="h2">Background</span>
+          <p>In 2007, I started to collect movie tickets in a cheap plastic cup with the words, "Dead Man's Brew", printed on the side.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="tickets__right center-content">
+      <span>Admit One</span>
+    </div>
+  </div>
 
   <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
 
@@ -61,7 +82,7 @@
               <span class="ticket__rating">{{ .Rating }}</span>
             </li>
             <li>
-              <span class="ticket__barcode" aria-hidden="true">{{ .Genre }}</span>
+              <span class="ticket__barcode barcode" aria-hidden="true">{{ .Genre }}</span>
             </li>
             <li>
               <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>

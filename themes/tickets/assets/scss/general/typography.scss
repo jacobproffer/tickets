@@ -10,17 +10,12 @@ h2 {
 h1 {
   @include font-size($h1-font-sizes);
   padding-bottom: 0;
-  color: var(--yellow);
-
-  & + span {
-    display: block;
-    margin-top: 10px;
-  }
 }
 
-h2 {
+h2,
+.h2 {
   @include font-size($h2-font-sizes);
-  line-height: 1.5;
+  line-height: 1;
 }
 
 p {

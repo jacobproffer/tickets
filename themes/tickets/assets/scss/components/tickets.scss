@@ -1,8 +1,68 @@
 .tickets {
-  &__header {
-    padding: 20px;
-    background-color: var(--light-gray);
-    border: 1px dashed #a7a19e;
+  &__hero {
+    grid-template-columns: 100px 1fr 200px;
+    background-color: var(--gray);
+    overflow: hidden;
+  }
+
+  &__grid {
+    grid-template-columns: 100px 1fr;
+    padding: 80px 20px;
+  }
+
+  &__stats {
+    grid-template-areas: "years theaters total""years theaters total""years statement statement";
+    grid-gap: 1px;
+    background-color: #a8a19e;
+    border-top: 1px solid #a8a19e;
+
+    li {
+      padding: 20px;
+      background-color: var(--gray);
+    }
+  }
+
+  &__years {
+    grid-area: years;
+  }
+
+  &__theaters {
+    grid-area: theaters;
+  }
+
+  &__total {
+    grid-area: total;
+  }
+
+  &__statement {
+    grid-area: statement;
+    text-align: left;
+  }
+
+  &__left {
+    border-right: 1px dashed #a8a19e;
+  }
+
+  &__right {
+    position: relative;
+    border-left: 1px dashed #a8a19e;
+
+    span {
+      font-size: 2rem;
+      writing-mode: vertical-lr;
+    }
+
+    &::before {
+      position: absolute;
+      top: 50%;
+      right: -50px;
+      width: 100px;
+      height: 100px;
+      background-color: var(--white);
+      border-radius: 50%;
+      transform: translateY(-50%);
+      content: "";
+    }
   }
 
   &__count {

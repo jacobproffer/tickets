@@ -23,8 +23,16 @@
   height: 100vh;
 }
 
+.center {
+  text-align: center;
+}
+
 .center-content {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.barcode {
+  font-family: var(--cursive);
 }

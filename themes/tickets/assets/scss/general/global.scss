@@ -7,7 +7,8 @@
   --midGray: #a6a8aa;
   --gray: #d0c7c0;
   --border: var(--midGray);
-  --orange: #ff572b;
+  --orange: #e97339;
+  --yellow: #fdc604;
   --purple: #793ed8;
   --spacing: 150px;
   --sans-serif: 'Montserrat', sans-serif;
@@ -70,6 +71,7 @@ body {
   font-size: 18px;
   color: var(--black);
   background-color: var(--white);
+  text-transform: uppercase;
 }
 
 img {
@@ -92,6 +94,10 @@ a {
   &.current {
     text-decoration: underline;
   }
+}
+
+p {
+  max-width: 80ch;
 }
 
 small,

@@ -3,9 +3,7 @@
   z-index: 1;
   padding: 20px;
   text-align: center;
-  text-transform: uppercase;
   border-right: 1px dashed #a8a19e;
-  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .4);
 
   &__time {
     padding: 4px;
@@ -23,7 +21,6 @@
   }
 
   &__barcode {
-    font-family: var(--cursive);
     font-size: 1.5rem;
   }
 
