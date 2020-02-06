@@ -1,3 +1,7 @@
+{{ $sass := resources.Get "scss/main.scss" }}
+{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice)) }}
+{{ $style := $sass | resources.ToCSS $options }}
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +41,6 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="alternate" type="application/rss+xml" title="RSS for Jacob Proffer: Traveler, Linguist" href="{{ "/index.xml" | absURL }}">
   <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128|VT323&display=swap" rel="stylesheet">
-
-  {{ partial "head/stylesheet.html" . }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
 
 </head>
