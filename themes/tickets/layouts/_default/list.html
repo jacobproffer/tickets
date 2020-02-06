@@ -19,24 +19,22 @@
       <header class="tickets__header center">
         <h1 id="ticket-list">Dead Man's Brew</h1>
       </header>
-      <ul class="tickets__stats grid unstyled-list">
-        <li class="tickets__years center">
-          <span class="h2">13</span>
-          Years
-        </li>
-        <li class="tickets__theaters">
-          <span class="h2">7</span>
-          Theaters Visited
-        </li>
-        <li class="tickets__total">
-          <span class="h2">{{ len .Site.Data.movies }}</span>
-          Tickets Collected
-        </li>
-        <li class="tickets__statement">
-          <h2>Info</h2>
-          <p>In 2007, I started to collect movie tickets in a cheap plastic cup with the words, "Dead Man's Brew", printed on the side.</p>
-        </li>
-      </ul>
+
+      <dl class="tickets__stats grid center">
+        <div class="tickets__years">
+          <dt>Years</dt>
+          <dd class="h2">13</dd>
+        </div>
+        <div class="tickets__theaters">
+          <dt>Theaters Visited</dt>
+          <dd class="h2">7</dd>
+        </div>
+        <div class="tickets__total">
+          <dt>Tickets Collected</dt class="h2">
+          <dd class="h2">{{ len .Site.Data.movies }}</dd>
+        </div>
+      </dl>
+
     </div>
     <div class="tickets__right center-content">
       <span aria-hidden="true">Admit One</span>
