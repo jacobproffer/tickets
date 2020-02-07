@@ -4,11 +4,19 @@
 {{ $currentYear := now.Format "2006" }}
 {{ $totalYears := sub (int $currentYear) $startYear }}
 {{ $currentYearMovies := 0 }}
+{{ $totalSpent := 0.00 }}
+{{ $theaters := slice }}
 
 {{ range .Site.Data.movies }}
+
+  {{ $totalSpent = add $totalSpent (float .Price) }}
+
   {{ if eq ( dateFormat "2006" .Date ) $currentYear }}
     {{ $currentYearMovies = add $currentYearMovies 1 }}
   {{ end }}
+
+  {{ $theaters = $theaters | append (string .Theater) | uniq }}
+
 {{ end }}
 
 <section class="tickets" id="content">
@@ -31,7 +39,7 @@
         </div>
         <div>
           <dt>Theaters Visited</dt>
-          <dd class="h2">7</dd>
+          <dd class="h2">{{ len $theaters }}</dd>
         </div>
         <div>
           <dt>Tickets Collected</dt>
