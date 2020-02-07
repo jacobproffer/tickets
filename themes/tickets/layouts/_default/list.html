@@ -53,6 +53,8 @@
     </div>
   </div>
 
+  <!-- <p>I spent ${{ $totalSpent | lang.NumFmt 2 }}</p> -->
+
   <ul class="unstyled-list grid tickets__list" aria-labelledby="ticket-list">
 
     {{ range sort .Site.Data.movies "Date" "desc" }}
