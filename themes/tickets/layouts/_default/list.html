@@ -1,28 +1,95 @@
 {{ define "main" }}
 
-{{ $year2020 := 0 }}
+{{ $startYear := 2007 }}
+{{ $currentYear := now.Format "2006" }}
+{{ $totalYears := sub (int $currentYear) $startYear }}
+{{ $currentYearMovies := 0 }}
 
 {{ range .Site.Data.movies }}
-  {{ if eq ( dateFormat "2006" .Date ) "2020" }}
-    {{ $year2020 = add $year2020 1 }}
+  {{ if eq ( dateFormat "2006" .Date ) $currentYear }}
+    {{ $currentYearMovies = add $currentYearMovies 1 }}
   {{ end }}
 {{ end }}
 
-<section>
-  <header>
-    <h1>Tickets</h1>
-  </header>
+<section class="tickets" id="content">
+  <div class="tickets__hero grid">
+    <div class="tickets__left center-content">
+      <span class="tickets__barcode barcode">This is a Test</span>
+    </div>
+    <div class="tickets__grid">
 
-  <h2>Number of movies: {{ len .Site.Data.movies }}</h2>
+      <span class="center">A Movie Ticket Collection</span>
 
-  <span>Movies watched in 2020: {{ $year2020 }}</span>
+      <header class="tickets__header center">
+        <h1 id="ticket-list">Dead Man's Brew</h1>
+      </header>
 
-  <ul class="grid grid--three-column">
-    {{ range .Site.Data.movies }}
-      <li>
-        {{ .Title }}
+      <dl class="tickets__stats grid center">
+        <div class="tickets__years">
+          <dt>Years</dt>
+          <dd class="h2">{{ $totalYears }}</dd>
+        </div>
+        <div class="tickets__theaters">
+          <dt>Theaters Visited</dt>
+          <dd class="h2">7</dd>
+        </div>
+        <div class="tickets__total">
+          <dt>Tickets Collected</dt>
+          <dd class="h2">{{ len .Site.Data.movies }}</dd>
+        </div>
+      </dl>
+
+    </div>
+    <div class="tickets__right center-content">
+      <span aria-hidden="true">Admit One</span>
+    </div>
+  </div>
+
+  <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
+
+    {{ range sort .Site.Data.movies "Date" "desc" }}
+
+      <li class="ticket">
+
+        <article>
+
+          <small>{{ .Theater }}<br /> Presenting</small>
+
+          <header>
+            <h3>{{ .Title }}</h3>
+          </header>
+
+          <dl>
+            <dt class="visually-hide">Date Purchased</dt>
+            <dd>
+              <time class="ticket__time" datetime="{{ .Date }}">
+                {{ dateFormat "Mon 01/02/2006" .Date }}
+              </time>
+            </dd>
+            <dt class="visually-hide">Cost of Ticket</dt>
+            <dd>
+              <small class="ticket__price">{{ .Price }}</small>
+            </dd>
+            <dt class="visually-hide">MPAA Rating</dt>
+            <dd>
+              <span class="ticket__rating">{{ .Rating }}</span>
+            </dd>
+            <dt class="visually-hide">Genre</dt>
+            <dd>
+              <span class="ticket__barcode barcode" aria-hidden="true">{{ .Genre }}</span>
+            </dd>
+            <dt class="visually-hide">Unix Timestamp</dt>
+            <dd>
+              <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
+            </dd>
+          </dl>
+
+        </article>
+
       </li>
+
     {{ end }}
+
   </ul>
 
 </section>

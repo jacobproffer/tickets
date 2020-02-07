@@ -1,0 +1,13 @@
+.site-header {
+  &__skip-link {
+    position: fixed;
+    top: -4em;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top .5s ease-in-out;
+
+    &:focus {
+      top: 0;
+    }
+  }
+}

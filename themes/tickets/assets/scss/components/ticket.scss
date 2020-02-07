@@ -1,0 +1,34 @@
+.ticket {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  text-align: center;
+  border-right: 1px dashed #a8a19e;
+
+  &__time {
+    padding: 4px;
+    border: 1px solid #a7a19e;
+  }
+
+  &__price {
+    margin-top: 14px;
+  }
+
+  &__rating {
+    margin: 14px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  &__barcode {
+    font-size: 1.5rem;
+  }
+
+  &:nth-of-type(odd) {
+    background-color: var(--light-gray);
+  }
+
+  &:nth-of-type(even) {
+    background-color: var(--gray);
+  }
+}

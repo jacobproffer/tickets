@@ -2,11 +2,9 @@ baseURL = "https://jacobproffer.com/"
 languageCode = "en-us"
 title = "Tickets"
 theme = "tickets"
-googleAnalytics = "UA-57480521-1"
 enableRobotsTXT = true
-summaryLength = 14
-paginate = 110
 
 [params]
   description = "Test."
+  subTitle = "Test"
   socialImage = "images/jacobproffer-social.jpg"

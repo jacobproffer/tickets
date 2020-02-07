@@ -3,14 +3,17 @@
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #131415;
   --white: #f5f5f5;
-  --lightGray: #d9d8d7;
+  --light-gray: #ded8d8;
   --midGray: #a6a8aa;
-  --gray: #3c403f;
+  --gray: #d0c7c0;
   --border: var(--midGray);
-  --orange: #ff572b;
+  --orange: #e97339;
+  --yellow: #fdc604;
+  --purple: #793ed8;
   --spacing: 150px;
-  --sans-serif: 'Karla', sans-serif;
-  --mono: 'Inconsolata', monospace;
+  --sans-serif: 'Montserrat', sans-serif;
+  --cursive: 'Libre Barcode 128', cursive;
+  --mono: 'VT323', monospace;
 
   @include screen-below(1680px) {
     --container: 1280px;
@@ -68,6 +71,7 @@ body {
   font-size: 18px;
   color: var(--black);
   background-color: var(--white);
+  text-transform: uppercase;
 }
 
 img {
@@ -92,8 +96,20 @@ a {
   }
 }
 
-hr {
-  margin: 2rem 0;
-  border: 0;
-  border-top: 1px solid var(--border);
+p {
+  max-width: 80ch;
+  line-height: 1.5;
+}
+
+small,
+span {
+  display: block;
+}
+
+time {
+  display: inline-block;
+}
+
+dd {
+  margin: 0;
 }
