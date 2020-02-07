@@ -1,6 +1,8 @@
 {{ define "main" }}
 
+{{ $startYear := 2007 }}
 {{ $currentYear := now.Format "2006" }}
+{{ $totalYears := sub (int $currentYear) $startYear }}
 {{ $currentYearMovies := 0 }}
 
 {{ range .Site.Data.movies }}
@@ -23,7 +25,7 @@
       <dl class="tickets__stats grid center">
         <div class="tickets__years">
           <dt>Years</dt>
-          <dd class="h2">13</dd>
+          <dd class="h2">{{ $totalYears }}</dd>
         </div>
         <div class="tickets__theaters">
           <dt>Theaters Visited</dt>
@@ -43,32 +45,18 @@
 
   <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
 
-    {{ $class := "" }}
-
     {{ range sort .Site.Data.movies "Date" "desc" }}
 
-      {{ if .Unique }}
-        {{ $class = "ticket ticket--special" }}
-      {{ else }}
-        {{ $class = "ticket" }}
-      {{ end }}
-
-      <li class="{{ $class }}">
+      <li class="ticket">
 
         <article>
 
-          {{ if eq .Theater "Thomas Theatre Group" }}
-            <div class="ticket__background ticket__background--circle"></div>
-          {{ else if eq .Theater "Carmike Cinemas" }}
-            <div class="ticket__background ticket__background--triangle"></div>
-          {{ else }}
-            <div class="ticket__background ticket__background--default"></div>
-          {{ end }}
-
           <small>{{ .Theater }}<br /> Presenting</small>
+
           <header>
             <h3>{{ .Title }}</h3>
           </header>
+
           <ul class="unstyled-list">
             <li>
               <time class="ticket__time" datetime="{{ .Date }}">
