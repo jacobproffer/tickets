@@ -1,7 +1,3 @@
 .grid {
   display: grid;
-
-  &--two-column {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }

@@ -1,13 +1,10 @@
 :root {
   --container: 1440px;
-  --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #131415;
   --white: #f5f5f5;
   --light-gray: #ded8d8;
-  --midGray: #a6a8aa;
   --gray: #d0c7c0;
   --border: #a8a19e;
-  --spacing: 150px;
   --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
 
@@ -25,7 +22,6 @@
 
   @include screen-below(1024px) {
     --container: 768px;
-    --spacing: 90px;
   }
 
   @include screen-below(880px) {
@@ -70,14 +66,6 @@ body {
   text-transform: uppercase;
 }
 
-img {
-  max-width: 100%;
-}
-
-figure {
-  margin: 0;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -86,15 +74,6 @@ a {
   &:hover {
     outline: dotted 1px var(--black);
   }
-
-  &.current {
-    text-decoration: underline;
-  }
-}
-
-p {
-  max-width: 80ch;
-  line-height: 1.5;
 }
 
 small,

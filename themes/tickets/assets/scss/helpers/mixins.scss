@@ -1,8 +1,3 @@
-@mixin size($width, $height: $width) {
-  width: $width;
-  height: $height;
-}
-
 @mixin screen-above($screen-size) {
   @media screen and (min-width: $screen-size) {
     @content;
