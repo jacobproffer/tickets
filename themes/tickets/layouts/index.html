@@ -19,43 +19,60 @@
 
 {{ end }}
 
-<section class="tickets" id="content">
-  <div class="tickets__hero grid gray-background">
-    <div class="tickets__left center-content">
-      <span class="tickets__barcode barcode" aria-hidden="true">This is a Test</span>
-    </div>
-    <div class="tickets__grid center">
+<section class="hero grid gray-background">
 
-      <span>{{ .Site.Params.subTitle }}</span>
-
-      <header class="tickets__header">
-        <h1 id="ticket-list">{{ .Title }}</h1>
-      </header>
-
-      <dl class="tickets__stats grid">
-        <div class="gray-background">
-          <dt>Years</dt>
-          <dd class="h2">{{ $totalYears }}</dd>
-        </div>
-        <div class="gray-background">
-          <dt>Theaters</dt>
-          <dd class="h2">{{ len $theaters }}</dd>
-        </div>
-        <div class="gray-background">
-          <dt>Tickets</dt>
-          <dd class="h2">{{ len .Site.Data.movies }}</dd>
-        </div>
-      </dl>
-
-    </div>
-    <div class="tickets__right center-content">
-      <span aria-hidden="true">Admit One</span>
-    </div>
+  <div class="hero__left center-content">
+    <span class="hero__barcode barcode" aria-hidden="true">This is a Test</span>
   </div>
+
+  <div class="hero__center center">
+
+    <span>{{ .Site.Params.subTitle }}</span>
+
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    <dl class="hero__stats grid">
+      <div class="gray-background">
+        <dt>Years</dt>
+        <dd class="h2">{{ $totalYears }}</dd>
+      </div>
+      <div class="gray-background">
+        <dt>Theaters</dt>
+        <dd class="h2">{{ len $theaters }}</dd>
+      </div>
+      <div class="gray-background">
+        <dt>Tickets</dt>
+        <dd class="h2">{{ len .Site.Data.movies }}</dd>
+      </div>
+    </dl>
+
+  </div>
+
+  <div class="hero__right center-content">
+    <span aria-hidden="true">Admit One</span>
+  </div>
+
+</section>
+
+{{/*  <section>
+
+  <header>
+    <h2>Intro</h2>
+  </header>
 
   <p>I spent ${{ $totalSpent | lang.NumFmt 2 }}</p>
 
-  <ul class="unstyled-list grid tickets__list" aria-labelledby="ticket-list">
+</section>  */}}
+
+<section>
+
+  <header class="visually-hide">
+    <h2 id="ticket-list">Tickets Collected</h2>
+  </header>
+
+  <ul class="unstyled-list grid ticket-list" aria-labelledby="ticket-list">
 
     {{ range sort .Site.Data.movies "Date" "desc" }}
 

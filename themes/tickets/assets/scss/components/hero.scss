@@ -1,0 +1,74 @@
+.hero {
+  grid-template-columns: 100px 1fr 100px;
+
+  &__left {
+    border-right: 1px dashed var(--border);
+    order: 1;
+
+    @include screen-below(768px) {
+      order: 3;
+      padding-top: 15px;
+      border-top: 1px dashed var(--border);
+      border-right: unset;
+    }
+  }
+
+  &__barcode {
+    font-size: 2.5rem;
+
+    @include screen-above(768px) {
+      width: 26px;
+      margin-left: 4px;
+      writing-mode: vertical-rl;
+    }
+  }
+
+  &__center {
+    grid-template-columns: 100px 1fr;
+    order: 2;
+    padding: 80px 20px;
+
+    @include screen-below(768px) {
+      padding: 40px 20px;
+    }
+  }
+
+  &__stats {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    background-color: var(--border);
+    border-top: 1px solid var(--border);
+
+    div {
+      padding: 20px;
+    }
+  }
+
+  &__right {
+    order: 3;
+    border-left: 1px dashed var(--border);
+
+    span {
+      font-size: 2rem;
+
+      @include screen-above(768px) {
+        writing-mode: vertical-lr;
+      }
+
+      @include screen-below(768px) {
+        font-size: 1.2rem;
+      }
+    }
+
+    @include screen-below(768px) {
+      order: 1;
+      padding: 20px;
+      border-bottom: 1px dashed var(--border);
+      border-left: unset;
+    }
+  }
+
+  @include screen-below(768px) {
+    grid-template-columns: 1fr;
+  }
+}
