@@ -1,9 +1,10 @@
 baseURL = "https://jacobproffer.com/"
 languageCode = "en-us"
-title = "Tickets"
+title = "Dead Man's Brew"
 theme = "tickets"
 enableRobotsTXT = true
 
 [params]
   description = "A collection of movie tickets purchased by Jacob Proffer."
-  images = ["images/jacobproffer-social.jpg"]
+  images = ["images/tickets-social.jpg"]
+  subTitle = "A Movie Ticket Collection"

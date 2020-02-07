@@ -1,0 +1,34 @@
+<article>
+
+  <small>{{ .Theater }}<br /> Presenting</small>
+
+  <header>
+    <h3>{{ .Title }}</h3>
+  </header>
+
+  <dl>
+    <dt class="visually-hide">Date Purchased</dt>
+    <dd>
+      <time class="ticket__time" datetime="{{ .Date }}">
+        {{ dateFormat "Mon 01/02/2006" .Date }}
+      </time>
+    </dd>
+    <dt class="visually-hide">Cost of Ticket</dt>
+    <dd>
+      <small class="ticket__price">${{ .Price }}</small>
+    </dd>
+    <dt class="visually-hide">MPAA Rating</dt>
+    <dd>
+      <span class="ticket__rating">{{ .Rating }}</span>
+    </dd>
+    <dt class="visually-hide">Genre</dt>
+    <dd>
+      <span class="ticket__barcode barcode" aria-hidden="true">{{ .Genre }}</span>
+    </dd>
+    <dt class="visually-hide" aria-hidden="true">Unix Timestamp</dt>
+    <dd>
+      <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
+    </dd>
+  </dl>
+
+</article>
