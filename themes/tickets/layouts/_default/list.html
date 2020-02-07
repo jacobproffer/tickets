@@ -17,7 +17,9 @@
       <span class="tickets__barcode barcode">This is a Test</span>
     </div>
     <div class="tickets__grid">
+
       <span class="center">A Movie Ticket Collection</span>
+
       <header class="tickets__header center">
         <h1 id="ticket-list">Dead Man's Brew</h1>
       </header>
@@ -32,7 +34,7 @@
           <dd class="h2">7</dd>
         </div>
         <div class="tickets__total">
-          <dt>Tickets Collected</dt class="h2">
+          <dt>Tickets Collected</dt>
           <dd class="h2">{{ len .Site.Data.movies }}</dd>
         </div>
       </dl>
@@ -57,25 +59,30 @@
             <h3>{{ .Title }}</h3>
           </header>
 
-          <ul class="unstyled-list">
-            <li>
+          <dl>
+            <dt class="visually-hide">Date Purchased</dt>
+            <dd>
               <time class="ticket__time" datetime="{{ .Date }}">
                 {{ dateFormat "Mon 01/02/2006" .Date }}
               </time>
-            </li>
-            <li>
+            </dd>
+            <dt class="visually-hide">Cost of Ticket</dt>
+            <dd>
               <small class="ticket__price">{{ .Price }}</small>
-            </li>
-            <li>
+            </dd>
+            <dt class="visually-hide">MPAA Rating</dt>
+            <dd>
               <span class="ticket__rating">{{ .Rating }}</span>
-            </li>
-            <li>
+            </dd>
+            <dt class="visually-hide">Genre</dt>
+            <dd>
               <span class="ticket__barcode barcode" aria-hidden="true">{{ .Genre }}</span>
-            </li>
-            <li>
+            </dd>
+            <dt class="visually-hide">Unix Timestamp</dt>
+            <dd>
               <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
-            </li>
-          </ul>
+            </dd>
+          </dl>
 
         </article>
 
