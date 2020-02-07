@@ -1,10 +1,10 @@
 name = "Tickets"
 license = "Apache 2.0"
-licenselink = "https://github.com/jacobproffer/blog/blob/master/LICENSE"
+licenselink = "https://github.com/jacobproffer/tickets/blob/master/LICENSE"
 description = "Source code for Jacob Proffer's ticket project."
 homepage = "https://jacobproffer.com/"
-tags = ["blog"]
-features = ["blog", "posts"]
+tags = ["collection", "tickets", "grid"]
+features = ["data", "grid"]
 min_version = "0.54.0"
 
 [author]

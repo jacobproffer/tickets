@@ -4,11 +4,19 @@
 {{ $currentYear := now.Format "2006" }}
 {{ $totalYears := sub (int $currentYear) $startYear }}
 {{ $currentYearMovies := 0 }}
+{{ $totalSpent := 0.00 }}
+{{ $theaters := slice }}
 
 {{ range .Site.Data.movies }}
+
+  {{ $totalSpent = add $totalSpent (float .Price) }}
+
   {{ if eq ( dateFormat "2006" .Date ) $currentYear }}
     {{ $currentYearMovies = add $currentYearMovies 1 }}
   {{ end }}
+
+  {{ $theaters = $theaters | append (string .Theater) | uniq }}
+
 {{ end }}
 
 <section class="tickets" id="content">
@@ -16,24 +24,24 @@
     <div class="tickets__left center-content">
       <span class="tickets__barcode barcode">This is a Test</span>
     </div>
-    <div class="tickets__grid">
+    <div class="tickets__grid center">
 
-      <span class="center">A Movie Ticket Collection</span>
+      <span>A Movie Ticket Collection</span>
 
-      <header class="tickets__header center">
+      <header class="tickets__header">
         <h1 id="ticket-list">Dead Man's Brew</h1>
       </header>
 
-      <dl class="tickets__stats grid center">
-        <div class="tickets__years">
+      <dl class="tickets__stats grid">
+        <div>
           <dt>Years</dt>
           <dd class="h2">{{ $totalYears }}</dd>
         </div>
-        <div class="tickets__theaters">
+        <div>
           <dt>Theaters Visited</dt>
-          <dd class="h2">7</dd>
+          <dd class="h2">{{ len $theaters }}</dd>
         </div>
-        <div class="tickets__total">
+        <div>
           <dt>Tickets Collected</dt>
           <dd class="h2">{{ len .Site.Data.movies }}</dd>
         </div>
@@ -45,7 +53,9 @@
     </div>
   </div>
 
-  <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
+  <!-- <p>I spent ${{ $totalSpent | lang.NumFmt 2 }}</p> -->
+
+  <ul class="unstyled-list grid tickets__list" aria-labelledby="ticket-list">
 
     {{ range sort .Site.Data.movies "Date" "desc" }}
 

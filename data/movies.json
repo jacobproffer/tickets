@@ -3,7 +3,7 @@
     "Title": "Wild Hogs",
     "Genre": "Comedy",
     "Date": "2007-03-10",
-    "Price": "$5.25",
+    "Price": "5.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -11,7 +11,7 @@
     "Title": "Disturbia",
     "Genre": "Thriller",
     "Date": "2007-04-14",
-    "Price": "$5.25",
+    "Price": "5.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -19,7 +19,7 @@
     "Title": "Spiderman 3",
     "Genre": "Sci-Fi",
     "Date": "2007-05-26",
-    "Price": "$5.25",
+    "Price": "5.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -28,14 +28,14 @@
     "Genre": "Comedy",
     "Date": "2007-07-23",
     "Theater": "Carmike Cinemas",
-    "Price": "$5.25",
+    "Price": "5.25",
     "Rating": "PG-13"
   },
   {
     "Title": "Prom Night",
     "Genre": "Thriller",
     "Date": "2008-04-19",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -43,7 +43,7 @@
     "Title": "Harold & Kumar Escape from Guantanamo Bay",
     "Genre": "Comedy",
     "Date": "2008-05-10",
-    "Price": "$5.75",
+    "Price": "5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -51,7 +51,7 @@
     "Title": "Hancock",
     "Genre": "Action",
     "Date": "2008-07-19",
-    "Price": "$5.75",
+    "Price": "5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -59,7 +59,7 @@
     "Title": "Tropic Thunder",
     "Genre": "Action",
     "Date": "2008-08-17",
-    "Price": "$5.75",
+    "Price": "5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -67,7 +67,7 @@
     "Title": "Traitor",
     "Genre": "Action",
     "Date": "2008-09-06",
-    "Price": "$5.75",
+    "Price": "5.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -75,7 +75,7 @@
     "Title": "Four Christmases",
     "Genre": "Drama",
     "Date": "2008-12-16",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -83,7 +83,7 @@
     "Title": "Yes Man",
     "Genre": "Comedy",
     "Date": "2008-12-28",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -91,7 +91,7 @@
     "Title": "Friday the 13th",
     "Genre": "Horror",
     "Date": "2009-02-13",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -99,7 +99,7 @@
     "Title": "He's Just Not That Into You",
     "Genre": "Romance",
     "Date": "2009-03-10",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -107,7 +107,7 @@
     "Title": "I Love You, Man",
     "Genre": "Romance",
     "Date": "2009-03-29",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -115,7 +115,7 @@
     "Title": "Terminator Salvation",
     "Genre": "Thriller",
     "Date": "2009-05-22",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -123,7 +123,7 @@
     "Title": "Terminator Salvation",
     "Genre": "Thriller",
     "Date": "2009-05-25",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -131,7 +131,7 @@
     "Title": "Night at the Museum",
     "Genre": "Fantasy",
     "Date": "2009-05-31",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -139,7 +139,7 @@
     "Title": "The Hangover",
     "Genre": "Comedy",
     "Date": "2009-06-08",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -147,7 +147,7 @@
     "Title": "Transformers: Revenge of the Fallen",
     "Genre": "Sci-Fi",
     "Date": "2009-06-24",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -155,7 +155,7 @@
     "Title": "Year One",
     "Genre": "Comedy",
     "Date": "2009-06-29",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -163,7 +163,7 @@
     "Title": "Bruno",
     "Genre": "Comedy",
     "Date": "2009-07-11",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -171,7 +171,7 @@
     "Title": "The Proposal",
     "Genre": "Drama",
     "Date": "2009-07-13",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -179,7 +179,7 @@
     "Title": "Harry Potter and the Half-Blood Prince",
     "Genre": "Fantasy",
     "Date": "2009-07-15",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -187,7 +187,7 @@
     "Title": "Funny People",
     "Genre": "Comedy",
     "Date": "2009-08-20",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -195,7 +195,7 @@
     "Title": "Funny People",
     "Genre": "Comedy",
     "Date": "2009-08-22",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -203,7 +203,7 @@
     "Title": "Halloween 2",
     "Genre": "Horror",
     "Date": "2009-08-28",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -211,7 +211,7 @@
     "Title": "The Final Destination",
     "Genre": "Horror",
     "Date": "2009-09-02",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -219,7 +219,7 @@
     "Title": "Zombieland",
     "Genre": "Comedy",
     "Date": "2009-10-03",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -227,7 +227,7 @@
     "Title": "All About Steve",
     "Genre": "Comedy",
     "Date": "2009-10-05",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -235,7 +235,7 @@
     "Title": "Stepfather",
     "Genre": "Thriller",
     "Date": "2009-10-16",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -243,7 +243,7 @@
     "Title": "Paranormal",
     "Genre": "Thriller",
     "Date": "2009-10-23",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -251,7 +251,7 @@
     "Title": "Saw VI",
     "Genre": "Horror",
     "Date": "2009-10-31",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -259,7 +259,7 @@
     "Title": "4th Kind",
     "Genre": "Sci-Fi",
     "Date": "2009-11-06",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -267,7 +267,7 @@
     "Title": "2012",
     "Genre": "Sci-Fi",
     "Date": "2009-11-13",
-    "Price": "$7.25",
+    "Price": "7.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -275,7 +275,7 @@
     "Title": "2012",
     "Genre": "Sci-Fi",
     "Date": "2009-11-21",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -283,7 +283,7 @@
     "Title": "The Twilight Saga: New Moon",
     "Genre": "Fantasy",
     "Date": "2009-12-01",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -291,7 +291,7 @@
     "Title": "Brothers",
     "Genre": "Drama",
     "Date": "2009-12-11",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -299,7 +299,7 @@
     "Title": "Avatar 3D",
     "Genre": "Sci-Fi",
     "Date": "2009-12-26",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -307,7 +307,7 @@
     "Title": "Did You Hear About the Morgans?",
     "Genre": "Romance",
     "Date": "2009-12-27",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -315,7 +315,7 @@
     "Title": "Youth in Revolt",
     "Genre": "Drama",
     "Date": "2010-01-09",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -323,7 +323,7 @@
     "Title": "Up in the Air",
     "Genre": "Drama",
     "Date": "2010-01-13",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -331,7 +331,7 @@
     "Title": "The Lovely Bones",
     "Genre": "Drama",
     "Date": "2010-01-15",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -339,7 +339,7 @@
     "Title": "Valentine's Day",
     "Genre": "Romance",
     "Date": "2010-02-18",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -347,7 +347,7 @@
     "Title": "Shutter Island",
     "Genre": "Thriller",
     "Date": "2010-02-19",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -355,7 +355,7 @@
     "Title": "How to Train Your Dragon",
     "Genre": "Fantasy",
     "Date": "2010-03-26",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -363,7 +363,7 @@
     "Title": "The Green Zone",
     "Genre": "Thriller",
     "Date": "2010-03-29",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -371,7 +371,7 @@
     "Title": "The Last Song",
     "Genre": "Romance",
     "Date": "2010-03-31",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -379,7 +379,7 @@
     "Title": "Robin Hood",
     "Genre": "Drama",
     "Date": "2010-05-14",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -387,7 +387,7 @@
     "Title": "Get Him to the Greek",
     "Genre": "Thriller",
     "Date": "2010-06-05",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -395,7 +395,7 @@
     "Title": "Karate Kid",
     "Genre": "Action",
     "Date": "2010-06-12",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -403,7 +403,7 @@
     "Title": "The A-Team",
     "Genre": "Thriller",
     "Date": "2010-06-21",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Regal Entertainment Group",
     "Rating": "PG-13"
   },
@@ -411,7 +411,7 @@
     "Title": "Knight & Day",
     "Genre": "Action",
     "Date": "2010-07-01",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -419,7 +419,7 @@
     "Title": "The Twilight Saga: Eclipse",
     "Genre": "Fantasy",
     "Date": "2010-07-09",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -427,7 +427,7 @@
     "Title": "Predators",
     "Genre": "Sci-Fi",
     "Date": "2010-07-13",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -435,7 +435,7 @@
     "Title": "Dinner for Schmucks",
     "Genre": "Comedy",
     "Date": "2010-07-30",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -443,7 +443,7 @@
     "Title": "Step Up 3D",
     "Genre": "Drama",
     "Date": "2010-08-07",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -451,7 +451,7 @@
     "Title": "The Other Guys",
     "Genre": "Crime",
     "Date": "2010-08-13",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -459,7 +459,7 @@
     "Title": "The Town",
     "Genre": "Crime",
     "Date": "2010-09-25",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -467,7 +467,7 @@
     "Title": "Jackass 3D",
     "Genre": "Comedy",
     "Date": "2010-10-22",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -475,7 +475,7 @@
     "Title": "The Mechanic",
     "Genre": "Thriller",
     "Date": "2011-02-13",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -483,7 +483,7 @@
     "Title": "Bad Teacher",
     "Genre": "Comedy",
     "Date": "2011-07-01",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -491,7 +491,7 @@
     "Title": "Harry Potter and the Deathly Hallows – Part 2",
     "Genre": "Fantasy",
     "Date": "2011-07-16",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -499,7 +499,7 @@
     "Title": "The Hangover 2",
     "Genre": "Comedy",
     "Date": "2011-06-12",
-    "Price": "$7.75",
+    "Price": "7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -507,7 +507,7 @@
     "Title": "Contagion",
     "Genre": "Sci-Fi",
     "Date": "2011-09-17",
-    "Price": "$5.00",
+    "Price": "5.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -515,7 +515,7 @@
     "Title": "Safe House",
     "Genre": "Thriller",
     "Date": "2012-02-12",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -523,7 +523,7 @@
     "Title": "Project X",
     "Genre": "Comedy",
     "Date": "2012-03-04",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -531,7 +531,7 @@
     "Title": "Act of Valor",
     "Genre": "Drama",
     "Date": "2012-03-05",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -539,7 +539,7 @@
     "Title": "Battleship",
     "Genre": "Sci-Fi",
     "Date": "2012-05-19",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -547,7 +547,7 @@
     "Title": "Men in Black 3",
     "Genre": "Sci-Fi",
     "Date": "2012-05-25",
-    "Price": "$7.75",
+    "Price": "7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -555,7 +555,7 @@
     "Title": "Chernobyl",
     "Genre": "Horror",
     "Date": "2012-05-28",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -563,7 +563,7 @@
     "Title": "Snow White and the Huntsman",
     "Genre": "Fantasy",
     "Date": "2012-06-04",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -571,7 +571,7 @@
     "Title": "Snow White and the Huntsman",
     "Genre": "Fantasy",
     "Date": "2012-06-12",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -579,7 +579,7 @@
     "Title": "Prometheus",
     "Genre": "Sci-Fi",
     "Date": "2012-06-16",
-    "Price": "$20.00",
+    "Price": "20.00",
     "Theater": "AMC Empire 25",
     "Rating": "R"
   },
@@ -587,7 +587,7 @@
     "Title": "Ted",
     "Genre": "Comedy",
     "Date": "2012-06-30",
-    "Price": "$7.75",
+    "Price": "7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -595,7 +595,7 @@
     "Title": "Magic Mike",
     "Genre": "Drama",
     "Date": "2012-07-08",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -603,7 +603,7 @@
     "Title": "Ted",
     "Genre": "Comedy",
     "Date": "2012-07-10",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -611,7 +611,7 @@
     "Title": "Magic Mike",
     "Genre": "Drama",
     "Date": "2012-07-15",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -619,7 +619,7 @@
     "Title": "The Dark Knight Rises",
     "Genre": "Crime",
     "Date": "2012-07-23",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -627,7 +627,7 @@
     "Title": "Step Up Revolution",
     "Genre": "Drama",
     "Date": "2012-07-27",
-    "Price": "$11.00",
+    "Price": "11.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -635,7 +635,7 @@
     "Title": "Ice Age: Continental Drift",
     "Genre": "Fantasy",
     "Date": "2012-08-04",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG"
   },
@@ -643,7 +643,7 @@
     "Title": "End of Watch",
     "Genre": "Crime",
     "Date": "2012-09-23",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -651,7 +651,7 @@
     "Title": "The Twilight Saga: Breaking Dawn – Part 2",
     "Genre": "Fantasy",
     "Date": "2012-11-15",
-    "Price": "$15.00",
+    "Price": "15.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -659,7 +659,7 @@
     "Title": "Monsters, Inc. 3D",
     "Genre": "Fantasy",
     "Date": "2012-12-24",
-    "Price": "$9.25",
+    "Price": "9.25",
     "Theater": "Carmike Cinemas",
     "Rating": "G"
   },
@@ -667,7 +667,7 @@
     "Title": "Zero Dark Thirty",
     "Genre": "Action",
     "Date": "2013-01-11",
-    "Price": "$8.75",
+    "Price": "8.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -675,7 +675,7 @@
     "Title": "Zero Dark Thirty",
     "Genre": "Action",
     "Date": "2013-01-14",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -683,7 +683,7 @@
     "Title": "Warm Bodies",
     "Genre": "Drama",
     "Date": "2013-02-02",
-    "Price": "$8.75",
+    "Price": "8.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -691,7 +691,7 @@
     "Title": "A Good Day to Die Hard",
     "Genre": "Action",
     "Date": "2013-02-17",
-    "Price": "$6.75",
+    "Price": "6.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -699,7 +699,7 @@
     "Title": "Olympus Has Fallen",
     "Genre": "Action",
     "Date": "2013-03-24",
-    "Price": "$6.75",
+    "Price": "6.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -707,7 +707,7 @@
     "Title": "Jurassic 3D",
     "Genre": "Fantasy",
     "Date": "2013-04-05",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -715,7 +715,7 @@
     "Title": "G.I. Joe: Retaliation",
     "Genre": "Action",
     "Date": "2013-04-08",
-    "Price": "$11.00",
+    "Price": "11.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -723,7 +723,7 @@
     "Title": "Oblivion",
     "Genre": "Action",
     "Date": "2013-04-21",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -731,7 +731,7 @@
     "Title": "Pain & Gain",
     "Genre": "Crime",
     "Date": "2013-04-28",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -739,7 +739,7 @@
     "Title": "Pain & Gain",
     "Genre": "Crime",
     "Date": "2013-05-10",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -747,7 +747,7 @@
     "Title": "The Hangover 3",
     "Genre": "Comedy",
     "Date": "2013-05-24",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -755,7 +755,7 @@
     "Title": "The Purge",
     "Genre": "Thriller",
     "Date": "2013-06-08",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -763,7 +763,7 @@
     "Title": "This is the End",
     "Genre": "Fantasy",
     "Date": "2013-06-09",
-    "Price": "$7.75",
+    "Price": "7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -771,7 +771,7 @@
     "Title": "World War Z",
     "Genre": "Thriller",
     "Date": "2013-06-23",
-    "Price": "$7.75",
+    "Price": "7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -779,7 +779,7 @@
     "Title": "World War Z",
     "Genre": "Thriller",
     "Date": "2013-07-09",
-    "Price": "$7.75",
+    "Price": "7.75",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -787,7 +787,7 @@
     "Title": "Pacific Rim",
     "Genre": "Sci-Fi",
     "Date": "2013-07-14",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -796,14 +796,14 @@
     "Genre": "Fantasy",
     "Date": "2013-07-21",
     "Theater": "Carmike Cinemas",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Rating": "G"
   },
   {
     "Title": "Red 2",
     "Genre": "Crime",
     "Date": "2013-07-23",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -811,7 +811,7 @@
     "Title": "The Family",
     "Genre": "Thriller",
     "Date": "2013-09-15",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -819,7 +819,7 @@
     "Title": "Captain Phillips",
     "Genre": "Thriller",
     "Date": "2013-10-22",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -827,7 +827,7 @@
     "Title": "Bad Grandpa",
     "Genre": "Comedy",
     "Date": "2013-10-25",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -835,7 +835,7 @@
     "Title": "Thor: The Dark World",
     "Genre": "Fantasy",
     "Date": "2013-11-24",
-    "Price": "$5.50",
+    "Price": "5.50",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -843,7 +843,7 @@
     "Title": "47 Ronin",
     "Genre": "Fantasy",
     "Date": "2013-12-28",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -851,7 +851,7 @@
     "Title": "3 Days to Kill",
     "Genre": "Drama",
     "Date": "2014-03-02",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -859,7 +859,7 @@
     "Title": "Need for Speed",
     "Genre": "Drama",
     "Date": "2014-03-14",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -867,7 +867,7 @@
     "Title": "Sabotage",
     "Genre": "Crime",
     "Date": "2014-03-31",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Carmike Cinemas",
     "Rating": "R"
   },
@@ -875,7 +875,7 @@
     "Title": "Godzilla",
     "Genre": "Thriller",
     "Date": "2014-05-16",
-    "Price": "$8.25",
+    "Price": "8.25",
     "Theater": "Carmike Cinemas",
     "Rating": "PG-13"
   },
@@ -883,7 +883,7 @@
     "Title": "Edge of Tomorrow",
     "Genre": "Sci-Fi",
     "Date": "2014-06-08",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -891,7 +891,7 @@
     "Title": "A Million Ways to Die in the West",
     "Genre": "Comedy",
     "Date": "2014-06-12",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -899,7 +899,7 @@
     "Title": "22 Jump Street",
     "Genre": "Comedy",
     "Date": "2014-06-13",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -907,7 +907,7 @@
     "Title": "Hercules",
     "Genre": "Fantasy",
     "Date": "2014-07-27",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -915,7 +915,7 @@
     "Title": "The Expendables 3",
     "Genre": "Action",
     "Date": "2014-08-17",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -923,7 +923,7 @@
     "Title": "Ghostbusters",
     "Genre": "Action",
     "Date": "2014-08-30",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
   },
@@ -931,7 +931,7 @@
     "Title": "The Equalizer",
     "Genre": "Action",
     "Date": "2014-09-28",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -939,7 +939,7 @@
     "Title": "Fury",
     "Genre": "Action",
     "Date": "2014-10-18",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -947,7 +947,7 @@
     "Title": "Beetlejuice",
     "Genre": "Comedy",
     "Date": "2014-10-30",
-    "Price": "$4.00",
+    "Price": "4.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
   },
@@ -955,7 +955,7 @@
     "Title": "Nightmare on Elm Street",
     "Genre": "Horror",
     "Date": "2014-10-30",
-    "Price": "$4.00",
+    "Price": "4.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -963,7 +963,7 @@
     "Title": "Nightcrawler",
     "Genre": "Crime",
     "Date": "2014-11-13",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -971,7 +971,7 @@
     "Title": "Dumb and Dumber To",
     "Genre": "Comedy",
     "Date": "2014-11-21",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -979,7 +979,7 @@
     "Title": "Penguins of Madagascar",
     "Genre": "Adventure",
     "Date": "2014-12-11",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
   },
@@ -987,7 +987,7 @@
     "Title": "American Sniper",
     "Genre": "Action",
     "Date": "2015-01-18",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -995,7 +995,7 @@
     "Title": "Fifty Shades of Grey",
     "Genre": "Drama",
     "Date": "2015-02-13",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1003,7 +1003,7 @@
     "Title": "Entourage",
     "Genre": "Drama",
     "Date": "2015-06-03",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1011,7 +1011,7 @@
     "Title": "Jurassic World",
     "Genre": "Fantasy",
     "Date": "2015-06-12",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1019,7 +1019,7 @@
     "Title": "Mission Impossible: Rogue Nation",
     "Genre": "Action",
     "Date": "2015-08-07",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1027,7 +1027,7 @@
     "Title": "Straight Outta Compton",
     "Genre": "Drama",
     "Date": "2015-08-17",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1035,7 +1035,7 @@
     "Title": "The Man from U.N.C.L.E.",
     "Genre": "Action",
     "Date": "2015-08-29",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1043,7 +1043,7 @@
     "Title": "Black Mass",
     "Genre": "Crime",
     "Date": "2015-09-18",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1051,7 +1051,7 @@
     "Title": "Sicario",
     "Genre": "Thriller",
     "Date": "2015-10-08",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1059,7 +1059,7 @@
     "Title": "Spectre",
     "Genre": "Action",
     "Date": "2015-11-05",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1067,7 +1067,7 @@
     "Title": "The Night Before",
     "Genre": "Comedy",
     "Date": "2015-11-19",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1075,7 +1075,7 @@
     "Title": "Victor Frankenstein",
     "Genre": "Sci-Fi",
     "Date": "2015-11-28",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1083,7 +1083,7 @@
     "Title": "Krampus",
     "Genre": "Horror",
     "Date": "2015-12-04",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1091,7 +1091,7 @@
     "Title": "Star Wars: The Force Awakens",
     "Genre": "Sci-Fi",
     "Date": "2015-12-26",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1099,7 +1099,7 @@
     "Title": "Pride and Prejudice and Zombies",
     "Genre": "Thriller",
     "Date": "2016-02-12",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1107,7 +1107,7 @@
     "Title": "Deadpool",
     "Genre": "Fantasy",
     "Date": "2016-02-16",
-    "Price": "$6.00",
+    "Price": "6.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1115,7 +1115,7 @@
     "Title": "Hardcore Henry",
     "Genre": "Action",
     "Date": "2016-04-07",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1123,7 +1123,7 @@
     "Title": "Independence Day: Resurgence",
     "Genre": "Sci-Fi",
     "Date": "2016-06-23",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1131,7 +1131,7 @@
     "Title": "Hell or High Water",
     "Genre": "Crime",
     "Date": "2016-09-11",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1139,7 +1139,7 @@
     "Title": "Rogue One: A Star Wars Story",
     "Genre": "Sci-Fi",
     "Date": "2016-12-18",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1147,7 +1147,7 @@
     "Title": "Warcraft",
     "Genre": "Fantasy",
     "Date": "2016-06-09",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1155,7 +1155,7 @@
     "Title": "Patriots Day",
     "Genre": "Thriller",
     "Date": "2017-01-19",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1163,7 +1163,7 @@
     "Title": "Fifty Shades Darker",
     "Genre": "Drama",
     "Date": "2017-02-09",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1171,7 +1171,7 @@
     "Title": "John Wick: Chapter 2",
     "Genre": "Action",
     "Date": "2017-02-13",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1179,7 +1179,7 @@
     "Title": "John Wick: Chapter 2",
     "Genre": "Action",
     "Date": "2017-02-14",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1187,7 +1187,7 @@
     "Title": "Beauty and the Beast",
     "Genre": "Fantasy",
     "Date": "2017-03-18",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
   },
@@ -1195,7 +1195,7 @@
     "Title": "Guardians of the Galaxy Vol. 2",
     "Genre": "Sci-Fi",
     "Date": "2017-05-13",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1203,7 +1203,7 @@
     "Title": "Alien: Covenant",
     "Genre": "Sci-Fi",
     "Date": "2017-05-19",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1211,7 +1211,7 @@
     "Title": "It Comes at Night",
     "Genre": "Thriller",
     "Date": "2017-06-10",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1219,7 +1219,7 @@
     "Title": "Megan Leavey",
     "Genre": "Drama",
     "Date": "2017-06-11",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1227,7 +1227,7 @@
     "Title": "The Mummy",
     "Genre": "Thriller",
     "Date": "2017-06-25",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1235,7 +1235,7 @@
     "Title": "The House",
     "Genre": "Comedy",
     "Date": "2017-07-01",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1243,7 +1243,7 @@
     "Title": "Baby Driver",
     "Genre": "Crime",
     "Date": "2017-07-11",
-    "Price": "$16.29",
+    "Price": "16.29",
     "Theater": "AMC Empire 25",
     "Rating": "R"
   },
@@ -1251,7 +1251,7 @@
     "Title": "Baby Driver",
     "Genre": "Crime",
     "Date": "2017-07-13",
-    "Price": "$16.29",
+    "Price": "16.29",
     "Theater": "AMC Empire 25",
     "Rating": "R"
   },
@@ -1259,7 +1259,7 @@
     "Title": "Dunkirk",
     "Genre": "Drama",
     "Date": "2017-07-23",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1267,7 +1267,7 @@
     "Title": "The Hitmans Bodyguard",
     "Genre": "Action",
     "Date": "2017-08-26",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1275,7 +1275,7 @@
     "Title": "It",
     "Genre": "Horror",
     "Date": "2017-09-07",
-    "Price": "$9.74",
+    "Price": "9.74",
     "Theater": "Cinemark Tinseltown Grapevine",
     "Rating": "R"
   },
@@ -1283,7 +1283,7 @@
     "Title": "It",
     "Genre": "Horror",
     "Date": "2017-09-10",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1291,7 +1291,7 @@
     "Title": "Blade Runner 2049",
     "Genre": "Sci-Fi",
     "Date": "2017-10-05",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1299,7 +1299,7 @@
     "Title": "The Foreigner",
     "Genre": "Action",
     "Date": "2017-10-15",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1307,7 +1307,7 @@
     "Title": "Geostorm",
     "Genre": "Sci-Fi",
     "Date": "2017-10-21",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1315,7 +1315,7 @@
     "Title": "Jigsaw",
     "Genre": "Horror",
     "Date": "2017-10-28",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1323,7 +1323,7 @@
     "Title": "Murder on the Orient Express",
     "Genre": "Mystery",
     "Date": "2017-11-12",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1331,7 +1331,7 @@
     "Title": "Godzilla",
     "Genre": "Sci-Fi",
     "Date": "2017-11-18",
-    "Price": "$16.61",
+    "Price": "16.61",
     "Theater": "TOHO Cinemas Shinjuku",
     "Rating": "PG-13"
   },
@@ -1339,7 +1339,7 @@
     "Title": "Star Wars: The Last Jedi",
     "Genre": "Sci-Fi",
     "Date": "2017-12-26",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1347,7 +1347,7 @@
     "Title": "12 Strong",
     "Genre": "Action",
     "Date": "2018-01-21",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1355,7 +1355,7 @@
     "Title": "Jumanji: Welcome to the Jungle",
     "Genre": "Fantasy",
     "Date": "2018-01-27",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1363,7 +1363,7 @@
     "Title": "Den of Thieves",
     "Genre": "Crime",
     "Date": "2018-01-28",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1371,7 +1371,7 @@
     "Title": "The 15:17 to Paris",
     "Genre": "Thriller",
     "Date": "2018-02-13",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1379,7 +1379,7 @@
     "Title": "Red Sparrow",
     "Genre": "Thriller",
     "Date": "2018-03-05",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1387,7 +1387,7 @@
     "Title": "Pacific Rim Uprising",
     "Genre": "Sci-Fi",
     "Date": "2018-03-24",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1395,7 +1395,7 @@
     "Title": "Ready Player One",
     "Genre": "Fantasy",
     "Date": "2018-03-29",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1403,7 +1403,7 @@
     "Title": "A Quiet Place",
     "Genre": "Thriller",
     "Date": "2018-04-06",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1411,7 +1411,7 @@
     "Title": "Super Troopers 2",
     "Genre": "Crime",
     "Date": "2018-04-20",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1419,7 +1419,7 @@
     "Title": "Die Hard",
     "Genre": "Action",
     "Date": "2018-04-26",
-    "Price": "$5.00",
+    "Price": "5.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1427,7 +1427,7 @@
     "Title": "Life of the Party",
     "Genre": "Comedy",
     "Date": "2018-05-12",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1435,7 +1435,7 @@
     "Title": "Deadpool 2",
     "Genre": "Fantasy",
     "Date": "2018-05-20",
-    "Price": "$7.64",
+    "Price": "7.64",
     "Theater": "Sambíó Egilshöll",
     "Rating": "R"
   },
@@ -1443,7 +1443,7 @@
     "Title": "Solo: A Star Wars Story",
     "Genre": "Sci-Fi",
     "Date": "2018-05-26",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1451,7 +1451,7 @@
     "Title": "Jurassic World: Fallen Kingdom",
     "Genre": "Fantasy",
     "Date": "2018-06-23",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1459,7 +1459,7 @@
     "Title": "Sicario: Day of the Soldado",
     "Genre": "Thriller",
     "Date": "2018-06-29",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1467,7 +1467,7 @@
     "Title": "Sicario: Day of the Soldado",
     "Genre": "Thriller",
     "Date": "2018-07-01",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1475,7 +1475,7 @@
     "Title": "Skyscraper",
     "Genre": "Crime",
     "Date": "2018-07-14",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1483,7 +1483,7 @@
     "Title": "The Equalizer 2",
     "Genre": "Action",
     "Date": "2018-07-21",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1491,7 +1491,7 @@
     "Title": "The Equalizer 2",
     "Genre": "Action",
     "Date": "2018-07-29",
-    "Price": "$7.00",
+    "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1499,7 +1499,7 @@
     "Title": "Mission Impossible: Fallout",
     "Genre": "Action",
     "Date": "2018-08-04",
-    "Price": "$9.00",
+    "Price": "9.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1507,7 +1507,7 @@
     "Title": "The Meg",
     "Genre": "Thriller",
     "Date": "2018-08-11",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1515,7 +1515,7 @@
     "Title": "The Meg",
     "Genre": "Thriller",
     "Date": "2018-08-18",
-    "Price": "$10.00",
+    "Price": "10.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1523,7 +1523,7 @@
     "Title": "The Predator",
     "Genre": "Thriller",
     "Date": "2018-09-15",
-    "Price": "$8.00",
+    "Price": "8.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1531,7 +1531,7 @@
     "Title": "First Man",
     "Genre": "Drama",
     "Date": "2018-10-12",
-    "Price": "$0.00",
+    "Price": "0.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1539,7 +1539,7 @@
     "Title": "Halloween",
     "Genre": "Thriller",
     "Date": "2018-10-19",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1547,7 +1547,7 @@
     "Title": "Halloween",
     "Genre": "Thriller",
     "Date": "2018-10-21",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1555,7 +1555,7 @@
     "Title": "Hell Fest",
     "Genre": "Horror",
     "Date": "2018-10-30",
-    "Price": "$13.46",
+    "Price": "13.46",
     "Theater": "Konsertpaleet",
     "Rating": "R"
   },
@@ -1563,7 +1563,7 @@
     "Title": "Overlord",
     "Genre": "Thriller",
     "Date": "2018-11-11",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1571,7 +1571,7 @@
     "Title": "The Mule",
     "Genre": "Drama",
     "Date": "2018-12-23",
-    "Price": "$7.50",
+    "Price": "7.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1579,7 +1579,7 @@
     "Title": "Avengers: Endgame",
     "Genre": "Fantasy",
     "Date": "2019-05-05",
-    "Price": "$9.50",
+    "Price": "9.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1587,7 +1587,7 @@
     "Title": "Pokemon: Detective Pikachu",
     "Genre": "Fantasy",
     "Date": "2019-05-10",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
   },
@@ -1595,7 +1595,7 @@
     "Title": "John Wick: Chapter 3",
     "Genre": "Action",
     "Date": "2019-05-18",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1603,7 +1603,7 @@
     "Title": "John Wick: Chapter 3",
     "Genre": "Action",
     "Date": "2019-05-20",
-    "Price": "$5.00",
+    "Price": "5.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1611,7 +1611,7 @@
     "Title": "Brightburn",
     "Genre": "Sci-Fi",
     "Date": "2019-05-27",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1619,7 +1619,7 @@
     "Title": "Godzilla: King of the Monsters",
     "Genre": "Fantasy",
     "Date": "2019-06-01",
-    "Price": "$9.50",
+    "Price": "9.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1627,7 +1627,7 @@
     "Title": "Child's Play",
     "Genre": "Thriller",
     "Date": "2019-06-21",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1635,7 +1635,7 @@
     "Title": "The Dead Don't Die",
     "Genre": "Fantasy",
     "Date": "2019-06-29",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1643,7 +1643,7 @@
     "Title": "Toy Story 4",
     "Genre": "Fantasy",
     "Date": "2019-07-21",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "G"
   },
@@ -1651,7 +1651,7 @@
     "Title": "Scary Stories to Tell in the Dark",
     "Genre": "Thriller",
     "Date": "2019-08-10",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1667,7 +1667,7 @@
     "Title": "Angel Has Fallen",
     "Genre": "Action",
     "Date": "2019-08-23",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1675,7 +1675,7 @@
     "Title": "47 Meters Down: Uncaged",
     "Genre": "Thriller",
     "Date": "2019-08-25",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1683,7 +1683,7 @@
     "Title": "Good Boys",
     "Genre": "Comedy",
     "Date": "2019-09-01",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1691,7 +1691,7 @@
     "Title": "It: Chapter Two",
     "Genre": "Horror",
     "Date": "2019-09-07",
-    "Price": "$9.50",
+    "Price": "9.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1699,7 +1699,7 @@
     "Title": "Ad Astra",
     "Genre": "Drama",
     "Date": "2019-09-20",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1707,7 +1707,7 @@
     "Title": "Rambo: Last Blood",
     "Genre": "Action",
     "Date": "2019-09-21",
-    "Price": "$0.00",
+    "Price": "0.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1715,7 +1715,7 @@
     "Title": "The Karate Kid",
     "Genre": "Drama",
     "Date": "2019-09-26",
-    "Price": "$5.00",
+    "Price": "5.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
   },
@@ -1723,7 +1723,7 @@
     "Title": "Joker",
     "Genre": "Drama",
     "Date": "2019-10-05",
-    "Price": "$11.50",
+    "Price": "11.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1731,7 +1731,7 @@
     "Title": "Joker",
     "Genre": "Drama",
     "Date": "2019-10-10",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1739,7 +1739,7 @@
     "Title": "Gemini Man",
     "Genre": "Drama",
     "Date": "2019-10-12",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1747,7 +1747,7 @@
     "Title": "Zombieland: Double Tap",
     "Genre": "Action",
     "Date": "2019-10-18",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1755,7 +1755,7 @@
     "Title": "21 Bridges",
     "Genre": "Drama",
     "Date": "2019-11-23",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1763,7 +1763,7 @@
     "Title": "Dark Waters",
     "Genre": "Drama",
     "Date": "2019-12-07",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1771,7 +1771,7 @@
     "Title": "Star Wars: Episode IX",
     "Genre": "Fantasy",
     "Date": "2019-12-22",
-    "Price": "$9.50",
+    "Price": "9.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1779,7 +1779,7 @@
     "Title": "Underwater",
     "Genre": "Drama",
     "Date": "2020-01-11",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1787,7 +1787,7 @@
     "Title": "1917",
     "Genre": "Drama",
     "Date": "2020-01-18",
-    "Price": "$9.50",
+    "Price": "9.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1795,7 +1795,7 @@
     "Title": "Jojo Rabbit",
     "Genre": "Drama",
     "Date": "2020-01-24",
-    "Price": "$10.50",
+    "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
   },
@@ -1803,7 +1803,7 @@
     "Title": "Bad Boys for Life",
     "Genre": "Thriller",
     "Date": "2020-01-25",
-    "Price": "$8.50",
+    "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   },
@@ -1811,7 +1811,7 @@
     "Title": "The Rhythm Section",
     "Genre": "Thriller",
     "Date": "2020-01-31",
-    "Price": "$0.00",
+    "Price": "0.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
   }

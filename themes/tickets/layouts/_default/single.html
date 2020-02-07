@@ -1,17 +1,19 @@
 {{ define "main" }}
 
-  <article class="post spacing">
+  <article>
 
-    <div class="container container--small">
+    <div class="container">
 
       <header>
         <h1>{{ .Title }}</h1>
-        <span class="post__information">
+
+        <span>
           Published on
           <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
             {{ .PublishDate.Format "January 2, 2006" }}
           </time>
         </span>
+
       </header>
 
       {{ .Content }}
@@ -19,7 +21,7 @@
       <footer>
 
         {{ range .Params.categories }}
-          <small class="category">{{ . }}</small>
+          <small>{{ . }}</small>
         {{ end }}
 
       </footer>
