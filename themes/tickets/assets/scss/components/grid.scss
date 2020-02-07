@@ -4,9 +4,4 @@
   &--two-column {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  &--three-column {
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    grid-gap: 20px;
-  }
 }

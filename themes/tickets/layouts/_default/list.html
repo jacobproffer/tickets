@@ -16,24 +16,24 @@
     <div class="tickets__left center-content">
       <span class="tickets__barcode barcode">This is a Test</span>
     </div>
-    <div class="tickets__grid">
+    <div class="tickets__grid center">
 
-      <span class="center">A Movie Ticket Collection</span>
+      <span>A Movie Ticket Collection</span>
 
-      <header class="tickets__header center">
+      <header class="tickets__header">
         <h1 id="ticket-list">Dead Man's Brew</h1>
       </header>
 
-      <dl class="tickets__stats grid center">
-        <div class="tickets__years">
+      <dl class="tickets__stats grid">
+        <div>
           <dt>Years</dt>
           <dd class="h2">{{ $totalYears }}</dd>
         </div>
-        <div class="tickets__theaters">
+        <div>
           <dt>Theaters Visited</dt>
           <dd class="h2">7</dd>
         </div>
-        <div class="tickets__total">
+        <div>
           <dt>Tickets Collected</dt>
           <dd class="h2">{{ len .Site.Data.movies }}</dd>
         </div>
@@ -45,7 +45,7 @@
     </div>
   </div>
 
-  <ul class="unstyled-list grid grid--three-column tickets__list" aria-labelledby="ticket-list">
+  <ul class="unstyled-list grid tickets__list" aria-labelledby="ticket-list">
 
     {{ range sort .Site.Data.movies "Date" "desc" }}
 

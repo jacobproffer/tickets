@@ -10,10 +10,10 @@
   }
 
   &__stats {
-    grid-template-areas: "years theaters total""years theaters total";
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1px;
-    background-color: #a8a19e;
-    border-top: 1px solid #a8a19e;
+    background-color: var(--border);
+    border-top: 1px solid var(--border);
 
     div {
       padding: 20px;
@@ -21,30 +21,13 @@
     }
   }
 
-  &__years {
-    grid-area: years;
-  }
-
-  &__theaters {
-    grid-area: theaters;
-  }
-
-  &__total {
-    grid-area: total;
-  }
-
-  &__statement {
-    grid-area: statement;
-    text-align: left;
-  }
-
   &__left {
     position: relative;
-    border-right: 1px dashed #a8a19e;
+    border-right: 1px dashed var(--border);
   }
 
   &__right {
-    border-left: 1px dashed #a8a19e;
+    border-left: 1px dashed var(--border);
 
     span {
       font-size: 2rem;
@@ -64,6 +47,8 @@
   }
 
   &__list {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 20px;
     padding: 20px;
   }
 }

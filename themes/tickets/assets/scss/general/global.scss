@@ -6,12 +6,8 @@
   --light-gray: #ded8d8;
   --midGray: #a6a8aa;
   --gray: #d0c7c0;
-  --border: var(--midGray);
-  --orange: #e97339;
-  --yellow: #fdc604;
-  --purple: #793ed8;
+  --border: #a8a19e;
   --spacing: 150px;
-  --sans-serif: 'Montserrat', sans-serif;
   --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
 
@@ -52,7 +48,7 @@
 *,
 *::after,
 *::before {
-  @include box-sizing(border-box);
+  box-sizing: border-box;
 }
 
 ::selection {
