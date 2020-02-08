@@ -1814,5 +1814,13 @@
     "Price": "0.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
+  },
+  {
+    "Title": "Parasite",
+    "Genre": "Mystery",
+    "Date": "2020-02-07",
+    "Price": "10.50",
+    "Theater": "Thomas Theatre Group",
+    "Rating": "R"
   }
 ]
