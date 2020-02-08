@@ -1822,5 +1822,13 @@
     "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
+  },
+  {
+    "Title": "The Gentlemen",
+    "Genre": "Crime",
+    "Date": "2020-02-08",
+    "Price": "8.50",
+    "Theater": "Thomas Theatre Group",
+    "Rating": "R"
   }
 ]
