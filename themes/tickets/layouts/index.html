@@ -6,6 +6,7 @@
 {{ $currentYearMovies := 0 }}
 {{ $totalSpent := 0.00 }}
 {{ $theaters := slice }}
+{{ $totalTickets := len .Site.Data.movies }}
 
 {{ range .Site.Data.movies }}
 
@@ -19,13 +20,13 @@
 
 {{ end }}
 
-<section class="hero grid gray-background">
+<section class="hero grid">
 
-  <div class="hero__left center-content">
+  <div class="hero__left center-content light-gray-background">
     <span class="hero__barcode barcode" aria-hidden="true">This is a Test</span>
   </div>
 
-  <div class="hero__center center">
+  <div class="hero__center gray-background center">
 
     <span>{{ .Site.Params.subTitle }}</span>
 
@@ -44,27 +45,29 @@
       </div>
       <div class="gray-background">
         <dt>Tickets</dt>
-        <dd class="h2">{{ len .Site.Data.movies }}</dd>
+        <dd class="h2">{{ $totalTickets }}</dd>
       </div>
     </dl>
 
   </div>
 
-  <div class="hero__right center-content">
+  <div class="hero__right center-content light-gray-background">
     <span aria-hidden="true">Admit One</span>
   </div>
 
 </section>
 
-{{/*  <section>
+<!-- <section class="intro">
 
-  <header>
-    <h2>Intro</h2>
-  </header>
+  <div class="intro__container">
+    <header>
+      <h2>Intro</h2>
+    </header>
 
-  <p>I spent ${{ $totalSpent | lang.NumFmt 2 }}</p>
+    <p>While in high school in {{ $startYear }}, I started to collect movie tickets as mementos for a personal relationship. For each movie I saw, I'd place the ticket in a plastic cup with the words, "Dead Man's Brew", printed on the side. Even though the relationship ended over a decade ago, I've continued to fill the cup. It is nearly full with {{ $totalTickets }} tickets. For the current year, {{ $currentYear }}, I've collected {{ $currentYearMovies }} tickets. To date, I've spent ${{ $totalSpent | lang.NumFmt 2 }} on movie tickets.</p>
+  </div>
 
-</section>  */}}
+</section> -->
 
 <section>
 

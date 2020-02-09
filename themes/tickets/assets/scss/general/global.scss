@@ -1,44 +1,12 @@
 :root {
-  --container: 1440px;
-  --black: #131415;
-  --white: #f5f5f5;
-  --light-gray: #ded8d8;
-  --gray: #d0c7c0;
-  --border: #a8a19e;
+  --black: #302e2d;
+  --white: #fff;
+  --light-gray: #e5e7dd;
+  --gray: #ddeede;
+  --border: #9fa99d;
+  --primary: #b1d9b4;
   --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
-
-  @include screen-below(1680px) {
-    --container: 1280px;
-  }
-
-  @include screen-below(1440px) {
-    --container: 1080px;
-  }
-
-  @include screen-below(1280px) {
-    --container: 900px;
-  }
-
-  @include screen-below(1024px) {
-    --container: 768px;
-  }
-
-  @include screen-below(880px) {
-    --container: 640px;
-  }
-
-  @include screen-below(768px) {
-    --container: 480px;
-  }
-
-  @include screen-below(540px) {
-    --container: 345px;
-  }
-
-  @include screen-below(375px) {
-    --container: 300px;
-  }
 }
 
 *,
@@ -62,7 +30,7 @@ body {
   position: relative;
   font-size: 18px;
   color: var(--black);
-  background-color: var(--white);
+  background-color: var(--primary);
   text-transform: uppercase;
 }
 
