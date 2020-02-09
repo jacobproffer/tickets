@@ -1,4 +1,4 @@
-baseURL = "https://jacobproffer.com/"
+baseURL = "https://tickets.proffer.dev/"
 languageCode = "en-us"
 title = "Dead Man's Brew"
 theme = "tickets"
