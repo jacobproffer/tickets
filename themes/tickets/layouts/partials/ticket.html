@@ -21,9 +21,9 @@
     <dd>
       <span class="ticket__rating">{{ .Rating }}</span>
     </dd>
-    <dt class="visually-hide">Genre</dt>
+    <dt class="visually-hide">Barcode</dt>
     <dd>
-      <span class="ticket__barcode barcode" aria-hidden="true">{{ .Genre }}</span>
+      <span class="ticket__barcode barcode" aria-hidden="true">{{ range $index, $num := shuffle (seq 15) }} {{- $num -}} {{ end }}</span>
     </dd>
     <dt class="visually-hide" aria-hidden="true">Unix Timestamp</dt>
     <dd>
