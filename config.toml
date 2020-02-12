@@ -5,6 +5,6 @@ theme = "tickets"
 enableRobotsTXT = true
 
 [params]
-  description = "A collection of movie tickets purchased by Jacob Proffer."
+  description = "The ongoing movie ticket collection of Jacob Proffer, started in 2007."
   images = ["images/tickets-social.jpg"]
   subTitle = "A Movie Ticket Collection"
