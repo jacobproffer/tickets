@@ -1830,5 +1830,13 @@
     "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
+  },
+  {
+    "Title": "The Call of the Wild",
+    "Genre": "Adventure",
+    "Date": "2020-02-22",
+    "Price": "9.50",
+    "Theater": "Thomas Theatre Group",
+    "Rating": "PG"
   }
 ]
