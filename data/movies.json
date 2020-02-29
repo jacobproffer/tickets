@@ -1838,5 +1838,13 @@
     "Price": "9.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
+  },
+  {
+    "Title": "Impractical Jokers: The Movie",
+    "Genre": "Comedy",
+    "Date": "2020-02-28",
+    "Price": "10.50",
+    "Theater": "Thomas Theatre Group",
+    "Rating": "PG-13"
   }
 ]
