@@ -1846,5 +1846,13 @@
     "Price": "10.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
+  },
+  {
+    "Title": "The Hunt",
+    "Genre": "Thriller",
+    "Date": "2020-03-13",
+    "Price": "8.50",
+    "Theater": "Thomas Theatre Group",
+    "Rating": "R"
   }
 ]
