@@ -80,15 +80,20 @@
 </section>
 
 <section class="intro gray-background border-bottom">
+  <div class="grid intro__grid">
 
-  <div class="intro__container">
-    <header>
-      <h2>An Unexpected Collection</h2>
-    </header>
+    <div class="intro__content">
+      <header>
+        <h2>An Unexpected Collection</h2>
+      </header>
+      <p>In {{ $startYear }}, I started to collect movie tickets as mementos for a personal relationship. For each date to the theater, I'd place the ticket in a plastic cup with the words, "Dead Man's Brew", printed on the side. Even though the relationship ended over a decade ago, I've continued to fill the cup each year. It is nearly full with {{ $totalTickets }} tickets. For the current year, {{ $currentYear }}, I've collected {{ $currentYearMovies }} tickets. To date, I've spent at least ${{ $totalSpent | lang.NumFmt 2 }} on movie tickets.</p>
+    </div>
 
-    <p>In {{ $startYear }}, I started to collect movie tickets as mementos for a personal relationship. For each date to the theater, I'd place the ticket in a plastic cup with the words, "Dead Man's Brew", printed on the side. Even though the relationship ended over a decade ago, I've continued to fill the cup each year. It is nearly full with {{ $totalTickets }} tickets. For the current year, {{ $currentYear }}, I've collected {{ $currentYearMovies }} tickets. To date, I've spent at least ${{ $totalSpent | lang.NumFmt 2 }} on movie tickets.</p>
+    <div class="intro__image">
+      <img class="lazy" data-src="/images/tickets-social.jpg" alt="A pile of movie tickets.">
+    </div>
+
   </div>
-
 </section>
 
 {{ end }}
