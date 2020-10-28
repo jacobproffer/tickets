@@ -1,6 +1,6 @@
 <article>
 
-  <small>{{ .Theater }}<br /> Presenting</small>
+  <small>{{ .Params.theater }}<br /> Presenting</small>
 
   <header>
     <h3>{{ .Title }}</h3>
@@ -9,17 +9,17 @@
   <dl>
     <dt class="visually-hide">Date Purchased</dt>
     <dd>
-      <time class="ticket__time" datetime="{{ .Date }}">
-        {{ dateFormat "Mon 01/02/2006" .Date }}
+      <time class="ticket__time">
+        {{ dateFormat "Mon 01/02/2006" .Params.date }}
       </time>
     </dd>
     <dt class="visually-hide">Cost of Ticket</dt>
     <dd>
-      <small class="ticket__price">${{ .Price }}</small>
+      <small class="ticket__price">${{ .Params.price }}</small>
     </dd>
     <dt class="visually-hide">MPAA Rating</dt>
     <dd>
-      <span class="ticket__rating">{{ .Rating }}</span>
+      <span class="ticket__rating">{{ .Params.rating }}</span>
     </dd>
     <dt class="visually-hide">Barcode</dt>
     <dd>
@@ -27,7 +27,7 @@
     </dd>
     <dt class="visually-hide" aria-hidden="true">Unix Timestamp</dt>
     <dd>
-      <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Date).Unix }}</small>
+      <small class="ticket__unix" aria-hidden="true">{{ mul 1000 (time .Params.date).Unix }}</small>
     </dd>
   </dl>
 

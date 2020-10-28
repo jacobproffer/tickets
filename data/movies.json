@@ -1,13 +1,5 @@
 [
   {
-    "Title": "Wild Hogs",
-    "Genre": "Comedy",
-    "Date": "2007-03-10",
-    "Price": "5.25",
-    "Theater": "Carmike Cinemas",
-    "Rating": "PG-13"
-  },
-  {
     "Title": "Disturbia",
     "Genre": "Thriller",
     "Date": "2007-04-14",
@@ -1838,21 +1830,5 @@
     "Price": "9.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG"
-  },
-  {
-    "Title": "Impractical Jokers: The Movie",
-    "Genre": "Comedy",
-    "Date": "2020-02-28",
-    "Price": "10.50",
-    "Theater": "Thomas Theatre Group",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Hunt",
-    "Genre": "Thriller",
-    "Date": "2020-03-13",
-    "Price": "8.50",
-    "Theater": "Thomas Theatre Group",
-    "Rating": "R"
   }
 ]

@@ -20,56 +20,58 @@
 
 {{ end }}
 
-<section class="hero grid">
+<main id="content">
 
-  <div class="hero__left center-content light-gray-background">
-    <span class="hero__barcode barcode" aria-hidden="true">This is a Test</span>
-  </div>
+  <article class="hero grid">
 
-  <div class="hero__center gray-background center">
+    <div class="hero__left center-content light-gray-background">
+      <span class="hero__barcode barcode" aria-hidden="true">This is a Test</span>
+    </div>
 
-    <span>{{ .Site.Params.subTitle }}</span>
+    <div class="hero__center gray-background center">
 
-    <header>
-      <h1>{{ .Title }}</h1>
-    </header>
+      <span>{{ .Site.Params.subTitle }}</span>
 
-    <dl class="hero__stats grid">
-      <div class="gray-background">
-        <dt>Years</dt>
-        <dd class="h2">{{ $totalYears }}</dd>
-      </div>
-      <div class="gray-background">
-        <dt>Theaters</dt>
-        <dd class="h2">{{ len $theaters }}</dd>
-      </div>
-      <div class="gray-background">
-        <dt>Tickets</dt>
-        <dd class="h2">{{ $totalTickets }}</dd>
-      </div>
-    </dl>
+      <header>
+        <h1>{{ .Title }}</h1>
+      </header>
 
-  </div>
+      <dl class="hero__stats grid">
+        <div class="gray-background">
+          <dt>Years</dt>
+          <dd class="h2">{{ $totalYears }}</dd>
+        </div>
+        <div class="gray-background">
+          <dt>Theaters</dt>
+          <dd class="h2">{{ len $theaters }}</dd>
+        </div>
+        <div class="gray-background">
+          <dt>Tickets</dt>
+          <dd class="h2">{{ $totalTickets }}</dd>
+        </div>
+      </dl>
 
-  <div class="hero__right center-content light-gray-background">
-    <span aria-hidden="true">Admit One</span>
-  </div>
+    </div>
 
-</section>
+    <div class="hero__right center-content light-gray-background">
+      <span aria-hidden="true">Admit One</span>
+    </div>
 
-<section>
+  </article>
 
-  <header class="visually-hide">
-    <h2 id="ticket-list">Tickets Collected</h2>
-  </header>
+</main>
 
-  <ul class="unstyled-list grid ticket-list" aria-labelledby="ticket-list">
+<aside>
 
-    {{ range sort .Site.Data.movies "Date" "desc" }}
+  <h2 class="visually-hide">Tickets Collected</h2>
+
+  <ul class="unstyled-list grid ticket-list">
+
+    {{ range .Site.RegularPages }}
 
       <li class="ticket border-bottom">
 
-        {{ partial "ticket.html" . }}
+        {{ .Render "ticket" }}
 
       </li>
 
@@ -77,23 +79,6 @@
 
   </ul>
 
-</section>
-
-<section class="intro gray-background border-bottom">
-  <div class="grid intro__grid">
-
-    <div class="intro__content">
-      <header>
-        <h2>An Unexpected Collection</h2>
-      </header>
-      <p>In {{ $startYear }}, I started to collect movie tickets as mementos for a personal relationship. For each date to the theater, I'd place the ticket in a plastic cup with the words, "Dead Man's Brew", printed on the side. Even though the relationship ended over a decade ago, I've continued to fill the cup each year. It is nearly full with {{ $totalTickets }} tickets. For the current year, {{ $currentYear }}, I've collected {{ $currentYearMovies }} tickets. To date, I've spent at least ${{ $totalSpent | lang.NumFmt 2 }} on movie tickets.</p>
-    </div>
-
-    <div class="intro__image">
-      <img class="lazy" data-src="/images/tickets-social.jpg" alt="A pile of movie tickets.">
-    </div>
-
-  </div>
-</section>
+</aside>
 
 {{ end }}

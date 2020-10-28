@@ -9,9 +9,7 @@
   {{- partialCached "head.html" . -}}
   <body class="animated fade-in">
     {{- partialCached "header.html" . -}}
-    <main id="content">
-      {{- block "main" . }}{{ end -}}
-    </main>
+    {{- block "main" . }}{{ end -}}
     {{- partialCached "footer.html" . -}}
     {{- partialCached "scripts.html" . -}}
   </body>
