@@ -8,9 +8,7 @@
 >
   {{- partialCached "head.html" . -}}
   <body class="animated fade-in">
-    {{- partialCached "header.html" . -}}
     {{- block "main" . }}{{ end -}}
     {{- partialCached "footer.html" . -}}
-    {{- partialCached "scripts.html" . -}}
   </body>
 </html>

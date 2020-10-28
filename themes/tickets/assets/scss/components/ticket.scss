@@ -1,7 +1,18 @@
 .ticket {
   padding: 20px;
   text-align: center;
+  border-top: 1px dashed var(--border);
   border-right: 1px dashed var(--border);
+
+  &__article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  &__theater {
+    order: -1;
+  }
 
   &__time {
     padding: 4px;

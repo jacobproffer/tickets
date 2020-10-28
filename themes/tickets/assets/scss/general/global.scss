@@ -46,10 +46,9 @@ img {
 
 a {
   color: inherit;
-  text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
-  &:hover {
+  @include hover {
     outline: dotted 1px var(--black);
   }
 }
