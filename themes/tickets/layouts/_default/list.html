@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<article>
+
+  <h1 class="visually-hide">{{ .Title }}</h1>
+
+  <ul class="unstyled-list grid ticket-list">
+
+    {{ range .Pages }}
+
+      <li class="ticket">
+
+        {{ if .Params.date }}
+
+          {{ .Render "ticket" }}
+
+        {{ else }}
+
+          <a href="{{ .Permalink }}">
+            {{ .Render "ticket" }}
+          </a>
+
+        {{ end }}
+
+      </li>
+
+    {{ end }}
+
+  </ul>
+
+</article>
+
+{{ end }}

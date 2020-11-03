@@ -5,6 +5,11 @@ theme = "tickets"
 paginate = 14
 enableRobotsTXT = true
 
+[taxonomies]
+  theater = "theaters"
+  rating = "ratings"
+
+
 [params]
   description = "The ongoing movie ticket collection of Jacob Proffer, started in 2007."
   images = ["images/tickets-social.jpg"]

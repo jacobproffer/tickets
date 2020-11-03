@@ -4,5 +4,7 @@ date: "2020-01-11"
 genre: "Drama"
 price: "8.50"
 theater: "Thomas Theatre Group"
+theaters: ["Thomas Theatre Group"]
 rating: "PG-13"
+ratings: ["PG-13"]
 ---

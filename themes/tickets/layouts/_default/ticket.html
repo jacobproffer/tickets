@@ -2,27 +2,39 @@
 
   <h3>{{ .Title }}</h3>
 
-  <small class="ticket__theater">
-    <span class="visually-hide">Ticket purchased at</span>
-    {{ .Params.theater }}<br />
-    <span aria-hidden="true">Presenting</span>
-  </small>
+  {{ if .Params.theater }}
+    <small class="ticket__theater">
+      <span class="visually-hide">Ticket purchased at</span>
+      {{ .Params.theater }}<br />
+      <span aria-hidden="true">Presenting</span>
+    </small>
+  {{ end }}
 
   <ul class="unstyled-list">
-    <li>
-      <span class="visually-hide">Ticket purchased on</span>
-      <time class="ticket__time">
-        {{ dateFormat "Mon 01/02/2006" .Params.date }}
-      </time>
-    </li>
-    <li>
-      <span class="visually-hide">The ticket cost</span>
-      <small class="ticket__price">${{ .Params.price }}</small>
-    </li>
-    <li class="ticket__rating">
-      <span class="visually-hide">The movie is rated </span>
-      {{ .Params.rating }}
-    </li>
+
+    {{ if .Params.date }}
+      <li>
+        <span class="visually-hide">Ticket purchased on</span>
+        <time class="ticket__time">
+          {{ dateFormat "Mon 01/02/2006" .Params.date }}
+        </time>
+      </li>
+    {{ end }}
+
+    {{ if .Params.price }}
+      <li>
+        <span class="visually-hide">The ticket cost</span>
+        <small class="ticket__price">${{ .Params.price }}</small>
+      </li>
+    {{ end }}
+
+    {{ if .Params.rating }}
+      <li class="ticket__rating">
+        <span class="visually-hide">The movie is rated </span>
+        {{ .Params.rating }}
+      </li>
+    {{ end }}
+
   </ul>
 
 </article>
