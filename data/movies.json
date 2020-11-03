@@ -1,21 +1,5 @@
 [
   {
-    "Title": "Disturbia",
-    "Genre": "Thriller",
-    "Date": "2007-04-14",
-    "Price": "5.25",
-    "Theater": "Carmike Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Spiderman 3",
-    "Genre": "Sci-Fi",
-    "Date": "2007-05-26",
-    "Price": "5.25",
-    "Theater": "Carmike Cinemas",
-    "Rating": "PG-13"
-  },
-  {
     "Title": "I Now Pronounce You Chuck & Larry",
     "Genre": "Comedy",
     "Date": "2007-07-23",
@@ -1234,26 +1218,10 @@
   {
     "Title": "Baby Driver",
     "Genre": "Crime",
-    "Date": "2017-07-11",
-    "Price": "16.29",
-    "Theater": "AMC Empire 25",
-    "Rating": "R"
-  },
-  {
-    "Title": "Baby Driver",
-    "Genre": "Crime",
     "Date": "2017-07-13",
     "Price": "16.29",
     "Theater": "AMC Empire 25",
     "Rating": "R"
-  },
-  {
-    "Title": "Dunkirk",
-    "Genre": "Drama",
-    "Date": "2017-07-23",
-    "Price": "8.00",
-    "Theater": "Thomas Theatre Group",
-    "Rating": "PG-13"
   },
   {
     "Title": "The Hitmans Bodyguard",
@@ -1726,13 +1694,5 @@
     "Price": "8.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"
-  },
-  {
-    "Title": "Gemini Man",
-    "Genre": "Drama",
-    "Date": "2019-10-12",
-    "Price": "8.50",
-    "Theater": "Thomas Theatre Group",
-    "Rating": "PG-13"
   }
 ]
