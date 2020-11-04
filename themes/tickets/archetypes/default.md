@@ -1,9 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: ""
-genre: ""
 price: ""
 theater: ""
+theaters: [""]
 rating: ""
+ratings: [""]
 draft: true
 ---

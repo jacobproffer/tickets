@@ -1,8 +1,11 @@
 .ticket {
   padding: 20px;
   text-align: center;
-  border-top: 1px dashed var(--border);
   border-right: 1px dashed var(--border);
+
+  a {
+    display: block;
+  }
 
   &__article {
     display: flex;

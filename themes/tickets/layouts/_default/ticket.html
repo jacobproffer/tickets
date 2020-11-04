@@ -35,6 +35,10 @@
       </li>
     {{ end }}
 
+    <li aria-hidden="true">
+      <span class="ticket__barcode barcode">{{ range $index, $num := shuffle (seq 15) }} {{- $num -}} {{ end }}</span>
+    </li>
+
   </ul>
 
 </article>

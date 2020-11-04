@@ -1234,14 +1234,6 @@
   {
     "Title": "It",
     "Genre": "Horror",
-    "Date": "2017-09-07",
-    "Price": "9.74",
-    "Theater": "Cinemark Tinseltown Grapevine",
-    "Rating": "R"
-  },
-  {
-    "Title": "It",
-    "Genre": "Horror",
     "Date": "2017-09-10",
     "Price": "10.00",
     "Theater": "Thomas Theatre Group",
@@ -1285,14 +1277,6 @@
     "Date": "2017-11-12",
     "Price": "7.00",
     "Theater": "Thomas Theatre Group",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Godzilla",
-    "Genre": "Sci-Fi",
-    "Date": "2017-11-18",
-    "Price": "16.61",
-    "Theater": "TOHO Cinemas Shinjuku",
     "Rating": "PG-13"
   },
   {
@@ -1390,14 +1374,6 @@
     "Price": "7.00",
     "Theater": "Thomas Theatre Group",
     "Rating": "PG-13"
-  },
-  {
-    "Title": "Deadpool 2",
-    "Genre": "Fantasy",
-    "Date": "2018-05-20",
-    "Price": "7.64",
-    "Theater": "Sambíó Egilshöll",
-    "Rating": "R"
   },
   {
     "Title": "Solo: A Star Wars Story",
@@ -1507,22 +1483,6 @@
     "Title": "Halloween",
     "Genre": "Thriller",
     "Date": "2018-10-21",
-    "Price": "7.50",
-    "Theater": "Thomas Theatre Group",
-    "Rating": "R"
-  },
-  {
-    "Title": "Hell Fest",
-    "Genre": "Horror",
-    "Date": "2018-10-30",
-    "Price": "13.46",
-    "Theater": "Konsertpaleet",
-    "Rating": "R"
-  },
-  {
-    "Title": "Overlord",
-    "Genre": "Thriller",
-    "Date": "2018-11-11",
     "Price": "7.50",
     "Theater": "Thomas Theatre Group",
     "Rating": "R"

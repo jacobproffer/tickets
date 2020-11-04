@@ -3,6 +3,7 @@
   --white: #fff;
   --light-gray: #e5e7dd;
   --gray: #ddeede;
+  --dark-gray: #b2d3c9;
   --border: #9fa99d;
   --primary: #b1d9b4;
   --cursive: 'Libre Barcode 128', cursive;
@@ -35,7 +36,7 @@ body {
   position: relative;
   margin: 0;
   color: var(--black);
-  background-color: var(--primary);
+  background-color: var(--light-gray);
   font-size: 18px;
   text-transform: uppercase;
 }
