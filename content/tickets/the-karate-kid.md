@@ -1,8 +1,7 @@
 ---
-title: "The Call of the Wild"
-genre: "Adventure"
-date: "2020-02-22"
-price: "9.50"
+title: "The Karate Kid"
+date: "2019-09-26"
+price: "5.00"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "PG"

@@ -1,8 +1,7 @@
 ---
-title: "The Rhythm Section"
-date: "2020-01-31"
-genre: "Thriller"
-price: "0.00"
+title: "Joker"
+date: "2019-10-05"
+price: "11.50"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"

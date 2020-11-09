@@ -1,7 +1,6 @@
 ---
-title: "Impractical Jokers: The Movie"
-date: "2020-02-28"
-genre: "Comedy"
+title: "Fast & Furious Presents: Hobbs & Shaw"
+date: "2019-08-17"
 price: "10.50"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]

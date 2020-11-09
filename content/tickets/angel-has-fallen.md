@@ -1,8 +1,7 @@
 ---
-title: "The Rhythm Section"
-date: "2020-01-31"
-genre: "Thriller"
-price: "0.00"
+title: "Angel Has Fallen"
+date: "2019-08-23"
+price: "10.50"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"
