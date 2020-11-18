@@ -2,7 +2,7 @@ baseURL = "https://tickets.proffer.dev/"
 languageCode = "en-us"
 title = "Dead Man's Brew"
 theme = "tickets"
-paginate = 14
+paginate = 50
 enableRobotsTXT = true
 
 [taxonomies]

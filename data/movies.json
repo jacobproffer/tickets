@@ -1,122 +1,10 @@
 [
   {
-    "Title": "I Now Pronounce You Chuck & Larry",
-    "Genre": "Comedy",
-    "Date": "2007-07-23",
-    "Theater": "Carmike Royal Cinema 10",
-    "Price": "5.25",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Prom Night",
-    "Genre": "Thriller",
-    "Date": "2008-04-19",
-    "Price": "5.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
     "Title": "Harold & Kumar Escape from Guantanamo Bay",
     "Genre": "Comedy",
     "Date": "2008-05-10",
     "Price": "5.75",
     "Theater": "Delft Theatre",
-    "Rating": "R"
-  },
-  {
-    "Title": "Hancock",
-    "Genre": "Action",
-    "Date": "2008-07-19",
-    "Price": "5.75",
-    "Theater": "Delft Theatre",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Tropic Thunder",
-    "Genre": "Action",
-    "Date": "2008-08-17",
-    "Price": "5.75",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Traitor",
-    "Genre": "Action",
-    "Date": "2008-09-06",
-    "Price": "5.75",
-    "Theater": "Delft Theatre",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Four Christmases",
-    "Genre": "Drama",
-    "Date": "2008-12-16",
-    "Price": "7.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Yes Man",
-    "Genre": "Comedy",
-    "Date": "2008-12-28",
-    "Price": "7.00",
-    "Theater": "Delft Theatre",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Friday the 13th",
-    "Genre": "Horror",
-    "Date": "2009-02-13",
-    "Price": "7.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "He's Just Not That Into You",
-    "Genre": "Romance",
-    "Date": "2009-03-10",
-    "Price": "7.00",
-    "Theater": "Delft Theatre",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "I Love You, Man",
-    "Genre": "Romance",
-    "Date": "2009-03-29",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Terminator Salvation",
-    "Genre": "Thriller",
-    "Date": "2009-05-22",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Terminator Salvation",
-    "Genre": "Thriller",
-    "Date": "2009-05-25",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Night at the Museum",
-    "Genre": "Fantasy",
-    "Date": "2009-05-31",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG"
-  },
-  {
-    "Title": "The Hangover",
-    "Genre": "Comedy",
-    "Date": "2009-06-08",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
     "Rating": "R"
   },
   {
@@ -128,132 +16,12 @@
     "Rating": "PG-13"
   },
   {
-    "Title": "Year One",
-    "Genre": "Comedy",
-    "Date": "2009-06-29",
-    "Price": "7.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Bruno",
-    "Genre": "Comedy",
-    "Date": "2009-07-11",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Proposal",
-    "Genre": "Drama",
-    "Date": "2009-07-13",
-    "Price": "7.25",
-    "Theater": "Delft Theatre",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Harry Potter and the Half-Blood Prince",
-    "Genre": "Fantasy",
-    "Date": "2009-07-15",
-    "Price": "7.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG"
-  },
-  {
-    "Title": "Funny People",
-    "Genre": "Comedy",
-    "Date": "2009-08-20",
-    "Price": "7.25",
-    "Theater": "Delft Theatre",
-    "Rating": "R"
-  },
-  {
-    "Title": "Funny People",
-    "Genre": "Comedy",
-    "Date": "2009-08-22",
-    "Price": "7.25",
-    "Theater": "Delft Theatre",
-    "Rating": "R"
-  },
-  {
-    "Title": "Halloween 2",
-    "Genre": "Horror",
-    "Date": "2009-08-28",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Final Destination",
-    "Genre": "Horror",
-    "Date": "2009-09-02",
-    "Price": "7.25",
-    "Theater": "Delft Theatre",
-    "Rating": "R"
-  },
-  {
-    "Title": "Zombieland",
-    "Genre": "Comedy",
-    "Date": "2009-10-03",
-    "Price": "6.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "All About Steve",
-    "Genre": "Comedy",
-    "Date": "2009-10-05",
-    "Price": "7.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Stepfather",
-    "Genre": "Thriller",
-    "Date": "2009-10-16",
-    "Price": "7.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Paranormal",
-    "Genre": "Thriller",
-    "Date": "2009-10-23",
-    "Price": "7.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
     "Title": "Saw VI",
     "Genre": "Horror",
     "Date": "2009-10-31",
     "Price": "6.00",
     "Theater": "Delft Theatre",
     "Rating": "R"
-  },
-  {
-    "Title": "4th Kind",
-    "Genre": "Sci-Fi",
-    "Date": "2009-11-06",
-    "Price": "7.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "2012",
-    "Genre": "Sci-Fi",
-    "Date": "2009-11-13",
-    "Price": "7.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "2012",
-    "Genre": "Sci-Fi",
-    "Date": "2009-11-21",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
   },
   {
     "Title": "The Twilight Saga: New Moon",
@@ -264,57 +32,9 @@
     "Rating": "PG-13"
   },
   {
-    "Title": "Brothers",
-    "Genre": "Drama",
-    "Date": "2009-12-11",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Avatar 3D",
-    "Genre": "Sci-Fi",
-    "Date": "2009-12-26",
-    "Price": "8.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
     "Title": "Did You Hear About the Morgans?",
     "Genre": "Romance",
     "Date": "2009-12-27",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Youth in Revolt",
-    "Genre": "Drama",
-    "Date": "2010-01-09",
-    "Price": "6.00",
-    "Theater": "Delft Theatre",
-    "Rating": "R"
-  },
-  {
-    "Title": "Up in the Air",
-    "Genre": "Drama",
-    "Date": "2010-01-13",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Lovely Bones",
-    "Genre": "Drama",
-    "Date": "2010-01-15",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Valentine's Day",
-    "Genre": "Romance",
-    "Date": "2010-02-18",
     "Price": "7.50",
     "Theater": "Carmike Royal Cinema 10",
     "Rating": "PG-13"
@@ -333,22 +53,6 @@
     "Date": "2010-03-26",
     "Price": "7.50",
     "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG"
-  },
-  {
-    "Title": "The Green Zone",
-    "Genre": "Thriller",
-    "Date": "2010-03-29",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Last Song",
-    "Genre": "Romance",
-    "Date": "2010-03-31",
-    "Price": "7.50",
-    "Theater": "Delft Theatre",
     "Rating": "PG"
   },
   {
@@ -376,22 +80,6 @@
     "Rating": "PG"
   },
   {
-    "Title": "The Twilight Saga: Eclipse",
-    "Genre": "Fantasy",
-    "Date": "2010-07-09",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Jackass 3D",
-    "Genre": "Comedy",
-    "Date": "2010-10-22",
-    "Price": "10.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
     "Title": "Harry Potter and the Deathly Hallows – Part 2",
     "Genre": "Fantasy",
     "Date": "2011-07-16",
@@ -408,60 +96,12 @@
     "Rating": "R"
   },
   {
-    "Title": "Contagion",
-    "Genre": "Sci-Fi",
-    "Date": "2011-09-17",
-    "Price": "5.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Safe House",
-    "Genre": "Thriller",
-    "Date": "2012-02-12",
-    "Price": "8.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Project X",
-    "Genre": "Comedy",
-    "Date": "2012-03-04",
-    "Price": "8.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Act of Valor",
-    "Genre": "Drama",
-    "Date": "2012-03-05",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Battleship",
-    "Genre": "Sci-Fi",
-    "Date": "2012-05-19",
-    "Price": "8.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
     "Title": "Men in Black 3",
     "Genre": "Sci-Fi",
     "Date": "2012-05-25",
     "Price": "7.75",
     "Theater": "Carmike Royal Cinema 10",
     "Rating": "PG-13"
-  },
-  {
-    "Title": "Chernobyl",
-    "Genre": "Horror",
-    "Date": "2012-05-28",
-    "Price": "8.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
   },
   {
     "Title": "Snow White and the Huntsman",
@@ -544,130 +184,10 @@
     "Rating": "PG"
   },
   {
-    "Title": "End of Watch",
-    "Genre": "Crime",
-    "Date": "2012-09-23",
-    "Price": "8.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
     "Title": "The Twilight Saga: Breaking Dawn – Part 2",
     "Genre": "Fantasy",
     "Date": "2012-11-15",
     "Price": "15.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Zero Dark Thirty",
-    "Genre": "Action",
-    "Date": "2013-01-11",
-    "Price": "8.75",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Zero Dark Thirty",
-    "Genre": "Action",
-    "Date": "2013-01-14",
-    "Price": "5.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "A Good Day to Die Hard",
-    "Genre": "Action",
-    "Date": "2013-02-17",
-    "Price": "6.75",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Olympus Has Fallen",
-    "Genre": "Action",
-    "Date": "2013-03-24",
-    "Price": "6.75",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Jurassic 3D",
-    "Genre": "Fantasy",
-    "Date": "2013-04-05",
-    "Price": "10.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "G.I. Joe: Retaliation",
-    "Genre": "Action",
-    "Date": "2013-04-08",
-    "Price": "11.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Oblivion",
-    "Genre": "Action",
-    "Date": "2013-04-21",
-    "Price": "5.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Pain & Gain",
-    "Genre": "Crime",
-    "Date": "2013-04-28",
-    "Price": "8.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Pain & Gain",
-    "Genre": "Crime",
-    "Date": "2013-05-10",
-    "Price": "8.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Hangover 3",
-    "Genre": "Comedy",
-    "Date": "2013-05-24",
-    "Price": "8.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Purge",
-    "Genre": "Thriller",
-    "Date": "2013-06-08",
-    "Price": "8.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "This is the End",
-    "Genre": "Fantasy",
-    "Date": "2013-06-09",
-    "Price": "7.75",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "World War Z",
-    "Genre": "Thriller",
-    "Date": "2013-06-23",
-    "Price": "7.75",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "World War Z",
-    "Genre": "Thriller",
-    "Date": "2013-07-09",
-    "Price": "7.75",
     "Theater": "Carmike Royal Cinema 10",
     "Rating": "PG-13"
   },
@@ -688,91 +208,11 @@
     "Rating": "G"
   },
   {
-    "Title": "Red 2",
-    "Genre": "Crime",
-    "Date": "2013-07-23",
-    "Price": "5.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Family",
-    "Genre": "Thriller",
-    "Date": "2013-09-15",
-    "Price": "5.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Captain Phillips",
-    "Genre": "Thriller",
-    "Date": "2013-10-22",
-    "Price": "5.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Bad Grandpa",
-    "Genre": "Comedy",
-    "Date": "2013-10-25",
-    "Price": "8.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
     "Title": "Thor: The Dark World",
     "Genre": "Fantasy",
     "Date": "2013-11-24",
     "Price": "5.50",
     "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "47 Ronin",
-    "Genre": "Fantasy",
-    "Date": "2013-12-28",
-    "Price": "9.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "3 Days to Kill",
-    "Genre": "Drama",
-    "Date": "2014-03-02",
-    "Price": "7.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Need for Speed",
-    "Genre": "Drama",
-    "Date": "2014-03-14",
-    "Price": "8.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Sabotage",
-    "Genre": "Crime",
-    "Date": "2014-03-31",
-    "Price": "8.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Godzilla",
-    "Genre": "Thriller",
-    "Date": "2014-05-16",
-    "Price": "8.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Edge of Tomorrow",
-    "Genre": "Sci-Fi",
-    "Date": "2014-06-08",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
     "Rating": "PG-13"
   },
   {
@@ -787,22 +227,6 @@
     "Title": "22 Jump Street",
     "Genre": "Comedy",
     "Date": "2014-06-13",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Hercules",
-    "Genre": "Fantasy",
-    "Date": "2014-07-27",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Expendables 3",
-    "Genre": "Action",
-    "Date": "2014-08-17",
     "Price": "7.00",
     "Theater": "Marquette Cinemas",
     "Rating": "R"
@@ -1176,38 +600,6 @@
     "Rating": "PG-13"
   },
   {
-    "Title": "Jigsaw",
-    "Genre": "Horror",
-    "Date": "2017-10-28",
-    "Price": "8.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Murder on the Orient Express",
-    "Genre": "Mystery",
-    "Date": "2017-11-12",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Star Wars: The Last Jedi",
-    "Genre": "Sci-Fi",
-    "Date": "2017-12-26",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "12 Strong",
-    "Genre": "Action",
-    "Date": "2018-01-21",
-    "Price": "8.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
     "Title": "Jumanji: Welcome to the Jungle",
     "Genre": "Fantasy",
     "Date": "2018-01-27",
@@ -1216,28 +608,12 @@
     "Rating": "PG-13"
   },
   {
-    "Title": "Den of Thieves",
-    "Genre": "Crime",
-    "Date": "2018-01-28",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
     "Title": "The 15:17 to Paris",
     "Genre": "Thriller",
     "Date": "2018-02-13",
     "Price": "7.00",
     "Theater": "Marquette Cinemas",
     "Rating": "PG-13"
-  },
-  {
-    "Title": "Red Sparrow",
-    "Genre": "Thriller",
-    "Date": "2018-03-05",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
   },
   {
     "Title": "Pacific Rim Uprising",
@@ -1414,69 +790,5 @@
     "Price": "9.50",
     "Theater": "Marquette Cinemas",
     "Rating": "PG-13"
-  },
-  {
-    "Title": "Pokemon: Detective Pikachu",
-    "Genre": "Fantasy",
-    "Date": "2019-05-10",
-    "Price": "10.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG"
-  },
-  {
-    "Title": "John Wick: Chapter 3",
-    "Genre": "Action",
-    "Date": "2019-05-18",
-    "Price": "10.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "John Wick: Chapter 3",
-    "Genre": "Action",
-    "Date": "2019-05-20",
-    "Price": "5.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Brightburn",
-    "Genre": "Sci-Fi",
-    "Date": "2019-05-27",
-    "Price": "8.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Godzilla: King of the Monsters",
-    "Genre": "Fantasy",
-    "Date": "2019-06-01",
-    "Price": "9.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Child's Play",
-    "Genre": "Thriller",
-    "Date": "2019-06-21",
-    "Price": "10.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Dead Don't Die",
-    "Genre": "Fantasy",
-    "Date": "2019-06-29",
-    "Price": "8.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Toy Story 4",
-    "Genre": "Fantasy",
-    "Date": "2019-07-21",
-    "Price": "8.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "G"
   }
 ]
