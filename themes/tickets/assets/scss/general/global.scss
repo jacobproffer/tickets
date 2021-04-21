@@ -10,14 +10,6 @@
   --color-scheme-background: #ddeede;
   --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
-
-  @media (prefers-color-scheme: dark) {
-    --color-scheme-text-color: var(--white);
-    --color-scheme-light-background: #22212c;
-    --color-scheme-border: #6c7393;
-    --color-scheme-background: var(--black);
-    --color-scheme-darker-background: #1d1e26;
-  }
 }
 
 *,
