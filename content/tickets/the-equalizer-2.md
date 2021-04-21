@@ -1,7 +1,7 @@
 ---
-title: "Halloween"
-date: "2018-10-19"
-price: "10.50"
+title: "The Equalizer 2"
+date: "2018-07-29"
+price: "7.00"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"

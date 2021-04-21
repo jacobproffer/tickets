@@ -17,7 +17,7 @@
       text-decoration: none;
 
       &[aria-current="page"] {
-        outline: 1px dashed var(--border);
+        outline: 1px dashed var(--color-scheme-border);
       }
     }
   }

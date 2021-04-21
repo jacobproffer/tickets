@@ -1,7 +1,7 @@
 ---
-title: "Halloween"
-date: "2018-10-19"
-price: "10.50"
+title: "Deadpool"
+date: "2016-02-16"
+price: "6.00"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"

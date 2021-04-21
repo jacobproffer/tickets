@@ -128,54 +128,6 @@
     "Rating": "R"
   },
   {
-    "Title": "Ted",
-    "Genre": "Comedy",
-    "Date": "2012-06-30",
-    "Price": "7.75",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Magic Mike",
-    "Genre": "Drama",
-    "Date": "2012-07-08",
-    "Price": "8.25",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Ted",
-    "Genre": "Comedy",
-    "Date": "2012-07-10",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "Magic Mike",
-    "Genre": "Drama",
-    "Date": "2012-07-15",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Dark Knight Rises",
-    "Genre": "Crime",
-    "Date": "2012-07-23",
-    "Price": "7.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Step Up Revolution",
-    "Genre": "Drama",
-    "Date": "2012-07-27",
-    "Price": "11.00",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
     "Title": "Ice Age: Continental Drift",
     "Genre": "Fantasy",
     "Date": "2012-08-04",
@@ -190,22 +142,6 @@
     "Price": "15.00",
     "Theater": "Carmike Royal Cinema 10",
     "Rating": "PG-13"
-  },
-  {
-    "Title": "Pacific Rim",
-    "Genre": "Sci-Fi",
-    "Date": "2013-07-14",
-    "Price": "5.50",
-    "Theater": "Carmike Royal Cinema 10",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Monsters University",
-    "Genre": "Fantasy",
-    "Date": "2013-07-21",
-    "Theater": "Carmike Royal Cinema 10",
-    "Price": "5.50",
-    "Rating": "G"
   },
   {
     "Title": "Thor: The Dark World",
@@ -224,82 +160,10 @@
     "Rating": "R"
   },
   {
-    "Title": "22 Jump Street",
-    "Genre": "Comedy",
-    "Date": "2014-06-13",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Ghostbusters",
-    "Genre": "Action",
-    "Date": "2014-08-30",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG"
-  },
-  {
-    "Title": "The Equalizer",
-    "Genre": "Action",
-    "Date": "2014-09-28",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Fury",
-    "Genre": "Action",
-    "Date": "2014-10-18",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Beetlejuice",
-    "Genre": "Comedy",
-    "Date": "2014-10-30",
-    "Price": "4.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG"
-  },
-  {
     "Title": "Nightmare on Elm Street",
     "Genre": "Horror",
     "Date": "2014-10-30",
     "Price": "4.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Nightcrawler",
-    "Genre": "Crime",
-    "Date": "2014-11-13",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Dumb and Dumber To",
-    "Genre": "Comedy",
-    "Date": "2014-11-21",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Penguins of Madagascar",
-    "Genre": "Adventure",
-    "Date": "2014-12-11",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG"
-  },
-  {
-    "Title": "American Sniper",
-    "Genre": "Action",
-    "Date": "2015-01-18",
-    "Price": "7.00",
     "Theater": "Marquette Cinemas",
     "Rating": "R"
   },
@@ -416,70 +280,6 @@
     "Rating": "PG-13"
   },
   {
-    "Title": "Deadpool",
-    "Genre": "Fantasy",
-    "Date": "2016-02-16",
-    "Price": "6.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Hardcore Henry",
-    "Genre": "Action",
-    "Date": "2016-04-07",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Independence Day: Resurgence",
-    "Genre": "Sci-Fi",
-    "Date": "2016-06-23",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Hell or High Water",
-    "Genre": "Crime",
-    "Date": "2016-09-11",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Rogue One: A Star Wars Story",
-    "Genre": "Sci-Fi",
-    "Date": "2016-12-18",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Warcraft",
-    "Genre": "Fantasy",
-    "Date": "2016-06-09",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Patriots Day",
-    "Genre": "Thriller",
-    "Date": "2017-01-19",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Fifty Shades Darker",
-    "Genre": "Drama",
-    "Date": "2017-02-09",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
     "Title": "John Wick: Chapter 2",
     "Genre": "Action",
     "Date": "2017-02-13",
@@ -496,14 +296,6 @@
     "Rating": "R"
   },
   {
-    "Title": "Beauty and the Beast",
-    "Genre": "Fantasy",
-    "Date": "2017-03-18",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG"
-  },
-  {
     "Title": "Guardians of the Galaxy Vol. 2",
     "Genre": "Sci-Fi",
     "Date": "2017-05-13",
@@ -512,92 +304,12 @@
     "Rating": "PG-13"
   },
   {
-    "Title": "Alien: Covenant",
-    "Genre": "Sci-Fi",
-    "Date": "2017-05-19",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "It Comes at Night",
-    "Genre": "Thriller",
-    "Date": "2017-06-10",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Megan Leavey",
-    "Genre": "Drama",
-    "Date": "2017-06-11",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Mummy",
-    "Genre": "Thriller",
-    "Date": "2017-06-25",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The House",
-    "Genre": "Comedy",
-    "Date": "2017-07-01",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Baby Driver",
-    "Genre": "Crime",
-    "Date": "2017-07-13",
-    "Price": "16.29",
-    "Theater": "AMC Empire 25",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Hitmans Bodyguard",
-    "Genre": "Action",
-    "Date": "2017-08-26",
-    "Price": "8.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
     "Title": "It",
     "Genre": "Horror",
     "Date": "2017-09-10",
     "Price": "10.00",
     "Theater": "Marquette Cinemas",
     "Rating": "R"
-  },
-  {
-    "Title": "Blade Runner 2049",
-    "Genre": "Sci-Fi",
-    "Date": "2017-10-05",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Foreigner",
-    "Genre": "Action",
-    "Date": "2017-10-15",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Geostorm",
-    "Genre": "Sci-Fi",
-    "Date": "2017-10-21",
-    "Price": "8.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
   },
   {
     "Title": "Jumanji: Welcome to the Jungle",
@@ -611,54 +323,6 @@
     "Title": "The 15:17 to Paris",
     "Genre": "Thriller",
     "Date": "2018-02-13",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Pacific Rim Uprising",
-    "Genre": "Sci-Fi",
-    "Date": "2018-03-24",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Ready Player One",
-    "Genre": "Fantasy",
-    "Date": "2018-03-29",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "A Quiet Place",
-    "Genre": "Thriller",
-    "Date": "2018-04-06",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Super Troopers 2",
-    "Genre": "Crime",
-    "Date": "2018-04-20",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Die Hard",
-    "Genre": "Action",
-    "Date": "2018-04-26",
-    "Price": "5.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Life of the Party",
-    "Genre": "Comedy",
-    "Date": "2018-05-12",
     "Price": "7.00",
     "Theater": "Marquette Cinemas",
     "Rating": "PG-13"
@@ -680,114 +344,10 @@
     "Rating": "PG-13"
   },
   {
-    "Title": "Sicario: Day of the Soldado",
-    "Genre": "Thriller",
-    "Date": "2018-06-29",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Sicario: Day of the Soldado",
-    "Genre": "Thriller",
-    "Date": "2018-07-01",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Skyscraper",
-    "Genre": "Crime",
-    "Date": "2018-07-14",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Equalizer 2",
-    "Genre": "Action",
-    "Date": "2018-07-21",
-    "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Equalizer 2",
-    "Genre": "Action",
-    "Date": "2018-07-29",
-    "Price": "7.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
     "Title": "Mission Impossible: Fallout",
     "Genre": "Action",
     "Date": "2018-08-04",
     "Price": "9.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Meg",
-    "Genre": "Thriller",
-    "Date": "2018-08-11",
-    "Price": "8.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Meg",
-    "Genre": "Thriller",
-    "Date": "2018-08-18",
-    "Price": "10.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "The Predator",
-    "Genre": "Thriller",
-    "Date": "2018-09-15",
-    "Price": "8.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "First Man",
-    "Genre": "Drama",
-    "Date": "2018-10-12",
-    "Price": "0.00",
-    "Theater": "Marquette Cinemas",
-    "Rating": "PG-13"
-  },
-  {
-    "Title": "Halloween",
-    "Genre": "Thriller",
-    "Date": "2018-10-19",
-    "Price": "10.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Halloween",
-    "Genre": "Thriller",
-    "Date": "2018-10-21",
-    "Price": "7.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "The Mule",
-    "Genre": "Drama",
-    "Date": "2018-12-23",
-    "Price": "7.50",
-    "Theater": "Marquette Cinemas",
-    "Rating": "R"
-  },
-  {
-    "Title": "Avengers: Endgame",
-    "Genre": "Fantasy",
-    "Date": "2019-05-05",
-    "Price": "9.50",
     "Theater": "Marquette Cinemas",
     "Rating": "PG-13"
   }

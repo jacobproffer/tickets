@@ -1,7 +1,7 @@
 ---
-title: "Halloween"
-date: "2018-10-19"
-price: "10.50"
+title: "The Predator"
+date: "2018-09-15"
+price: "8.00"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"

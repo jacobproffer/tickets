@@ -1,7 +1,7 @@
 .pagination {
   padding: 40px 0;
-  background-color: var(--gray);
-  border-bottom: 1px dashed var(--border);
+  background-color: var(--color-scheme-background);
+  border-bottom: 1px dashed var(--color-scheme-border);
 
   ul {
     display: flex;
@@ -15,7 +15,7 @@
     }
 
     &[aria-current="page"] {
-      outline: 1px dashed var(--border);
+      outline: 1px dashed var(--color-scheme-border);
     }
   }
 

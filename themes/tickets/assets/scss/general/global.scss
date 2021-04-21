@@ -1,13 +1,23 @@
 :root {
-  --black: #302e2d;
-  --white: #fff;
+  --black: #14141b;
+  --white: #f8f8f2;
   --light-gray: #e5e7dd;
-  --gray: #ddeede;
   --dark-gray: #b2d3c9;
-  --border: #9fa99d;
+  --color-scheme-border: #9fa99d;
   --primary: #b1d9b4;
+  --color-scheme-text-color: #302e2d;
+  --color-scheme-light-background: var(--light-gray);
+  --color-scheme-background: #ddeede;
   --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
+
+  @media (prefers-color-scheme: dark) {
+    --color-scheme-text-color: var(--white);
+    --color-scheme-light-background: #22212c;
+    --color-scheme-border: #6c7393;
+    --color-scheme-background: var(--black);
+    --color-scheme-darker-background: #1d1e26;
+  }
 }
 
 *,
@@ -17,8 +27,8 @@
 }
 
 ::selection {
-  color: var(--white);
-  background: var(--gray);
+  color: var(--color-scheme-text-color);
+  background: var(--color-scheme-background);
 }
 
 * {
@@ -35,8 +45,8 @@ html {
 body {
   position: relative;
   margin: 0;
-  color: var(--black);
-  background-color: var(--light-gray);
+  color: var(--color-scheme-text-color);
+  background-color: var(--color-scheme-light-background);
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -47,10 +57,11 @@ img {
 
 a {
   color: inherit;
+  text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
   @include hover {
-    outline: dotted 1px var(--black);
+    outline: dotted 1px var(--color-scheme-border);
   }
 }
 
