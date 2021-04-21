@@ -1,10 +1,13 @@
 :root {
-  --black: #302e2d;
-  --white: #fff;
+  --black: #14141b;
+  --white: #f8f8f2;
   --light-gray: #e5e7dd;
-  --gray: #ddeede;
-  --border: #9fa99d;
+  --dark-gray: #b2d3c9;
+  --color-scheme-border: #9fa99d;
   --primary: #b1d9b4;
+  --color-scheme-text-color: #302e2d;
+  --color-scheme-light-background: var(--light-gray);
+  --color-scheme-background: #ddeede;
   --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
 }
@@ -16,8 +19,8 @@
 }
 
 ::selection {
-  color: var(--white);
-  background: var(--gray);
+  color: var(--color-scheme-text-color);
+  background: var(--color-scheme-background);
 }
 
 * {
@@ -34,8 +37,8 @@ html {
 body {
   position: relative;
   margin: 0;
-  color: var(--black);
-  background-color: var(--primary);
+  color: var(--color-scheme-text-color);
+  background-color: var(--color-scheme-light-background);
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -49,8 +52,8 @@ a {
   text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
-  &:hover {
-    outline: dotted 1px var(--black);
+  @include hover {
+    outline: dotted 1px var(--color-scheme-border);
   }
 }
 

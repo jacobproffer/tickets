@@ -1,8 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-description: "Post description"
-images: []
-categories: []
+date: ""
+price: ""
+theater: ""
+theaters: [""]
+rating: ""
+ratings: [""]
 draft: true
 ---

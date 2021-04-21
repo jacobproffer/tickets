@@ -34,11 +34,11 @@
 }
 
 .gray-background {
-  background-color: var(--gray);
+  background-color: var(--color-scheme-background);
 }
 
 .light-gray-background {
-  background-color: var(--light-gray);
+  background-color: var(--color-scheme-darker-background);
 }
 
 .primary-background {
@@ -46,5 +46,5 @@
 }
 
 .border-bottom {
-  border-bottom: 1px dashed var(--border);
+  border-bottom: 1px dashed var(--color-scheme-border);
 }

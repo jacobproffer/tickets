@@ -2,9 +2,35 @@ baseURL = "https://tickets.proffer.dev/"
 languageCode = "en-us"
 title = "Dead Man's Brew"
 theme = "tickets"
+paginate = 60
 enableRobotsTXT = true
+
+[taxonomies]
+  theater = "theaters"
+  rating = "ratings"
 
 [params]
   description = "The ongoing movie ticket collection of Jacob Proffer, started in 2007."
   images = ["images/tickets-social.jpg"]
   subTitle = "A Movie Ticket Collection"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "All Tickets"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "theaters"
+    name = "Theaters"
+    url = "/theaters/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "ratings"
+    name = "Ratings"
+    url = "/ratings/"
+    weight = 3
+

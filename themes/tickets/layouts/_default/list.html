@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<main id="content">
+
+  <article>
+
+    <div class="hero grid border-bottom">
+
+      <div class="hero__left center-content light-gray-background">
+        <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
+      </div>
+
+      <div class="hero__center gray-background center">
+
+        <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+
+        <header>
+          <h1>{{ .Title }}</h1>
+        </header>
+
+      </div>
+
+      <div class="hero__right center-content light-gray-background">
+        <span aria-hidden="true">Admit One</span>
+      </div>
+
+    </div>
+
+    <ul class="unstyled-list grid ticket-list">
+
+      {{ range .Pages }}
+
+        <li class="ticket border-bottom">
+
+          {{ if .Params.date }}
+
+            {{ .Render "ticket" }}
+
+          {{ else }}
+
+            <a href="{{ .Permalink }}">
+              {{ .Render "ticket" }}
+            </a>
+
+          {{ end }}
+
+        </li>
+
+      {{ end }}
+
+    </ul>
+
+  </article>
+
+</main>
+
+{{ end }}

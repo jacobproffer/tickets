@@ -6,94 +6,114 @@
 {{ $currentYearMovies := 0 }}
 {{ $totalSpent := 0.00 }}
 {{ $theaters := slice }}
-{{ $totalTickets := len .Site.Data.movies }}
+{{ $totalTickets := len .Site.RegularPages }}
 
-{{ range .Site.Data.movies }}
+{{ range .Site.RegularPages }}
 
-  {{ $totalSpent = add $totalSpent (float .Price) }}
+  {{ $totalSpent = add $totalSpent (float .Params.price) }}
 
-  {{ if eq ( dateFormat "2006" .Date ) $currentYear }}
+  {{ if eq ( dateFormat "2006" .Params.date ) $currentYear }}
     {{ $currentYearMovies = add $currentYearMovies 1 }}
   {{ end }}
 
-  {{ $theaters = $theaters | append (string .Theater) | uniq }}
+  {{ $theaters = $theaters | append (string .Params.theater) | uniq }}
 
 {{ end }}
 
-<section class="hero grid">
+<main id="content">
 
-  <div class="hero__left center-content light-gray-background">
-    <span class="hero__barcode barcode" aria-hidden="true">This is a Test</span>
-  </div>
+  <article>
 
-  <div class="hero__center gray-background center">
+    <div class="hero grid border-bottom">
 
-    <span>{{ .Site.Params.subTitle }}</span>
-
-    <header>
-      <h1>{{ .Title }}</h1>
-    </header>
-
-    <dl class="hero__stats grid">
-      <div class="gray-background">
-        <dt>Years</dt>
-        <dd class="h2">{{ $totalYears }}</dd>
+      <div class="hero__left center-content light-gray-background">
+        <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
       </div>
-      <div class="gray-background">
-        <dt>Theaters</dt>
-        <dd class="h2">{{ len $theaters }}</dd>
+
+      <div class="hero__center gray-background center">
+
+        <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+
+        <header>
+          <h1>{{ .Title }}</h1>
+        </header>
+
+        <dl class="hero__stats grid">
+          <div class="gray-background">
+            <dt>Years</dt>
+            <dd class="h2">{{ $totalYears }}</dd>
+          </div>
+          <div class="gray-background">
+            <dt>Theaters</dt>
+            <dd class="h2">{{ len $theaters }}</dd>
+          </div>
+          <div class="gray-background">
+            <dt>Tickets</dt>
+            <dd class="h2">{{ $totalTickets }}</dd>
+          </div>
+        </dl>
+
       </div>
-      <div class="gray-background">
-        <dt>Tickets</dt>
-        <dd class="h2">{{ $totalTickets }}</dd>
+
+      <div class="hero__right center-content light-gray-background">
+        <span aria-hidden="true">Admit One</span>
       </div>
-    </dl>
 
-  </div>
-
-  <div class="hero__right center-content light-gray-background">
-    <span aria-hidden="true">Admit One</span>
-  </div>
-
-</section>
-
-<section>
-
-  <header class="visually-hide">
-    <h2 id="ticket-list">Tickets Collected</h2>
-  </header>
-
-  <ul class="unstyled-list grid ticket-list" aria-labelledby="ticket-list">
-
-    {{ range sort .Site.Data.movies "Date" "desc" }}
-
-      <li class="ticket border-bottom">
-
-        {{ partial "ticket.html" . }}
-
-      </li>
-
-    {{ end }}
-
-  </ul>
-
-</section>
-
-<section class="intro gray-background border-bottom">
-  <div class="grid intro__grid">
-
-    <div class="intro__content">
-      <header>
-        <h2>An Unexpected Collection</h2>
-      </header>
-      <p>In {{ $startYear }}, I started to collect movie tickets as mementos for a personal relationship. For each date to the theater, I'd place the ticket in a plastic cup with the words, "Dead Man's Brew", printed on the side. Even though the relationship ended over a decade ago, I've continued to fill the cup each year. It is nearly full with {{ $totalTickets }} tickets. For the current year, {{ $currentYear }}, I've collected {{ $currentYearMovies }} tickets. To date, I've spent at least ${{ $totalSpent | lang.NumFmt 2 }} on movie tickets.</p>
     </div>
 
-    <div class="intro__image">
-      <img class="lazy" data-src="/images/tickets-social.jpg" alt="A pile of movie tickets.">
-    </div>
+    <section>
 
-  </div>
-</section>
+      <h2 class="visually-hide">Tickets Collected</h2>
+
+      <ul class="unstyled-list grid ticket-list">
+
+        {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+
+        {{ range $index, $page := $paginator.Pages }}
+
+          <li class="ticket border-bottom">
+
+            {{ .Render "ticket" }}
+
+          </li>
+
+        {{ end }}
+
+      </ul>
+
+    </section>
+
+    <footer class="pagination">
+      <nav aria-label="pagination">
+        <ul class="unstyled-list" class="unstyled-list">
+
+          {{ range $paginator.Pagers }}
+
+            {{ if eq . $paginator}}
+              <li aria-current="page">
+                <span class="visually-hide">Page</span>
+                {{ .PageNumber }}
+              </li>
+            {{ else }}
+              <li>
+                <a
+                  class="list__pagination-number"
+                  href="{{ .URL }}"
+                  aria-label="Go to page {{ .PageNumber }}."
+                >
+                  {{ .PageNumber }}
+                </a>
+              </li>
+            {{ end }}
+
+          {{ end }}
+
+        </ul>
+      </nav>
+    </footer>
+
+  </article>
+
+</main>
 
 {{ end }}

@@ -1,3 +1,24 @@
-<header class="site-header">
-  <a class="site-header__skip-link" href="#content">Skip to Main Content</a>
+<header class="site-header border-bottom">
+
+  <nav aria-label="primary">
+    <ul class="unstyled-list">
+
+      {{ $currentPage := . }}
+
+      {{ range .Site.Menus.main }}
+        <li>
+          <a
+            href="{{ .URL }}"
+            {{ if $currentPage.IsMenuCurrent "main" . }}
+              aria-current="page"
+            {{ end }}
+          >
+            {{ .Name }}
+          </a>
+        </li>
+      {{ end }}
+
+    </ul>
+  </nav>
+
 </header>

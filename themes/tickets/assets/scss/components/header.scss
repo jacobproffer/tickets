@@ -1,4 +1,27 @@
 .site-header {
+  padding: 20px 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      &:not(:last-of-type) {
+        margin-right: 20px;
+      }
+    }
+
+    a {
+      display: block;
+      padding: 20px;
+      text-decoration: none;
+
+      &[aria-current="page"] {
+        outline: 1px dashed var(--color-scheme-border);
+      }
+    }
+  }
+
   &__skip-link {
     position: fixed;
     top: -4em;

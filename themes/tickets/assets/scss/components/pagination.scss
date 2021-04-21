@@ -1,0 +1,30 @@
+.pagination {
+  padding: 40px 0;
+  background-color: var(--color-scheme-background);
+  border-bottom: 1px dashed var(--color-scheme-border);
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  li {
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+
+    &[aria-current="page"] {
+      outline: 1px dashed var(--color-scheme-border);
+    }
+  }
+
+  li[aria-current="page"],
+  a {
+    padding: 16px;
+  }
+
+  a {
+    display: block;
+  }
+}
