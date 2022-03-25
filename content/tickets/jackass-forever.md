@@ -1,7 +1,7 @@
 ---
-title: "X"
-date: "2022-03-23"
-price: "5.00"
+title: "Jackass Forever"
+date: "2022-02-05"
+price: "9.00"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"

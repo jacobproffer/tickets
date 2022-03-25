@@ -1,7 +1,7 @@
 ---
-title: "X"
-date: "2022-03-23"
-price: "5.00"
+title: "Halloween Kills"
+date: "2021-10-17"
+price: "0.00"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"

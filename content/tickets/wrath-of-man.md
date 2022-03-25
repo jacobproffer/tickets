@@ -1,7 +1,7 @@
 ---
-title: "X"
-date: "2022-03-23"
-price: "5.00"
+title: "Wrath of Man"
+date: "2021-05-09"
+price: "10.50"
 theater: "Marquette Cinemas"
 theaters: ["Marquette Cinemas"]
 rating: "R"
