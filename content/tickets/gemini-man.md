@@ -1,7 +1,6 @@
 ---
 title: "Gemini Man"
 date: "2019-10-12"
-genre: "Drama"
 price: "8.50"
 theaters: ["Marquette Cinemas"]
 ratings: ["PG-13"]
