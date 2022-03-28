@@ -47,56 +47,58 @@
 
     </div>
 
-    <section>
+    <section class="tickets">
 
-      <h2 class="visually-hide">Tickets Collected</h2>
+      <div class="container">
 
-      <ul class="unstyled-list grid ticket-list">
+        <h2 class="visually-hide">Tickets Collected</h2>
 
-        {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+        <ul class="unstyled-list ticket-list">
 
-        {{ range $index, $page := $paginator.Pages }}
+          {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
-          <li class="ticket border-bottom">
+          {{ range $index, $page := $paginator.Pages }}
 
-            {{ .Render "ticket" }}
+            <li class="ticket-list__item ticket">
 
-          </li>
+              {{ .Render "ticket" }}
 
-        {{ end }}
-
-      </ul>
-
-    </section>
-
-    <footer class="pagination">
-      <nav aria-label="pagination">
-        <ul class="unstyled-list" class="unstyled-list">
-
-          {{ range $paginator.Pagers }}
-
-            {{ if eq . $paginator}}
-              <li aria-current="page">
-                <span class="visually-hide">Page</span>
-                {{ .PageNumber }}
-              </li>
-            {{ else }}
-              <li>
-                <a
-                  class="list__pagination-number"
-                  href="{{ .URL }}"
-                  aria-label="Go to page {{ .PageNumber }}."
-                >
-                  {{ .PageNumber }}
-                </a>
-              </li>
-            {{ end }}
+            </li>
 
           {{ end }}
 
         </ul>
-      </nav>
-    </footer>
+
+      </div>
+
+    </section>
+
+    <nav class="pagination" aria-label="pagination">
+      <ul class="unstyled-list" class="unstyled-list">
+
+        {{ range $paginator.Pagers }}
+
+          {{ if eq . $paginator}}
+            <li aria-current="page">
+              <span class="visually-hide">Page</span>
+              {{ .PageNumber }}
+            </li>
+          {{ else }}
+            <li>
+              <a
+                class="list__pagination-number"
+                href="{{ .URL }}"
+                aria-label="Go to page {{ .PageNumber }}."
+              >
+                {{ .PageNumber }}
+              </a>
+            </li>
+          {{ end }}
+
+        {{ end }}
+
+      </ul>
+    </nav>
 
   </article>
 

@@ -1,16 +1,19 @@
 .ticket {
-  padding: 20px;
   text-align: center;
-  border-right: 1px dashed var(--color-scheme-border);
 
   a {
     display: block;
   }
 
+  &__content {
+    padding: 20px;
+  }
+
   &__article {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
   }
 
   &__theater {
@@ -33,6 +36,8 @@
   }
 
   &__barcode {
+    padding: 18px 0 8px;
+    border-top: 1px dashed var(--color-scheme-border);
     font-size: 1.5rem;
   }
 

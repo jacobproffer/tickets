@@ -1,3 +1,16 @@
 .ticket-list {
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  --x-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--x-gap);
+  margin: var(--x-gap) 0;
+
+  &__item {
+    flex: 0 1 make-flex-with-gutter(6);
+
+    @include screen-below(1440px) {
+      flex: 0 1 make-flex-with-gutter(4);
+    }
+  }
 }

@@ -10,6 +10,7 @@
   --color-scheme-background: #ddeede;
   --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
+  --container: 1440px;
 }
 
 *,
@@ -38,7 +39,7 @@ body {
   position: relative;
   margin: 0;
   color: var(--color-scheme-text-color);
-  background-color: var(--color-scheme-light-background);
+  background-color: var(--white);
   font-size: 18px;
   text-transform: uppercase;
 }

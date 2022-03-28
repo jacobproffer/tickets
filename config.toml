@@ -19,18 +19,18 @@ enableRobotsTXT = true
   [[menu.main]]
     identifier = "home"
     name = "All Tickets"
-    url = "/"
+    pageRef = "/"
     weight = 1
 
   [[menu.main]]
     identifier = "theaters"
     name = "Theaters"
-    url = "/theaters/"
+    pageRef = "/theaters/"
     weight = 2
 
   [[menu.main]]
     identifier = "ratings"
     name = "Ratings"
-    url = "/ratings/"
+    pageRef = "/ratings/"
     weight = 3
 

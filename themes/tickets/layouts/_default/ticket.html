@@ -1,48 +1,52 @@
 <article class="ticket__article">
 
-  <h3>{{ .Title }}</h3>
+  <div class="ticket__content">
 
-  {{ if .Params.theaters }}
-    <small class="ticket__theater">
-      <span class="visually-hide">Ticket purchased at</span>
-      {{ range .Params.theaters }}
-        {{ . }}<br />
-      {{ end }}
-      <span aria-hidden="true">Presenting</span>
-    </small>
-  {{ end }}
+    <h3>{{ .Title }}</h3>
 
-  <ul class="unstyled-list">
-
-    {{ if .Params.date }}
-      <li>
-        <span class="visually-hide">Ticket purchased on</span>
-        <time class="ticket__time">
-          {{ dateFormat "Mon 01/02/2006" .Params.date }}
-        </time>
-      </li>
-    {{ end }}
-
-    {{ if .Params.price }}
-      <li>
-        <span class="visually-hide">The ticket cost</span>
-        <small class="ticket__price">${{ .Params.price }}</small>
-      </li>
-    {{ end }}
-
-    {{ if .Params.ratings }}
-      <li class="ticket__rating">
-        <span class="visually-hide">The movie is rated </span>
-        {{ range .Params.ratings }}
-          {{ . }}
+    {{ if .Params.theaters }}
+      <small class="ticket__theater">
+        <span class="visually-hide">Ticket purchased at</span>
+        {{ range .Params.theaters }}
+          {{ . }}<br />
         {{ end }}
-      </li>
+        <span aria-hidden="true">Presenting</span>
+      </small>
     {{ end }}
 
-    <li aria-hidden="true">
-      <span class="ticket__barcode barcode">{{ range $index, $num := shuffle (seq 15) }} {{- $num -}} {{ end }}</span>
-    </li>
+    <ul class="unstyled-list">
 
-  </ul>
+      {{ if .Params.date }}
+        <li>
+          <span class="visually-hide">Ticket purchased on</span>
+          <time class="ticket__time">
+            {{ dateFormat "Mon 01/02/2006" .Params.date }}
+          </time>
+        </li>
+      {{ end }}
+
+      {{ if .Params.price }}
+        <li>
+          <span class="visually-hide">The ticket cost</span>
+          <small class="ticket__price">${{ .Params.price }}</small>
+        </li>
+      {{ end }}
+
+      {{ if .Params.ratings }}
+        <li class="ticket__rating">
+          <span class="visually-hide">The movie is rated </span>
+          {{ range .Params.ratings }}
+            {{ . }}
+          {{ end }}
+        </li>
+      {{ end }}
+
+    </ul>
+
+  </div>
+
+  <div aria-hidden="true">
+    <span class="ticket__barcode barcode">{{ range $index, $num := shuffle (seq 15) }} {{- $num -}} {{ end }}</span>
+  </div>
 
 </article>

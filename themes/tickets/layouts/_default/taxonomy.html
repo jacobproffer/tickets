@@ -1,0 +1,77 @@
+{{ define "main" }}
+
+<main id="content">
+
+  <article>
+
+    <div class="hero grid border-bottom">
+
+      <div class="hero__left center-content light-gray-background">
+        <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
+      </div>
+
+      <div class="hero__center gray-background center">
+
+        <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+
+        <header>
+          <h1>{{ .Site.Title }}</h1>
+        </header>
+
+        <dl class="hero__stats">
+          <div class="gray-background"></div>
+          <div class="gray-background">
+
+            {{ if or (eq .RelPermalink "/theaters/") (eq .RelPermalink "/ratings/") }}
+              <dt>{{ .Title }}</dt>
+            {{ else }}
+
+              {{ if gt (len .Pages) 1 }}
+                <dt>{{ .Title }} tickets</dt>
+              {{ else }}
+                <dt>{{ .Title }} ticket</dt>
+              {{ end }}
+            {{ end }}
+
+            <dd class="h2">{{ len .Pages }}</dd>
+          </div>
+          <div class="gray-background"></div>
+        </dl>
+
+      </div>
+
+      <div class="hero__right center-content light-gray-background">
+        <span aria-hidden="true">Admit One</span>
+      </div>
+
+    </div>
+
+    <ul class="unstyled-list grid ticket-list container">
+
+      {{ range .Pages }}
+
+        <li class="ticket border-bottom">
+
+          {{ if .Params.date }}
+
+            {{ .Render "ticket" }}
+
+          {{ else }}
+
+            <a href="{{ .Permalink }}">
+              {{ .Render "ticket" }}
+            </a>
+
+          {{ end }}
+
+        </li>
+
+      {{ end }}
+
+    </ul>
+
+  </article>
+
+</main>
+
+{{ end }}
