@@ -2,8 +2,6 @@
 title: "The Green Zone"
 date: "2010-03-29"
 price: "7.50"
-theater: "Carmike Royal Cinema 10"
 theaters: ["Carmike Royal Cinema 10"]
-rating: "R"
 ratings: ["R"]
 ---

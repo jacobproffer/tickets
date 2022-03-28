@@ -3,22 +3,8 @@
 {{ $startYear := 2007 }}
 {{ $currentYear := now.Format "2006" }}
 {{ $totalYears := sub (int $currentYear) $startYear }}
-{{ $currentYearMovies := 0 }}
-{{ $totalSpent := 0.00 }}
-{{ $theaters := slice }}
+{{ $theaters := len .Site.Taxonomies.theaters }}
 {{ $totalTickets := len .Site.RegularPages }}
-
-{{ range .Site.RegularPages }}
-
-  {{ $totalSpent = add $totalSpent (float .Params.price) }}
-
-  {{ if eq ( dateFormat "2006" .Params.date ) $currentYear }}
-    {{ $currentYearMovies = add $currentYearMovies 1 }}
-  {{ end }}
-
-  {{ $theaters = $theaters | append (string .Params.theater) | uniq }}
-
-{{ end }}
 
 <main id="content">
 
@@ -45,7 +31,7 @@
           </div>
           <div class="gray-background">
             <dt>Theaters</dt>
-            <dd class="h2">{{ len $theaters }}</dd>
+            <dd class="h2">{{ $theaters }}</dd>
           </div>
           <div class="gray-background">
             <dt>Tickets</dt>

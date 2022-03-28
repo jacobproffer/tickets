@@ -2,10 +2,12 @@
 
   <h3>{{ .Title }}</h3>
 
-  {{ if .Params.theater }}
+  {{ if .Params.theaters }}
     <small class="ticket__theater">
       <span class="visually-hide">Ticket purchased at</span>
-      {{ .Params.theater }}<br />
+      {{ range .Params.theaters }}
+        {{ . }}<br />
+      {{ end }}
       <span aria-hidden="true">Presenting</span>
     </small>
   {{ end }}
@@ -28,10 +30,12 @@
       </li>
     {{ end }}
 
-    {{ if .Params.rating }}
+    {{ if .Params.ratings }}
       <li class="ticket__rating">
         <span class="visually-hide">The movie is rated </span>
-        {{ .Params.rating }}
+        {{ range .Params.ratings }}
+          {{ . }}
+        {{ end }}
       </li>
     {{ end }}
 
