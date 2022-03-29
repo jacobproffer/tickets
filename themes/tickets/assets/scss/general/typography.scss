@@ -13,12 +13,16 @@ h2 {
 }
 
 h1 {
-  @include font-size($h1-font-sizes);
+  // 128px at 1800px to 32px at 375px
+  --h1-sizes: clamp(2.00rem, calc(0.42rem + 6.74vw), 8.00rem);
+  font-size: var(--h1-sizes);
   padding-bottom: 0;
 }
 
 h2,
 .h2 {
-  @include font-size($h2-font-sizes);
+  // 48px at 1800px to 24px at 375px
+  --h2-sizes: clamp(1.50rem, calc(1.11rem + 1.68vw), 3.00rem);
+  font-size: var(--h2-sizes);
   line-height: 1;
 }

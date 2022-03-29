@@ -1,3 +1,24 @@
 .ticket-list {
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  --x-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--x-gap);
+  margin: var(--x-gap) 0;
+
+  &__item {
+    flex: 0 1 make-flex-with-gutter(6);
+
+    @include screen-below($desktopSm) {
+      flex: 0 1 make-flex-with-gutter(4);
+    }
+
+    @include screen-below($portrait) {
+      flex: 0 1 make-flex-with-gutter(2);
+    }
+
+    @include screen-below($iphone) {
+      flex: 0 1 100%;
+    }
+  }
 }

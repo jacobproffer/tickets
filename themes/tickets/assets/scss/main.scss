@@ -1,4 +1,5 @@
-@import "helpers/maps";
+@import "helpers/variables";
+@import "helpers/functions";
 @import "helpers/mixins";
 @import "general/typography";
 @import "general/global";
@@ -11,5 +12,4 @@
 @import "components/hero";
 @import "components/ticket";
 @import "components/ticket-list";
-@import "components/intro";
 @import "components/pagination";

@@ -1,0 +1,42 @@
+{{ $startYear := 2007 }}
+{{ $currentYear := now.Format "2006" }}
+{{ $totalYears := sub (int $currentYear) $startYear }}
+{{ $theaters := len .Site.Taxonomies.theaters }}
+{{ $totalTickets := len .Site.RegularPages }}
+
+<div class="hero grid border-bottom">
+
+  <div class="hero__left center-content light-gray-background">
+    <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
+  </div>
+
+  <div class="hero__center gray-background center">
+
+    <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    <dl class="hero__stats grid">
+      <div class="gray-background">
+        <dt>Years</dt>
+        <dd class="h2">{{ $totalYears }}</dd>
+      </div>
+      <div class="gray-background">
+        <dt>Theaters</dt>
+        <dd class="h2">{{ $theaters }}</dd>
+      </div>
+      <div class="gray-background">
+        <dt>Tickets</dt>
+        <dd class="h2">{{ $totalTickets }}</dd>
+      </div>
+    </dl>
+
+  </div>
+
+  <div class="hero__right center-content light-gray-background">
+    <span aria-hidden="true">Admit One</span>
+  </div>
+
+</div>

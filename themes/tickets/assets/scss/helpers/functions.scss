@@ -1,0 +1,7 @@
+// When using make-flex-with-gutter, make sure to set --x-gap on the flex wrapper
+// x-gap will be the spacing between columns
+// For example, --x-gap: 86px;
+// ==========================================================================
+@function make-flex-with-gutter ($col-count) {
+  @return calc(#{percentage(1 / $col-count)} - ((var(--x-gap) * #{$col-count - 1}) / #{$col-count}));
+}
