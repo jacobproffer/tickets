@@ -1,104 +1,12 @@
 {{ define "main" }}
 
-{{ $startYear := 2007 }}
-{{ $currentYear := now.Format "2006" }}
-{{ $totalYears := sub (int $currentYear) $startYear }}
-{{ $theaters := len .Site.Taxonomies.theaters }}
-{{ $totalTickets := len .Site.RegularPages }}
-
 <main id="content">
 
   <article>
 
-    <div class="hero grid border-bottom">
+    {{ partial "home/hero" . }}
 
-      <div class="hero__left center-content light-gray-background">
-        <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
-      </div>
-
-      <div class="hero__center gray-background center">
-
-        <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
-
-        <header>
-          <h1>{{ .Title }}</h1>
-        </header>
-
-        <dl class="hero__stats grid">
-          <div class="gray-background">
-            <dt>Years</dt>
-            <dd class="h2">{{ $totalYears }}</dd>
-          </div>
-          <div class="gray-background">
-            <dt>Theaters</dt>
-            <dd class="h2">{{ $theaters }}</dd>
-          </div>
-          <div class="gray-background">
-            <dt>Tickets</dt>
-            <dd class="h2">{{ $totalTickets }}</dd>
-          </div>
-        </dl>
-
-      </div>
-
-      <div class="hero__right center-content light-gray-background">
-        <span aria-hidden="true">Admit One</span>
-      </div>
-
-    </div>
-
-    <section class="tickets">
-
-      <div class="container">
-
-        <h2 class="visually-hide">Tickets Collected</h2>
-
-        <ul class="unstyled-list ticket-list">
-
-          {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
-
-          {{ range $index, $page := $paginator.Pages }}
-
-            <li class="ticket-list__item ticket">
-
-              {{ .Render "ticket" }}
-
-            </li>
-
-          {{ end }}
-
-        </ul>
-
-      </div>
-
-    </section>
-
-    <nav class="pagination" aria-label="pagination">
-      <ul class="unstyled-list" class="unstyled-list">
-
-        {{ range $paginator.Pagers }}
-
-          {{ if eq . $paginator}}
-            <li aria-current="page">
-              <span class="visually-hide">Page</span>
-              {{ .PageNumber }}
-            </li>
-          {{ else }}
-            <li>
-              <a
-                class="list__pagination-number"
-                href="{{ .URL }}"
-                aria-label="Go to page {{ .PageNumber }}."
-              >
-                {{ .PageNumber }}
-              </a>
-            </li>
-          {{ end }}
-
-        {{ end }}
-
-      </ul>
-    </nav>
+    {{ partial "tickets" . }}
 
   </article>
 

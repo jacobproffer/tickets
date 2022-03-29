@@ -46,7 +46,11 @@
   </div>
 
   <div aria-hidden="true">
-    <span class="ticket__barcode barcode">{{ range $index, $num := shuffle (seq 15) }} {{- $num -}} {{ end }}</span>
+    <span class="ticket__barcode barcode">{{ range $index, $num := shuffle (seq 14) }} {{- $num -}} {{ end }}</span>
   </div>
+
+  {{ if not (isset .Params "date") }}
+    <a class="ticket__link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+  {{ end }}
 
 </article>

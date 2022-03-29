@@ -46,23 +46,13 @@
 
     </div>
 
-    <ul class="unstyled-list grid ticket-list container">
+    <ul class="unstyled-list ticket-list">
 
       {{ range .Pages }}
 
-        <li class="ticket border-bottom">
+        <li class="ticket-list__item ticket">
 
-          {{ if .Params.date }}
-
-            {{ .Render "ticket" }}
-
-          {{ else }}
-
-            <a href="{{ .Permalink }}">
-              {{ .Render "ticket" }}
-            </a>
-
-          {{ end }}
+          {{ .Render "ticket" }}
 
         </li>
 
