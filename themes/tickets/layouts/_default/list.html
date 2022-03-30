@@ -1,7 +1,6 @@
 {{ define "main" }}
 
 <main id="content">
-
   <article>
 
     <div class="hero grid border-bottom">
@@ -26,32 +25,27 @@
 
     </div>
 
-    <ul class="unstyled-list grid ticket-list">
+    <section class="tickets">
+      <div class="container">
 
-      {{ range .Pages }}
+        <ul class="unstyled-list ticket-list">
 
-        <li class="ticket border-bottom">
+          {{ range .Pages }}
 
-          {{ if .Params.date }}
+            <li class="ticket-list__item ticket">
 
-            {{ .Render "ticket" }}
-
-          {{ else }}
-
-            <a href="{{ .Permalink }}">
               {{ .Render "ticket" }}
-            </a>
+
+            </li>
 
           {{ end }}
 
-        </li>
+        </ul>
 
-      {{ end }}
-
-    </ul>
+      </div>
+    </section>
 
   </article>
-
 </main>
 
 {{ end }}
