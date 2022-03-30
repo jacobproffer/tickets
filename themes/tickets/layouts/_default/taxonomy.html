@@ -1,7 +1,6 @@
 {{ define "main" }}
 
 <main id="content">
-
   <article>
 
     <div class="hero grid border-bottom">
@@ -46,22 +45,27 @@
 
     </div>
 
-    <ul class="unstyled-list ticket-list">
+    <section class="tickets">
+      <div class="container">
 
-      {{ range .Pages }}
+        <ul class="unstyled-list ticket-list">
 
-        <li class="ticket-list__item ticket">
+          {{ range .Pages }}
 
-          {{ .Render "ticket" }}
+            <li class="ticket-list__item ticket">
 
-        </li>
+              {{ .Render "ticket" }}
 
-      {{ end }}
+            </li>
 
-    </ul>
+          {{ end }}
+
+        </ul>
+
+      </div>
+    </section>
 
   </article>
-
 </main>
 
 {{ end }}
