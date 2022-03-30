@@ -54,7 +54,15 @@
 
             <li class="ticket-list__item ticket">
 
-              {{ .Render "ticket" }}
+              {{ if isset .Params "date" }}
+
+                {{ .Render "ticket" }}
+
+              {{ else }}
+
+                {{ .Render "taxonomy-card" }}
+
+              {{ end }}
 
             </li>
 

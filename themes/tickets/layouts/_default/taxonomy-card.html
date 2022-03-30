@@ -1,0 +1,46 @@
+<article class="ticket__article">
+
+  <div class="ticket__content">
+
+    <h3>{{ .Title }}</h3>
+
+    {{ $location := "" }}
+
+    {{ if or (eq .Title "Marquette Cinemas") (eq .Title "Carmike Royal Cinema 10") (eq .Title "Delft Theatre") }}
+      {{ $location = "Marquette, Michigan" }}
+    {{ else if eq .Title "Konsertpaleet" }}
+      {{ $location = "Bergan, Norway" }}
+    {{ else if eq .Title "TOHO Cinemas Shinjuku" }}
+      {{ $location = "Tokyo, Japan" }}
+    {{ else if eq .Title "Cinemark Tinseltown Grapevine" }}
+      {{ $location = "Grapevine, Texas" }}
+    {{ else if eq .Title "AMC Empire 25" }}
+      {{ $location = "New York, New York" }}
+    {{ else if eq .Title "Sambíó Egilshöll" }}
+      {{ $location = "Reykjavik, Iceland" }}
+    {{ else if eq .Title "Regal Entertainment Group" }}
+      {{ $location = "Appleton, Wisconsin" }}
+    {{ end }}
+
+    <small class="ticket__theater">
+
+      {{ if $location }}
+        <span class="visually-hide">Located in</span>
+        {{ $location }}
+      {{ else }}
+        Rated
+      {{ end }}
+
+    </small>
+
+  </div>
+
+  <div aria-hidden="true">
+    <span class="ticket__barcode barcode">{{ range $index, $num := shuffle (seq 14) }} {{- $num -}} {{ end }}</span>
+  </div>
+
+  {{ if not (isset .Params "date") }}
+    <a class="ticket__link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+  {{ end }}
+
+</article>
