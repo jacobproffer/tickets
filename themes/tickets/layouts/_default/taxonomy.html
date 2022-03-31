@@ -1,3 +1,9 @@
+{{ define "title" }}
+
+  {{ .Title }} - {{ .Site.Title }}
+
+{{ end }}
+
 {{ define "main" }}
 
 <main id="content">
@@ -14,7 +20,7 @@
         <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
 
         <header>
-          <h1>{{ .Site.Title }}</h1>
+          <h1>{{ .Title }}</h1>
         </header>
 
         <dl class="hero__stats">
