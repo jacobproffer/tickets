@@ -7,79 +7,79 @@
 {{ define "main" }}
 
 <main id="content">
-  <article>
 
-    <div class="hero grid border-bottom">
+  <section class="hero grid border-bottom">
 
-      <div class="hero__left center-content light-gray-background">
-        <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
+    <div class="hero__left center-content light-gray-background">
+      <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
+    </div>
+
+    <div class="hero__center gray-background center">
+
+      <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+
+      <div>
+        <h1>{{ .Title }}</h1>
       </div>
 
-      <div class="hero__center gray-background center">
+      <dl class="hero__stats">
+        <div class="gray-background"></div>
+        <div class="gray-background">
 
-        <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+          {{ if or (eq .RelPermalink "/theaters/") (eq .RelPermalink "/ratings/") }}
+            <dt>{{ .Title }}</dt>
+          {{ else }}
 
-        <header>
-          <h1>{{ .Title }}</h1>
-        </header>
-
-        <dl class="hero__stats">
-          <div class="gray-background"></div>
-          <div class="gray-background">
-
-            {{ if or (eq .RelPermalink "/theaters/") (eq .RelPermalink "/ratings/") }}
-              <dt>{{ .Title }}</dt>
+            {{ if gt (len .Pages) 1 }}
+              <dt>{{ .Title }} tickets</dt>
             {{ else }}
-
-              {{ if gt (len .Pages) 1 }}
-                <dt>{{ .Title }} tickets</dt>
-              {{ else }}
-                <dt>{{ .Title }} ticket</dt>
-              {{ end }}
+              <dt>{{ .Title }} ticket</dt>
             {{ end }}
+          {{ end }}
 
-            <dd class="h2">{{ len .Pages }}</dd>
-          </div>
-          <div class="gray-background"></div>
-        </dl>
-
-      </div>
-
-      <div class="hero__right center-content light-gray-background">
-        <span aria-hidden="true">Admit One</span>
-      </div>
+          <dd class="h2">{{ len .Pages }}</dd>
+        </div>
+        <div class="gray-background"></div>
+      </dl>
 
     </div>
 
-    <section class="tickets">
-      <div class="container">
+    <div class="hero__right center-content light-gray-background">
+      <span aria-hidden="true">Admit One</span>
+    </div>
 
-        <ul class="unstyled-list ticket-list">
+  </section>
 
-          {{ range .Pages }}
+  <section class="tickets">
+    <div class="container">
 
-            <li class="ticket-list__item ticket">
+      <h2 class="visually-hide">Tickets Collected</h2>
 
-              {{ if isset .Params "date" }}
+      <ul class="unstyled-list ticket-list">
 
-                {{ .Render "ticket" }}
+        {{ range .Pages }}
 
-              {{ else }}
+          <li class="ticket-list__item ticket">
 
-                {{ .Render "taxonomy-card" }}
+            {{ if isset .Params "date" }}
 
-              {{ end }}
+              {{ .Render "ticket" }}
 
-            </li>
+            {{ else }}
 
-          {{ end }}
+              {{ .Render "taxonomy-card" }}
 
-        </ul>
+            {{ end }}
 
-      </div>
-    </section>
+          </li>
 
-  </article>
+        {{ end }}
+
+      </ul>
+
+    </div>
+  </section>
+
 </main>
 
 {{ end }}

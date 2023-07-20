@@ -7,51 +7,51 @@
 {{ define "main" }}
 
 <main id="content">
-  <article>
 
-    <div class="hero grid border-bottom">
+  <section class="hero grid border-bottom">
 
-      <div class="hero__left center-content light-gray-background">
-        <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
-      </div>
+    <div class="hero__left center-content light-gray-background">
+      <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
+    </div>
 
-      <div class="hero__center gray-background center">
+    <div class="hero__center gray-background center">
 
-        <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+      <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
 
-        <header>
-          <h1>{{ .Title }}</h1>
-        </header>
-
-      </div>
-
-      <div class="hero__right center-content light-gray-background">
-        <span aria-hidden="true">Admit One</span>
+      <div>
+        <h1>{{ .Title }}</h1>
       </div>
 
     </div>
 
-    <section class="tickets">
-      <div class="container">
+    <div class="hero__right center-content light-gray-background">
+      <span aria-hidden="true">Admit One</span>
+    </div>
 
-        <ul class="unstyled-list ticket-list">
+  </section>
 
-          {{ range .Pages }}
+  <section class="tickets">
+    <div class="container">
 
-            <li class="ticket-list__item ticket">
+      <h2 class="visually-hide">Tickets Collected</h2>
 
-              {{ .Render "ticket" }}
+      <ul class="unstyled-list ticket-list">
 
-            </li>
+        {{ range .Pages }}
 
-          {{ end }}
+          <li class="ticket-list__item ticket">
 
-        </ul>
+            {{ .Render "ticket" }}
 
-      </div>
-    </section>
+          </li>
 
-  </article>
+        {{ end }}
+
+      </ul>
+
+    </div>
+  </section>
+
 </main>
 
 {{ end }}

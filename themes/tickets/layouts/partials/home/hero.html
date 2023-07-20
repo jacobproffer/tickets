@@ -4,7 +4,7 @@
 {{ $theaters := len .Site.Taxonomies.theaters }}
 {{ $totalTickets := len .Site.RegularPages }}
 
-<div class="hero grid border-bottom">
+<section class="hero grid border-bottom">
 
   <div class="hero__left center-content light-gray-background">
     <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
@@ -14,9 +14,9 @@
 
     <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
 
-    <header>
+    <div>
       <h1>{{ .Title }}</h1>
-    </header>
+    </div>
 
     <dl class="hero__stats grid">
       <div class="gray-background">
@@ -39,4 +39,4 @@
     <span aria-hidden="true">Admit One</span>
   </div>
 
-</div>
+</section>
