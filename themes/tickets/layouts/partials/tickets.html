@@ -4,15 +4,27 @@
 
     <h2 class="visually-hide">Tickets Collected</h2>
 
-    <ul class="unstyled-list ticket-list">
+    <ul class="unstyled-list">
 
-      {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+      {{ range (where .Site.RegularPages "Type" "in" (slice "tickets")).GroupByDate "2006" }}
 
-      {{ range $index, $page := $paginator.Pages }}
+        <li>
 
-        <li class="ticket-list__item ticket">
+          <div>
+            <h2>{{ .Key }}</h2>
+          </div>
 
-          {{ .Render "ticket" }}
+          <ul class="unstyled-list ticket-list">
+
+            {{ range .Pages }}
+
+              <li class="ticket-list__item ticket">
+                {{ .Render "ticket" }}
+              </li>
+
+            {{- end -}}
+
+          </ul>
 
         </li>
 
@@ -23,30 +35,3 @@
   </div>
 
 </section>
-
-<nav class="pagination" aria-label="pagination">
-  <ul class="unstyled-list">
-
-    {{ range $paginator.Pagers }}
-
-      {{ if eq . $paginator}}
-        <li aria-current="page">
-          <span class="visually-hide">Page</span>
-          {{ .PageNumber }}
-        </li>
-      {{ else }}
-        <li>
-          <a
-            class="list__pagination-number"
-            href="{{ .URL }}"
-            aria-label="Go to page {{ .PageNumber }}."
-          >
-            {{ .PageNumber }}
-          </a>
-        </li>
-      {{ end }}
-
-    {{ end }}
-
-  </ul>
-</nav>
