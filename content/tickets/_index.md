@@ -3,11 +3,11 @@ title: "Tickets"
 date: 2020-10-28T11:19:06-04:00
 images: ["images/tickets-social.jpg"]
 
-_build:
-  render: true
-
+build:
+  render: always
 cascade:
-  _build:
-    render: false
-    list: true
+- build:
+    list: always
+    publishResources: false
+    render: link
 ---
