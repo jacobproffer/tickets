@@ -1,6 +1,6 @@
 baseURL = "https://tickets.proffer.dev/"
 languageCode = "en-us"
-title = "Dead Man's Brew"
+title = "Ticket Index"
 theme = "tickets"
 paginate = 60
 enableRobotsTXT = true

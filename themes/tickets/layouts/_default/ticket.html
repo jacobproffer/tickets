@@ -2,19 +2,19 @@
 
   <div class="ticket__content">
 
-    <h3>{{ .Title }}</h3>
+    <h3 class="ticket__headline">{{ .Title }}</h3>
 
     {{ with .Params.theaters }}
       <small class="ticket__theater">
         <span class="visually-hide">Ticket purchased at</span>
         {{ range . }}
-          {{ . }}<br>
+          {{ . }}
         {{ end }}
         <span aria-hidden="true">Presenting</span>
       </small>
     {{ end }}
 
-    <ul class="unstyled-list">
+    <ul class="unstyled-list ticket__info">
 
       {{ with .Params.date }}
         <li>
@@ -48,12 +48,6 @@
 
     </ul>
 
-  </div>
-
-  <div aria-hidden="true">
-    <span class="ticket__barcode barcode">
-      {{ range shuffle (seq 8) }} {{.}} {{ end }}
-    </span>
   </div>
 
   {{ if not .Params.date }}

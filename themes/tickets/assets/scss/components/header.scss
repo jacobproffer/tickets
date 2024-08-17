@@ -1,10 +1,10 @@
 .site-header {
   padding: 20px 0;
-  background-color: var(--color-scheme-light-background);
+  background-color: var(--color-scheme-background);
 
   ul {
     display: flex;
-    justify-content: center;
+    margin: 0 20px;
 
     li {
       &:not(:last-of-type) {

@@ -1,19 +1,7 @@
 .ticket {
   position: relative;
-  text-align: center;
-
-  &:nth-of-type(odd) {
-    background-color: var(--color-scheme-light-background);
-  }
-
-  &:nth-of-type(even) {
-    background-color: var(--color-scheme-background);
-  }
-
-  &__content {
-	  display: grid;
-    padding: 20px;
-  }
+  background-color: var(--color-scheme-light-background);
+  border: 1px dashed var(--color-scheme-border);
 
   &__article {
     display: flex;
@@ -22,13 +10,28 @@
     height: 100%;
   }
 
+  &__content {
+    display: grid;
+    padding: 20px;
+  }
+
+  &__headline {
+    padding: 10px 0;
+    margin: 0;
+    border-bottom: 1px solid var(--color-scheme-border);
+    text-wrap: balance;
+    line-height: 1;
+  }
+
   &__theater {
     order: -1;
   }
 
-  &__time {
-    padding: 4px;
-    border: 1px solid var(--color-scheme-border);
+  &__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
   }
 
   &__price {
@@ -36,15 +39,9 @@
   }
 
   &__rating {
-    margin: 14px 0;
+    padding: 7px;
     font-size: 1.2rem;
-    font-weight: bold;
-  }
-
-  &__barcode {
-    padding: 18px 0 8px;
-    border-top: 1px dashed var(--color-scheme-border);
-    font-size: 1.5rem;
+    border: 1px solid var(--color-scheme-border);
   }
 
   &__link {

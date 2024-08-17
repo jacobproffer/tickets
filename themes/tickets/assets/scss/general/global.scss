@@ -8,7 +8,6 @@
   --color-scheme-text-color: #302e2d;
   --color-scheme-light-background: var(--light-gray);
   --color-scheme-background: #ddeede;
-  --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
   --container: 1440px;
 }
@@ -39,7 +38,7 @@ body {
   position: relative;
   margin: 0;
   color: var(--color-scheme-text-color);
-  background-color: var(--white);
+  background-color: var(--color-scheme-background);
   font-size: 18px;
   text-transform: uppercase;
 }
@@ -56,11 +55,6 @@ a {
   @include hover {
     outline: dotted 1px var(--color-scheme-border);
   }
-}
-
-small,
-span {
-  display: block;
 }
 
 time {

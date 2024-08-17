@@ -29,10 +29,6 @@
   align-items: center;
 }
 
-.barcode {
-  font-family: var(--cursive);
-}
-
 .gray-background {
   background-color: var(--color-scheme-background);
 }
@@ -50,5 +46,8 @@
 }
 
 .tickets {
-  padding: 0 10px;
+  &__year {
+    padding: 20px;
+    background-color: var(--color-scheme-background);
+  }
 }

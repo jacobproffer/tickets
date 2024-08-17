@@ -1,21 +1,11 @@
-{{ define "title" }}
-
-  {{ .Title }} - {{ .Site.Title }}
-
-{{ end }}
-
-{{ define "main" }}
+{{ define "title" }} {{ .Title }} - {{ .Site.Title }} {{ end }} {{ define "main"
+}}
 
 <main id="content">
-
   <section class="hero grid border-bottom">
-
-    <div class="hero__left center-content light-gray-background">
-      <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
-    </div>
+    <div class="hero__left center-content light-gray-background"></div>
 
     <div class="hero__center gray-background center">
-
       <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
 
       <div>
@@ -25,61 +15,42 @@
       <dl class="hero__stats">
         <div class="gray-background"></div>
         <div class="gray-background">
-
-          {{ if or (eq .RelPermalink "/theaters/") (eq .RelPermalink "/ratings/") }}
-            <dt>{{ .Title }}</dt>
+          {{ if or (eq .RelPermalink "/theaters/") (eq .RelPermalink
+          "/ratings/") }}
+          <dt>{{ .Title }}</dt>
+          {{ else }} {{ if gt (len .Pages) 1 }}
+          <dt>{{ .Title }} tickets</dt>
           {{ else }}
-
-            {{ if gt (len .Pages) 1 }}
-              <dt>{{ .Title }} tickets</dt>
-            {{ else }}
-              <dt>{{ .Title }} ticket</dt>
-            {{ end }}
-          {{ end }}
+          <dt>{{ .Title }} ticket</dt>
+          {{ end }} {{ end }}
 
           <dd class="h2">{{ len .Pages }}</dd>
         </div>
         <div class="gray-background"></div>
       </dl>
-
     </div>
 
     <div class="hero__right center-content light-gray-background">
       <span aria-hidden="true">Admit One</span>
     </div>
-
   </section>
 
   <section class="tickets">
     <div class="container">
-
       <h2 class="visually-hide">Tickets Collected</h2>
 
       <ul class="unstyled-list ticket-list">
-
         {{ range .Pages }}
 
-          <li class="ticket-list__item ticket">
-
-            {{ if isset .Params "date" }}
-
-              {{ .Render "ticket" }}
-
-            {{ else }}
-
-              {{ .Render "taxonomy-card" }}
-
-            {{ end }}
-
-          </li>
+        <li class="ticket-list__item ticket">
+          {{ if isset .Params "date" }} {{ .Render "ticket" }} {{ else }} {{
+          .Render "taxonomy-card" }} {{ end }}
+        </li>
 
         {{ end }}
-
       </ul>
-
     </div>
   </section>
-
 </main>
 
 {{ end }}

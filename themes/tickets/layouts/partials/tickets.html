@@ -1,52 +1,24 @@
 <section class="tickets">
+  <h2 class="visually-hide">Tickets Collected</h2>
 
-  <div class="container">
+  <ol class="unstyled-list">
+    {{ range (where .Site.RegularPages "Type" "in" (slice
+    "tickets")).GroupByDate "2006" }}
 
-    <h2 class="visually-hide">Tickets Collected</h2>
+    <li class="tickets__ticket-row">
+      <div class="tickets__year">
+        <h2>{{ .Key }}</h2>
+      </div>
 
-    <ul class="unstyled-list ticket-list">
+      <ol class="unstyled-list ticket-list">
+        {{ range .Pages }}
 
-      {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+        <li class="ticket-list__item ticket">{{ .Render "ticket" }}</li>
 
-      {{ range $index, $page := $paginator.Pages }}
-
-        <li class="ticket-list__item ticket">
-
-          {{ .Render "ticket" }}
-
-        </li>
-
-      {{ end }}
-
-    </ul>
-
-  </div>
-
-</section>
-
-<nav class="pagination" aria-label="pagination">
-  <ul class="unstyled-list">
-
-    {{ range $paginator.Pagers }}
-
-      {{ if eq . $paginator}}
-        <li aria-current="page">
-          <span class="visually-hide">Page</span>
-          {{ .PageNumber }}
-        </li>
-      {{ else }}
-        <li>
-          <a
-            class="list__pagination-number"
-            href="{{ .URL }}"
-            aria-label="Go to page {{ .PageNumber }}."
-          >
-            {{ .PageNumber }}
-          </a>
-        </li>
-      {{ end }}
+        {{- end -}}
+      </ol>
+    </li>
 
     {{ end }}
-
-  </ul>
-</nav>
+  </ol>
+</section>
