@@ -23,6 +23,18 @@
     justify-content: space-between;
     flex: 0 1 make-flex-with-gutter(3);
     background-color: var(--color-scheme-background);
+
+    &--left {
+      padding: 20px 20px 20px 0;
+    }
+
+    &--center {
+      padding: 20px;
+    }
+
+    &--right {
+      padding: 20px 0 20px 20px;
+    }
   }
 
   &__stat-value {
