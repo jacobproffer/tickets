@@ -2,9 +2,8 @@
   background-color: var(--color-scheme-light-background);
 
   &__center {
-    display: grid;
-    row-gap: 20px;
-    padding: 20px;
+    row-gap: var(--size-1);
+    padding: var(--size-1);
   }
 
   &__stats {
@@ -25,15 +24,15 @@
     background-color: var(--color-scheme-background);
 
     &--left {
-      padding: 20px 20px 20px 0;
+      padding: var(--size-1) var(--size-1) var(--size-1) 0;
     }
 
     &--center {
-      padding: 20px;
+      padding: var(--size-1);
     }
 
     &--right {
-      padding: 20px 0 20px 20px;
+      padding: var(--size-1) 0 var(--size-1) var(--size-1);
     }
   }
 

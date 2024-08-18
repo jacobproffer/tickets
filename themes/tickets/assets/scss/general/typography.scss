@@ -1,22 +1,6 @@
-body {
-  font-family: var(--mono);
-}
-
-p {
-  max-width: 80ch;
-  line-height: 1.5;
-}
-
 h1,
 h2 {
   margin: 0;
-}
-
-h1 {
-  // 128px at 1800px to 32px at 375px
-  --h1-sizes: clamp(2.00rem, calc(0.42rem + 6.74vw), 8.00rem);
-  font-size: var(--h1-sizes);
-  padding-bottom: 0;
 }
 
 h2,

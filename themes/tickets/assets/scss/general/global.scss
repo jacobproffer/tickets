@@ -10,6 +10,13 @@
   --color-scheme-background: #ddeede;
   --mono: 'VT323', monospace;
   --container: 1440px;
+
+  --size-0: #{createFluidValue(8px, 10px)};
+  --size-1: #{createFluidValue(16px, 20px)};
+  --size-2: #{createFluidValue(24px, 30px)};
+  --size-3: #{createFluidValue(32px, 40px)};
+  --size-4: #{createFluidValue(38px, 50px)};
+  --size-5: #{createFluidValue(56px, 75px)};
 }
 
 *,
@@ -39,12 +46,14 @@ body {
   margin: 0;
   color: var(--color-scheme-text-color);
   background-color: var(--color-scheme-background);
+  font-family: var(--mono);
   font-size: 18px;
   text-transform: uppercase;
 }
 
-img {
-  max-width: 100%;
+p {
+  max-width: 80ch;
+  line-height: 1.5;
 }
 
 a {
@@ -59,8 +68,4 @@ a {
 
 time {
   display: inline-block;
-}
-
-dd {
-  margin: 0;
 }

@@ -70,6 +70,6 @@
   </head>
   <body class="animated fade-in">
     {{ partial "header.html" . }} {{ block "main" . }}{{ end }} {{ partialCached
-    "footer.html" . }}
+    "footer.html" . }} {{ partial "scripts" . }}
   </body>
 </html>

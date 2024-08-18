@@ -15,14 +15,6 @@
   }
 }
 
-.full-height {
-  height: 100vh;
-}
-
-.center {
-  text-align: center;
-}
-
 .center-content {
   display: flex;
   justify-content: center;
@@ -37,17 +29,13 @@
   background-color: var(--color-scheme-darker-background);
 }
 
-.primary-background {
-  background-color: var(--primary);
-}
-
 .border-bottom {
   border-bottom: 1px dashed var(--color-scheme-border);
 }
 
 .tickets {
   &__year {
-    padding: 20px;
+    padding: var(--size-1);
     background-color: var(--color-scheme-background);
   }
 }
