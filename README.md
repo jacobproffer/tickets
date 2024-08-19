@@ -1,19 +1,7 @@
 # Tickets
 
-Source code for my personal blog.
-
-## Compile public folder
-
-`hugo`
-
-## Compile public folder with minification
-
-`hugo --minify`
+Source code for my movie ticket collection, built with Hugo.
 
 ## Run Hugo server
 
 `hugo server`
-
-## Run Hugo server with drafts
-
-`hugo server -D`

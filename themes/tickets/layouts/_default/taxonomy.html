@@ -1,37 +1,47 @@
 {{ define "title" }} {{ .Title }} - {{ .Site.Title }} {{ end }} {{ define "main"
-}}
+}} {{ $startYear := 2007 }} {{ $currentYear := now.Format "2006" }} {{
+$totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
+.Site.Taxonomies.theaters }} {{ $totalTickets := len .Site.RegularPages }}
 
 <main id="content">
   <section class="hero grid border-bottom">
-    <div class="hero__left center-content light-gray-background"></div>
+    <div class="container hero__center grid">
+      <h1 class="visually-hide">{{ .Title }}</h1>
 
-    <div class="hero__center gray-background center">
-      <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
+      <div>{{ partial "graphic" }}</div>
 
-      <div>
-        <h1>{{ .Title }}</h1>
-      </div>
-
-      <dl class="hero__stats">
-        <div class="gray-background"></div>
-        <div class="gray-background">
-          {{ if or (eq .RelPermalink "/theaters/") (eq .RelPermalink
-          "/ratings/") }}
-          <dt>{{ .Title }}</dt>
-          {{ else }} {{ if gt (len .Pages) 1 }}
-          <dt>{{ .Title }} tickets</dt>
-          {{ else }}
-          <dt>{{ .Title }} ticket</dt>
-          {{ end }} {{ end }}
-
-          <dd class="h2">{{ len .Pages }}</dd>
-        </div>
-        <div class="gray-background"></div>
-      </dl>
-    </div>
-
-    <div class="hero__right center-content light-gray-background">
-      <span aria-hidden="true">Admit One</span>
+      <ul class="unstyled-list hero__stats flex">
+        <li class="flex hero__stats-item hero__stats-item--left">
+          <h2>Years</h2>
+          <div
+            class="hero__stat-value"
+            data-counter
+            data-value="{{ $totalYears }}"
+          >
+            0
+          </div>
+        </li>
+        <li class="flex hero__stats-item hero__stats-item--center">
+          <h2>Theaters</h2>
+          <div
+            class="hero__stat-value"
+            data-counter
+            data-value="{{ $theaters }}"
+          >
+            0
+          </div>
+        </li>
+        <li class="flex hero__stats-item hero__stats-item--right">
+          <h2>Tickets</h2>
+          <div
+            class="hero__stat-value"
+            data-counter
+            data-value="{{ $totalTickets }}"
+          >
+            0
+          </div>
+        </li>
+      </ul>
     </div>
   </section>
 
@@ -39,16 +49,16 @@
     <div class="container">
       <h2 class="visually-hide">Tickets Collected</h2>
 
-      <ul class="unstyled-list grid ticket-list">
+      <ol class="unstyled-list grid ticket-list">
         {{ range .Pages }}
 
-        <li class="ticket-list__item ticket">
+        <li class="ticket-list__item">
           {{ if isset .Params "date" }} {{ .Render "ticket" }} {{ else }} {{
           .Render "taxonomy-card" }} {{ end }}
         </li>
 
         {{ end }}
-      </ul>
+      </ol>
     </div>
   </section>
 </main>

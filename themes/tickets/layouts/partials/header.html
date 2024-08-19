@@ -1,17 +1,18 @@
-<div class="site-banner border-bottom">
+<div class="site-banner flex container border-bottom">
 
   <header class="site-banner__header">
     <div class="site-banner__header-text">Dead Man's Brew<br> Movie Ticket Collection</div>
   </header>
 
   <nav aria-label="primary">
-    <ul class="unstyled-list">
+    <ul class="unstyled-list flex site-banner__list">
 
       {{ $currentPage := . }}
 
       {{ range .Site.Menus.main }}
         <li>
           <a
+            class="site-banner__link"
             href="{{ .URL }}"
             {{ if $currentPage.IsMenuCurrent "main" . }}
               aria-current="page"

@@ -1,7 +1,6 @@
 .ticket-list {
   grid-template-columns: repeat(4, 1fr);
   gap: var(--size-0);
-  padding: var(--size-0);
 
   @include screen-below($tablet) {
     grid-template-columns: repeat(2, 1fr);

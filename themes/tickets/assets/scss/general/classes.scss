@@ -15,14 +15,14 @@
   }
 }
 
+.flex {
+  display: flex;
+}
+
 .center-content {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.gray-background {
-  background-color: var(--color-scheme-background);
 }
 
 .light-gray-background {
@@ -33,9 +33,7 @@
   border-bottom: 1px dashed var(--color-scheme-border);
 }
 
-.tickets {
-  &__year {
-    padding: var(--size-1);
-    background-color: var(--color-scheme-background);
-  }
+.year {
+  padding: var(--size-1) 0;
+  background-color: var(--color-scheme-background);
 }

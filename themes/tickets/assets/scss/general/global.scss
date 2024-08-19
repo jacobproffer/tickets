@@ -1,15 +1,11 @@
 :root {
-  --black: #14141b;
-  --white: #f8f8f2;
   --light-gray: #e5e7dd;
-  --dark-gray: #b2d3c9;
   --color-scheme-border: #9fa99d;
-  --primary: #b1d9b4;
   --color-scheme-text-color: #302e2d;
   --color-scheme-light-background: var(--light-gray);
   --color-scheme-background: #ddeede;
   --mono: 'VT323', monospace;
-  --container: 1440px;
+  --container: 1400px;
 
   --size-0: #{createFluidValue(8px, 10px)};
   --size-1: #{createFluidValue(16px, 20px)};
@@ -17,6 +13,10 @@
   --size-3: #{createFluidValue(32px, 40px)};
   --size-4: #{createFluidValue(38px, 50px)};
   --size-5: #{createFluidValue(56px, 75px)};
+
+  @include screen-below($desktopSm) {
+    --container: calc(100% - 20px);
+  }
 }
 
 *,
@@ -32,7 +32,7 @@
 
 * {
   &:focus {
-    outline: 2px dotted var(--black);
+    outline: 2px dotted var(--color-scheme-text-colo);
   }
 }
 
@@ -58,8 +58,11 @@ p {
 
 a {
   color: inherit;
-  text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
+
+  &:not([class]) {
+    text-decoration: underline;
+  }
 
   @include hover {
     outline: dotted 1px var(--color-scheme-border);

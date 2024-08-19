@@ -1,10 +1,10 @@
 .ticket {
   position: relative;
+  height: 100%;
   background-color: var(--color-scheme-light-background);
   border: 1px dashed var(--color-scheme-border);
 
   &__article {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
@@ -27,7 +27,6 @@
   }
 
   &__info {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: var(--size-0) 0;

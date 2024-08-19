@@ -1,14 +1,16 @@
 .site-banner {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   padding: var(--size-1) 0;
   background-color: var(--color-scheme-background);
 
-  a {
+  &__list {
+    gap: var(--size-1);
+  }
+
+  &__link {
     display: block;
     padding: var(--size-1);
-    margin: var(--size-0);
     text-decoration: none;
 
     &[aria-current="page"] {
@@ -16,20 +18,8 @@
     }
   }
 
-  ul {
-    display: flex;
-
-    li {
-      &:not(:last-of-type) {
-        margin-right: var(--size-1);
-      }
-    }
-  }
-
   &__header-text {
     max-width: 40ch;
-    padding: var(--size-1);
-    margin: var(--size-0);
     line-height: 1;
     text-wrap: balance;
   }

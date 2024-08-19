@@ -1,62 +1,64 @@
-<div class="ticket__article">
+<div class="ticket">
+  <div class="ticket__article flex">
 
-  <div class="grid ticket__content">
+    <div class="grid ticket__content">
 
-    <h3 class="ticket__headline">{{ .Title }}</h3>
+      <h3 class="ticket__headline">{{ .Title }}</h3>
 
-    {{ with .Params.theaters }}
-      <small class="ticket__theater">
-        <span class="visually-hide">Ticket purchased at</span>
-        {{ range . }}
-          {{ . }}
-        {{ end }}
-        <span aria-hidden="true">Presenting</span>
-      </small>
-    {{ end }}
-
-    <ul class="unstyled-list ticket__info">
-
-      {{ with .Params.date }}
-        <li>
-          <span class="visually-hide">Ticket purchased on</span>
-          <time
-            class="ticket__time"
-            datetime="{{ dateFormat "2006-01-02" . }}"
-          >
-            {{ dateFormat "Mon 01/02/2006" . }}
-          </time>
-        </li>
-      {{ end }}
-
-      {{ with .Params.price }}
-        <li>
-          <span class="visually-hide">The ticket cost</span>
-          <small class="ticket__price">${{ . }}</small>
-        </li>
-      {{ end }}
-
-      {{ with .Params.ratings }}
-        <li class="ticket__rating">
-          <span class="visually-hide">
-            The movie is rated
-          </span>
+      {{ with .Params.theaters }}
+        <small class="ticket__theater">
+          <span class="visually-hide">Ticket purchased at</span>
           {{ range . }}
             {{ . }}
           {{ end }}
-        </li>
+          <span aria-hidden="true">Presenting</span>
+        </small>
       {{ end }}
 
-    </ul>
+      <ul class="unstyled-list flex ticket__info">
+
+        {{ with .Params.date }}
+          <li>
+            <span class="visually-hide">Ticket purchased on</span>
+            <time
+              class="ticket__time"
+              datetime="{{ dateFormat "2006-01-02" . }}"
+            >
+              {{ dateFormat "Mon 01/02/2006" . }}
+            </time>
+          </li>
+        {{ end }}
+
+        {{ with .Params.price }}
+          <li>
+            <span class="visually-hide">The ticket cost</span>
+            <small class="ticket__price">${{ . }}</small>
+          </li>
+        {{ end }}
+
+        {{ with .Params.ratings }}
+          <li class="ticket__rating">
+            <span class="visually-hide">
+              The movie is rated
+            </span>
+            {{ range . }}
+              {{ . }}
+            {{ end }}
+          </li>
+        {{ end }}
+
+      </ul>
+
+    </div>
+
+    {{ if not .Params.date }}
+      <a
+        class="ticket__link"
+        href="{{ .Permalink }}"
+        aria-label="View {{ .Title }}"
+      >
+      </a>
+    {{ end }}
 
   </div>
-
-  {{ if not .Params.date }}
-    <a
-      class="ticket__link"
-      href="{{ .Permalink }}"
-      aria-label="View {{ .Title }}"
-    >
-    </a>
-  {{ end }}
-
 </div>
