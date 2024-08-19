@@ -1,29 +1,31 @@
-<div class="site-banner flex container border-bottom">
+<div
+  class="main-header light-gray-background"
+  data-header
+>
 
-  <header class="site-banner__header">
-    <div class="site-banner__header-text">Dead Man's Brew<br> Movie Ticket Collection</div>
-  </header>
+  <div class="container">
 
-  <nav aria-label="primary">
-    <ul class="unstyled-list flex site-banner__list">
+    <div class="main-header__grid relative grid">
 
-      {{ $currentPage := . }}
+      <header>
 
-      {{ range .Site.Menus.main }}
-        <li>
-          <a
-            class="site-banner__link"
-            href="{{ .URL }}"
-            {{ if $currentPage.IsMenuCurrent "main" . }}
-              aria-current="page"
-            {{ end }}
-          >
-            {{ .Name }}
-          </a>
-        </li>
-      {{ end }}
+        <a
+          class="main-header__skip-link button"
+          href="#content"
+        >
+          Skip to Main Content
+        </a>
 
-    </ul>
-  </nav>
+        <div class="main-header__logo-wrap link-padding">
+          Dead Man's Brew <br> Movie Ticket Collection
+        </div>
+
+      </header>
+
+      {{ partial "navigation" . }}
+
+    </div>
+
+  </div>
 
 </div>

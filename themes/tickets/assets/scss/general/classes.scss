@@ -6,6 +6,10 @@
   pointer-events: none;
 }
 
+.relative {
+  position: relative;
+}
+
 .unstyled-list {
   padding: 0;
   margin: 0;
@@ -26,7 +30,7 @@
 }
 
 .light-gray-background {
-  background-color: var(--color-scheme-darker-background);
+  background-color: var(--color-scheme-light-background);
 }
 
 .border-bottom {

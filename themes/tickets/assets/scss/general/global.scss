@@ -32,7 +32,7 @@
 
 * {
   &:focus {
-    outline: 2px dotted var(--color-scheme-text-colo);
+    outline: 2px dotted var(--color-scheme-text-color);
   }
 }
 
@@ -42,7 +42,6 @@ html {
 }
 
 body {
-  position: relative;
   margin: 0;
   color: var(--color-scheme-text-color);
   background-color: var(--color-scheme-background);

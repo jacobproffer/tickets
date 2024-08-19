@@ -68,7 +68,7 @@
     <link rel="preload" href="{{ $style.Permalink }}" as="style" />
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
   </head>
-  <body class="animated fade-in">
+  <body class="relative animated fade-in">
     {{ partial "header.html" . }} {{ block "main" . }}{{ end }} {{ partialCached
     "footer.html" . }} {{ partial "scripts" . }}
   </body>

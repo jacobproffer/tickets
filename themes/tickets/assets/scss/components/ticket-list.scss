@@ -5,4 +5,8 @@
   @include screen-below($tablet) {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  @include screen-below($mobile) {
+    grid-template-columns: 1fr;
+  }
 }

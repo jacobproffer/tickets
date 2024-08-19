@@ -1,4 +1,10 @@
 .hero {
+  padding-top: 80px;
+
+  @include screen-below($mobile) {
+    padding-top: 112px;
+  }
+
   &__center {
     width: 100%;
     row-gap: var(--size-1);
