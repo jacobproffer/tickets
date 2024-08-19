@@ -9,6 +9,10 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-top: 1px solid var(--color-scheme-border);
+
+    @include screen-below($portrait) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__stats-item {
@@ -16,22 +20,28 @@
     justify-content: space-between;
     background-color: var(--color-scheme-background);
 
-    &--left {
-      padding: var(--size-1) var(--size-1) var(--size-1) 0;
-    }
+    @include screen-above($portrait) {
+      &--left {
+        padding: var(--size-1) var(--size-1) var(--size-1) 0;
+      }
 
-    &--center {
-      padding: var(--size-1);
-    }
+      &--center {
+        padding: var(--size-1);
+      }
 
-    &--right {
-      padding: var(--size-1) 0 var(--size-1) var(--size-1);
-    }
+      &--right {
+        padding: var(--size-1) 0 var(--size-1) var(--size-1);
+      }
 
-    &--left,
-    &--center {
-      @include screen-above($tablet) {
+      &--left,
+      &--center {
         border-right: 1px solid var(--color-scheme-border);
+      }
+    }
+
+    @include screen-below($portrait) {
+      &:not(:last-of-type) {
+        border-bottom: 1px solid var(--color-scheme-border);
       }
     }
   }
