@@ -33,7 +33,10 @@
   border-bottom: 1px dashed var(--color-scheme-border);
 }
 
-.year {
+.section-padding {
   padding: var(--size-1) 0;
-  background-color: var(--color-scheme-background);
+}
+
+.row-gap {
+  row-gap: var(--size-1);
 }

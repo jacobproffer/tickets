@@ -14,6 +14,11 @@
     text-decoration: none;
 
     &[aria-current="page"] {
+      background-color: var(--color-scheme-light-background);
+      outline: 1px dashed var(--color-scheme-border);
+    }
+
+    @include hover {
       outline: 1px dashed var(--color-scheme-border);
     }
   }

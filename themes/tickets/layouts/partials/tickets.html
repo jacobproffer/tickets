@@ -1,13 +1,13 @@
-<section class="tickets">
+<section class="section-padding">
   <div class="container">
     <h2 class="visually-hide">Tickets Collected</h2>
 
-    <ol class="unstyled-list">
+    <ol class="unstyled-list grid row-gap">
       {{ range (where .Site.RegularPages "Type" "in" (slice
       "tickets")).GroupByDate "2006" }}
 
-      <li class="tickets__ticket-row gsap-fade-in">
-        <div class="year">
+      <li class="tickets__ticket-row grid row-gap gsap-fade-in">
+        <div>
           <h2>{{ .Key }}</h2>
         </div>
 

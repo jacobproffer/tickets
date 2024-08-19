@@ -63,10 +63,6 @@ a {
   &:not([class]) {
     text-decoration: underline;
   }
-
-  @include hover {
-    outline: dotted 1px var(--color-scheme-border);
-  }
 }
 
 time {
