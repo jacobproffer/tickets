@@ -1,8 +1,8 @@
 .hero {
-  padding-top: 80px;
+  padding-top: 102px;
 
   @include screen-below($mobile) {
-    padding-top: 112px;
+    padding-top: 85px;
   }
 
   &__center {

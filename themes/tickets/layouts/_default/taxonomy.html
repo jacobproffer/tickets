@@ -4,13 +4,13 @@ $totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
 .Site.Taxonomies.theaters }} {{ $totalTickets := len .Site.RegularPages }}
 
 <main id="content">
-  <section class="hero grid">
-    <div class="container hero__center grid">
+  <section class="hero">
+    <div class="container">
       <h1>{{ .Title }}</h1>
     </div>
   </section>
 
-  <section>
+  <section class="section-padding">
     <div class="container">
       <h2 class="visually-hide">Tickets Collected</h2>
 

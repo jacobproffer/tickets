@@ -14,11 +14,6 @@
     align-items: center;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
-    border-bottom: 2px solid var(--border);
-
-    @include screen-below($mobile) {
-      padding: var(--size-1) 0;
-    }
   }
 
   &__skip-link {
@@ -26,7 +21,7 @@
     top: -5em;
     left: 50%;
     transform: translateX(-50%);
-    transition: top var(--transition-time) ease-in-out;
+    transition: top 300ms ease-in-out;
 
     &:focus {
       top: 0;
@@ -58,6 +53,15 @@
 
   &__nav-link {
     display: block;
+    padding: var(--size-0) var(--size-1);
+
+    &[aria-current="page"] {
+      border: 1px solid var(--color-scheme-border);
+    }
+
+    @include hover {
+      outline: 1px dashed var(--color-scheme-border);
+    }
   }
 
   &__navigation-toggle {
