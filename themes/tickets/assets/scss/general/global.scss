@@ -1,11 +1,16 @@
 :root {
-  --light-gray: #e5e7dd;
-  --color-scheme-border: #9fa99d;
-  --color-scheme-text-color: #302e2d;
-  --color-scheme-light-background: var(--light-gray);
+  --light-gray: #d1cfd1;
+  --color-scheme-border: var(--light-blue);
+  --color-scheme-text-color: var(--light-gray);
+  --color-scheme-light-background: var(--black);
   --color-scheme-background: #ddeede;
   --mono: 'VT323', monospace;
   --container: 1400px;
+
+  --black: #0f181d;
+  --gray: #7a8187;
+  --gold: #e28f19;
+  --light-blue: #468194;
 
   --size-0: #{createFluidValue(8px, 10px)};
   --size-1: #{createFluidValue(16px, 20px)};
@@ -45,7 +50,7 @@ html {
 body {
   margin: 0;
   color: var(--color-scheme-text-color);
-  background-color: var(--color-scheme-background);
+  background-color: var(--black);
   font-family: var(--mono);
   font-size: 18px;
   text-transform: uppercase;

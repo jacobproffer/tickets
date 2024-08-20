@@ -24,7 +24,6 @@
   &__stats-item {
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color-scheme-background);
 
     @include screen-above($portrait) {
       &--left {

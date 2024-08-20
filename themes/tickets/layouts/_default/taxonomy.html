@@ -11,8 +11,18 @@ $totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
   </section>
 
   <section class="section-padding">
-    <div class="container">
-      <h2 class="visually-hide">Tickets Collected</h2>
+    <div class="container grid row-gap">
+
+      {{ if eq .Kind "term" }}
+
+        {{ $pageCount := len .Pages }}
+
+        <div class="flex align-center space-between">
+          <h2>Tickets Collected</h2>
+          <div><span class="value" data-counter data-value="{{ $pageCount }}"></span> Tickets</div>
+        </div>
+
+      {{ end }}
 
       <ol class="unstyled-list grid ticket-list gsap-fade-in">
         {{ range .Pages }}

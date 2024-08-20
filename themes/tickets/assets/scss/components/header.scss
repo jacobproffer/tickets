@@ -4,8 +4,9 @@
   width: 100%;
   height: auto;
   padding: var(--size-1) 0;
-  background-color: var(--color-scheme-background);
-  border: 1px dashed var(--color-scheme-border);
+  background-color: var(--black);
+  border-top: 4px solid var(--light-blue);
+  border-bottom: 1px dashed var(--color-scheme-border);
 
   &--navigation-open {
     height: 100%;
@@ -55,8 +56,10 @@
   &__nav-link {
     display: block;
     padding: var(--size-0) var(--size-1);
+    text-decoration: none;
 
     &[aria-current="page"] {
+      color: var(--gray);
       border: 1px solid var(--color-scheme-border);
     }
 
@@ -66,6 +69,7 @@
   }
 
   &__navigation-toggle {
+    color: var(--light-gray);
     cursor: pointer;
 
     @include screen-above($mobile) {
