@@ -59,12 +59,13 @@
     text-decoration: none;
 
     &[aria-current="page"] {
-      color: var(--gray);
+      color: var(--gold);
       border: 1px solid var(--color-scheme-border);
     }
 
     @include hover {
       outline: 1px dashed var(--color-scheme-border);
+      outline-offset: 2px;
     }
   }
 
