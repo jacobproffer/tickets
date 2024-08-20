@@ -83,3 +83,8 @@
   opacity: .2;
   pointer-events: none;
 }
+
+.row-style {
+  padding: var(--size-0) var(--size-1);
+  border: 1px solid var(--light-blue);
+}

@@ -11,11 +11,11 @@ $totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
   </section>
 
   <section class="section-padding">
-    <div class="container grid row-gap">
+    <div class="container grid row-gap gsap-fade-in">
 
       {{ $pageCount := len .Pages }}
 
-      <div class="flex align-center space-between">
+      <div class="flex align-center space-between bg-black row-style">
 
         {{ if and (eq .Kind "taxonomy") (eq .Type "theaters") }}
           <h2>Breakdown by Theater</h2>
@@ -36,7 +36,7 @@ $totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
 
       </div>
 
-      <ol class="unstyled-list grid ticket-list gsap-fade-in">
+      <ol class="unstyled-list grid ticket-list">
         {{ range .Pages }}
 
         <li class="ticket-list__item">

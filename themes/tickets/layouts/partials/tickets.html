@@ -9,7 +9,7 @@
       {{ $pageCount := len .Pages }}
 
       <li class="tickets__ticket-row grid row-gap gsap-fade-in">
-        <div class="flex align-center space-between tickets__ticket-year">
+        <div class="flex align-center space-between bg-black row-style">
           <h2>{{ .Key }}</h2>
 
           <div><span class="value" data-counter data-value="{{ $pageCount }}"></span> Tickets</div>
