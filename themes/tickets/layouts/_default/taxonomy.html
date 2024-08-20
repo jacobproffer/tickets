@@ -1,85 +1,41 @@
-{{ define "title" }}
-
-  {{ .Title }} - {{ .Site.Title }}
-
-{{ end }}
-
-{{ define "main" }}
+{{ define "title" }} {{ .Title }} - {{ .Site.Title }} {{ end }} {{ define "main"
+}} {{ $startYear := 2007 }} {{ $currentYear := now.Format "2006" }} {{
+$totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
+.Site.Taxonomies.theaters }} {{ $totalTickets := len .Site.RegularPages }}
 
 <main id="content">
-
-  <section class="hero grid border-bottom">
-
-    <div class="hero__left center-content light-gray-background">
-      <span class="hero__barcode barcode" aria-hidden="true">Admit One</span>
+  <section class="hero bg-black border-bottom">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
     </div>
-
-    <div class="hero__center gray-background center">
-
-      <span aria-hidden="true">{{ .Site.Params.subTitle }}</span>
-
-      <div>
-        <h1>{{ .Title }}</h1>
-      </div>
-
-      <dl class="hero__stats">
-        <div class="gray-background"></div>
-        <div class="gray-background">
-
-          {{ if or (eq .RelPermalink "/theaters/") (eq .RelPermalink "/ratings/") }}
-            <dt>{{ .Title }}</dt>
-          {{ else }}
-
-            {{ if gt (len .Pages) 1 }}
-              <dt>{{ .Title }} tickets</dt>
-            {{ else }}
-              <dt>{{ .Title }} ticket</dt>
-            {{ end }}
-          {{ end }}
-
-          <dd class="h2">{{ len .Pages }}</dd>
-        </div>
-        <div class="gray-background"></div>
-      </dl>
-
-    </div>
-
-    <div class="hero__right center-content light-gray-background">
-      <span aria-hidden="true">Admit One</span>
-    </div>
-
   </section>
 
-  <section class="tickets">
-    <div class="container">
+  <section class="section-padding">
+    <div class="container grid row-gap">
 
-      <h2 class="visually-hide">Tickets Collected</h2>
+      {{ if eq .Kind "term" }}
 
-      <ul class="unstyled-list ticket-list">
+        {{ $pageCount := len .Pages }}
 
+        <div class="flex align-center space-between">
+          <h2>Tickets Collected</h2>
+          <div><span class="value" data-counter data-value="{{ $pageCount }}"></span> Tickets</div>
+        </div>
+
+      {{ end }}
+
+      <ol class="unstyled-list grid ticket-list gsap-fade-in">
         {{ range .Pages }}
 
-          <li class="ticket-list__item ticket">
-
-            {{ if isset .Params "date" }}
-
-              {{ .Render "ticket" }}
-
-            {{ else }}
-
-              {{ .Render "taxonomy-card" }}
-
-            {{ end }}
-
-          </li>
+        <li class="ticket-list__item">
+          {{ if isset .Params "date" }} {{ .Render "ticket" }} {{ else }} {{
+          .Render "taxonomy-card" }} {{ end }}
+        </li>
 
         {{ end }}
-
-      </ul>
-
+      </ol>
     </div>
   </section>
-
 </main>
 
 {{ end }}

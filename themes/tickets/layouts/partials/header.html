@@ -1,24 +1,31 @@
-<header class="site-header border-bottom">
+<div
+  class="main-header bg-black"
+  data-header
+>
 
-  <nav aria-label="primary">
-    <ul class="unstyled-list">
+  <div class="container">
 
-      {{ $currentPage := . }}
+    <div class="main-header__grid relative grid">
 
-      {{ range .Site.Menus.main }}
-        <li>
-          <a
-            href="{{ .URL }}"
-            {{ if $currentPage.IsMenuCurrent "main" . }}
-              aria-current="page"
-            {{ end }}
-          >
-            {{ .Name }}
-          </a>
-        </li>
-      {{ end }}
+      <header>
 
-    </ul>
-  </nav>
+        <a
+          class="main-header__skip-link bg-black"
+          href="#content"
+        >
+          Skip to Main Content
+        </a>
 
-</header>
+        <div class="main-header__logo-wrap link-padding">
+          <div class="gray">Dead Man's Brew</div> <div>Movie Ticket Collection</div>
+        </div>
+
+      </header>
+
+      {{ partial "navigation" . }}
+
+    </div>
+
+  </div>
+
+</div>

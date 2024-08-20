@@ -1,0 +1,17 @@
+.button {
+  --button-background: rgba(0, 0, 0, 0);
+  position: relative;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var(--color-scheme-border);
+  transition: color var(--transition-time) ease-in-out, background-color var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
+  cursor: pointer;
+
+  &[aria-expanded="true"] {
+    border: 1px solid var(--color-scheme-border);
+  }
+
+  @include hover {
+    border: 1px dashed var(--color-scheme-border);
+  }
+}

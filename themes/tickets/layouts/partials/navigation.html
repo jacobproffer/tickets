@@ -1,0 +1,37 @@
+<nav aria-label="primary" data-navigation>
+  <button
+    class="unstyled-button button relative main-header__navigation-toggle"
+    id="mobile-navigation-trigger"
+    aria-controls="navigation-list"
+    aria-expanded="false"
+    data-navigation-toggle
+  >
+    Open Menu
+  </button>
+
+  <ul
+    class="unstyled-list main-header__nav-list gsap-stagger-in"
+    id="navigation-list"
+    data-navigation-list
+  >
+
+    {{ $currentPage := . }}
+
+    {{ range .Site.Menus.main }}
+
+      <li class="main-header__nav-item">
+        <a
+          class="main-header__nav-link relative nav-item nav-item--primary link-padding font-14"
+          href="{{ .URL }}"
+          {{ if $currentPage.IsMenuCurrent "main" . }}
+            aria-current="page"
+          {{ end }}
+        >
+          {{ .Name }}
+        </a>
+      </li>
+
+    {{ end }}
+
+  </ul>
+</nav>

@@ -10,12 +10,6 @@
   }
 }
 
-@mixin screen-between($min-screen-size, $max-screen-size) {
-  @media screen and (min-width: $min-screen-size) and (max-width: ($max-screen-size - 1px)) {
-    @content;
-  }
-}
-
 @mixin hover {
   @media (hover: hover) {
     &:hover {

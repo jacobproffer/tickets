@@ -1,5 +1,4 @@
 .site-footer {
-  padding: 40px 0;
-  text-align: center;
-  background-color: var(--color-scheme-background);
+  padding: var(--size-3) 0;
+  border-top: 1px dashed var(--light-blue);
 }

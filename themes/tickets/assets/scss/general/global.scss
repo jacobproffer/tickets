@@ -1,16 +1,27 @@
 :root {
-  --black: #14141b;
-  --white: #f8f8f2;
-  --light-gray: #e5e7dd;
-  --dark-gray: #b2d3c9;
-  --color-scheme-border: #9fa99d;
-  --primary: #b1d9b4;
-  --color-scheme-text-color: #302e2d;
-  --color-scheme-light-background: var(--light-gray);
+  --light-gray: #d1cfd1;
+  --color-scheme-border: var(--light-blue);
+  --color-scheme-text-color: var(--light-gray);
+  --color-scheme-light-background: var(--black);
   --color-scheme-background: #ddeede;
-  --cursive: 'Libre Barcode 128', cursive;
   --mono: 'VT323', monospace;
-  --container: 1440px;
+  --container: 1400px;
+
+  --black: #0f181d;
+  --gray: #7a8187;
+  --gold: #e28f19;
+  --light-blue: #468194;
+
+  --size-0: #{createFluidValue(8px, 10px)};
+  --size-1: #{createFluidValue(16px, 20px)};
+  --size-2: #{createFluidValue(24px, 30px)};
+  --size-3: #{createFluidValue(32px, 40px)};
+  --size-4: #{createFluidValue(38px, 50px)};
+  --size-5: #{createFluidValue(56px, 75px)};
+
+  @include screen-below($desktopSm) {
+    --container: calc(100% - 20px);
+  }
 }
 
 *,
@@ -21,12 +32,13 @@
 
 ::selection {
   color: var(--color-scheme-text-color);
-  background: var(--color-scheme-background);
+  background: var(--color-scheme-light-background);
 }
 
 * {
   &:focus {
-    outline: 2px dotted var(--black);
+    outline: 2px dotted var(--color-scheme-text-color);
+    outline-offset: 2px;
   }
 }
 
@@ -36,37 +48,31 @@ html {
 }
 
 body {
-  position: relative;
   margin: 0;
   color: var(--color-scheme-text-color);
-  background-color: var(--white);
+  font-family: var(--mono);
   font-size: 18px;
   text-transform: uppercase;
 }
 
-img {
-  max-width: 100%;
+p {
+  max-width: 80ch;
+  line-height: 1.5;
 }
 
 a {
   color: inherit;
-  text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
-  @include hover {
-    outline: dotted 1px var(--color-scheme-border);
+  &:not([class]) {
+    text-decoration: underline;
   }
-}
 
-small,
-span {
-  display: block;
+  @include hover {
+    color: var(--gray);
+  }
 }
 
 time {
   display: inline-block;
-}
-
-dd {
-  margin: 0;
 }

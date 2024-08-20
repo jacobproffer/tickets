@@ -1,28 +1,15 @@
-body {
-  font-family: var(--mono);
-}
-
-p {
-  max-width: 80ch;
-  line-height: 1.5;
-}
-
 h1,
 h2 {
   margin: 0;
 }
 
 h1 {
-  // 128px at 1800px to 32px at 375px
-  --h1-sizes: clamp(2.00rem, calc(0.42rem + 6.74vw), 8.00rem);
-  font-size: var(--h1-sizes);
-  padding-bottom: 0;
+  font-size: #{createFluidValue(48px, 144px)};
+  line-height: 1;
+  text-wrap: balance;
 }
 
-h2,
-.h2 {
-  // 48px at 1800px to 24px at 375px
-  --h2-sizes: clamp(1.50rem, calc(1.11rem + 1.68vw), 3.00rem);
-  font-size: var(--h2-sizes);
+h2 {
+  font-size: rem(48);
   line-height: 1;
 }

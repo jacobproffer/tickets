@@ -1,37 +1,87 @@
-.site-header {
-  padding: 20px 0;
-  background-color: var(--color-scheme-light-background);
+.main-header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: auto;
+  padding: var(--size-1) 0;
+  border-top: 4px solid var(--light-blue);
+  border-bottom: 1px dashed var(--color-scheme-border);
 
-  ul {
-    display: flex;
-    justify-content: center;
+  &--navigation-open {
+    height: 100%;
+  }
 
-    li {
-      &:not(:last-of-type) {
-        margin-right: 20px;
-      }
-    }
-
-    a {
-      display: block;
-      padding: 20px;
-      text-decoration: none;
-
-      &[aria-current="page"] {
-        outline: 1px dashed var(--color-scheme-border);
-      }
-    }
+  &__grid {
+    align-items: center;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
   }
 
   &__skip-link {
     position: fixed;
-    top: -4em;
+    top: -5em;
     left: 50%;
+    z-index: 1;
+    padding: var(--size-0) var(--size-1);
     transform: translateX(-50%);
-    transition: top .5s ease-in-out;
+    text-transform: uppercase;
+    transition: color 300ms ease-in-out, transform 300ms ease-in-out;
 
     &:focus {
-      top: 0;
+      top: var(--size-2);
+    }
+  }
+
+  &__header {
+    display: block;
+  }
+
+  &__logo-wrap {
+    line-height: 1;
+  }
+
+  &__nav-list {
+    display: flex;
+    gap: 20px;
+
+    @include screen-below($mobile) {
+      display: none;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      row-gap: #{createFluidValue(30px, 60px)};
+
+      &.open {
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--size-4);
+      }
+    }
+  }
+
+  &__nav-link {
+    display: block;
+    padding: var(--size-0) var(--size-1);
+    text-decoration: none;
+
+    &[aria-current="page"] {
+      color: var(--gold);
+      border: 1px solid var(--color-scheme-border);
+    }
+
+    @include hover {
+      outline: 1px dashed var(--color-scheme-border);
+      outline-offset: 2px;
+    }
+  }
+
+  &__navigation-toggle {
+    color: var(--light-gray);
+    text-transform: uppercase;
+    cursor: pointer;
+
+    @include screen-above($mobile) {
+      display: none;
     }
   }
 }

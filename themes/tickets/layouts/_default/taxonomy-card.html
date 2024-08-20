@@ -1,48 +1,46 @@
-<div class="ticket__article">
+<div class="ticket relative bg-black">
+  <div class="ticket__article flex">
 
-  <div class="ticket__content">
+    <div class="grid ticket__content">
 
-    <h3>{{ .Title }}</h3>
+      <h3 class="ticket__headline">{{ .Title }}</h3>
 
-    {{ $location := "" }}
+      {{ $location := "" }}
 
-    {{ if or (eq .Title "Marquette Cinemas") (eq .Title "Carmike Royal Cinema 10") (eq .Title "Delft Theatre") }}
-      {{ $location = "Marquette, Michigan" }}
-    {{ else if eq .Title "Konsertpaleet" }}
-      {{ $location = "Bergan, Norway" }}
-    {{ else if eq .Title "TOHO Cinemas Shinjuku" }}
-      {{ $location = "Tokyo, Japan" }}
-    {{ else if eq .Title "Cinemark Tinseltown Grapevine" }}
-      {{ $location = "Grapevine, Texas" }}
-    {{ else if eq .Title "AMC Empire 25" }}
-      {{ $location = "New York, New York" }}
-    {{ else if eq .Title "Sambíó Egilshöll" }}
-      {{ $location = "Reykjavik, Iceland" }}
-    {{ else if eq .Title "Regal Entertainment Group" }}
-      {{ $location = "Appleton, Wisconsin" }}
-    {{ else if eq .Title "Century Theaters Next Gen" }}
-      {{ $location = "Tucson, Arizona" }}
-    {{ end }}
-
-    <small class="ticket__theater">
-
-      {{ if $location }}
-        <span class="visually-hide">Located in</span>
-        {{ $location }}
-      {{ else }}
-        Rated
+      {{ if or (eq .Title "Marquette Cinemas") (eq .Title "Carmike Royal Cinema 10") (eq .Title "Delft Theatre") }}
+        {{ $location = "Marquette, Michigan" }}
+      {{ else if eq .Title "Konsertpaleet" }}
+        {{ $location = "Bergan, Norway" }}
+      {{ else if eq .Title "TOHO Cinemas Shinjuku" }}
+        {{ $location = "Tokyo, Japan" }}
+      {{ else if eq .Title "Cinemark Tinseltown Grapevine" }}
+        {{ $location = "Grapevine, Texas" }}
+      {{ else if eq .Title "AMC Empire 25" }}
+        {{ $location = "New York, New York" }}
+      {{ else if eq .Title "Sambio Egilsholl" }}
+        {{ $location = "Reykjavik, Iceland" }}
+      {{ else if eq .Title "Regal Entertainment Group" }}
+        {{ $location = "Appleton, Wisconsin" }}
+      {{ else if eq .Title "Century Theaters Next Gen" }}
+        {{ $location = "Tucson, Arizona" }}
       {{ end }}
 
-    </small>
+      <small class="ticket__theater">
+
+        {{ if $location }}
+          <span class="visually-hide">Located in</span>
+          {{ $location }}
+        {{ else }}
+          Rated
+        {{ end }}
+
+      </small>
+
+    </div>
+
+    {{ if not (isset .Params "date") }}
+      <a class="ticket__link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+    {{ end }}
 
   </div>
-
-  <div aria-hidden="true">
-    <span class="ticket__barcode barcode">{{ range $index, $num := shuffle (seq 14) }} {{- $num -}} {{ end }}</span>
-  </div>
-
-  {{ if not (isset .Params "date") }}
-    <a class="ticket__link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
-  {{ end }}
-
 </div>
