@@ -4,7 +4,6 @@
   width: 100%;
   height: auto;
   padding: var(--size-1) 0;
-  background-color: var(--black);
   border-top: 4px solid var(--light-blue);
   border-bottom: 1px dashed var(--color-scheme-border);
 
@@ -22,6 +21,7 @@
     position: fixed;
     top: -5em;
     left: 50%;
+    z-index: 1;
     padding: var(--size-0) var(--size-1);
     transform: translateX(-50%);
     text-transform: uppercase;
