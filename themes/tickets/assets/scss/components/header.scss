@@ -22,11 +22,13 @@
     position: fixed;
     top: -5em;
     left: 50%;
+    padding: var(--size-0) var(--size-1);
     transform: translateX(-50%);
-    transition: top 300ms ease-in-out;
+    text-transform: uppercase;
+    transition: color 300ms ease-in-out, transform 300ms ease-in-out;
 
     &:focus {
-      top: 0;
+      top: var(--size-2);
     }
   }
 
@@ -71,6 +73,7 @@
 
   &__navigation-toggle {
     color: var(--light-gray);
+    text-transform: uppercase;
     cursor: pointer;
 
     @include screen-above($mobile) {

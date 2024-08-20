@@ -68,6 +68,10 @@ a {
   &:not([class]) {
     text-decoration: underline;
   }
+
+  @include hover {
+    color: var(--gray);
+  }
 }
 
 time {
