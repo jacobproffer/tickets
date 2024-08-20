@@ -33,6 +33,7 @@
 * {
   &:focus {
     outline: 2px dotted var(--color-scheme-text-color);
+    outline-offset: 2px;
   }
 }
 
