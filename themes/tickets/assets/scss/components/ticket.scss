@@ -44,5 +44,9 @@
     left: 0;
     width: 100%;
     height: 100%;
+
+    @include hover {
+      border: 1px dashed var(--color-scheme-border);
+    }
   }
 }
