@@ -14,17 +14,17 @@
 @keyframes flicker {
   0% {
     opacity: 1;
-    text-shadow: 0 0 2px #9c6527, 0 0 5px #9c6527, 0 0 10px #9c6527, 0 0 15px #9c6527, 0 0 20px #9c6527;
+    text-shadow: 0 0 2px var(--dark-gold), 0 0 5px var(--dark-gold), 0 0 10px var(--dark-gold), 0 0 15px var(--dark-gold), 0 0 20px var(--dark-gold);
   }
 
   50% {
     opacity: 0.9;
-    text-shadow: 0 0 1px #9c6527, 0 0 4px #9c6527, 0 0 8px #9c6527, 0 0 12px #9c6527;
+    text-shadow: 0 0 1px var(--dark-gold), 0 0 4px var(--dark-gold), 0 0 8px var(--dark-gold), 0 0 12px var(--dark-gold);
   }
 
   100% {
     opacity: 1;
-    text-shadow: 0 0 2px #9c6527, 0 0 5px #9c6527, 0 0 10px #9c6527, 0 0 15px #9c6527, 0 0 20px #9c6527;
+    text-shadow: 0 0 2px var(--dark-gold), 0 0 5px var(--dark-gold), 0 0 10px var(--dark-gold), 0 0 15px var(--dark-gold), 0 0 20px var(--dark-gold);
   }
 }
 
