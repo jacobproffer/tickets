@@ -1,7 +1,7 @@
 .ticket {
   z-index: 2;
   height: 100%;
-  border: 1px solid var(--light-blue);
+  border: 1px dashed var(--color-scheme-border);
 
   &__article {
     flex-direction: column;
@@ -23,7 +23,6 @@
 
   &__theater {
     order: -1;
-    color: var(--gray);
   }
 
   &__info {

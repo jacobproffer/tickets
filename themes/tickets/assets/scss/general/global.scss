@@ -1,7 +1,7 @@
 :root {
   --light-gray: #d1cfd1;
-  --color-scheme-border: var(--light-blue);
-  --color-scheme-text-color: var(--light-gray);
+  --color-scheme-border: var(--black);
+  --color-scheme-text-color: var(--black);
   --color-scheme-light-background: var(--black);
   --color-scheme-background: #ddeede;
   --mono: 'VT323', monospace;
@@ -9,9 +9,7 @@
 
   --black: #0f181d;
   --gray: #7a8187;
-  --gold: #f4d315;
-  --dark-gold: #9c6527;
-  --light-blue: #56b1ab;
+  --light-blue: #b9b1d6;
 
   --size-0: #{createFluidValue(8px, 10px)};
   --size-1: #{createFluidValue(16px, 20px)};
@@ -67,10 +65,6 @@ a {
 
   &:not([class]) {
     text-decoration: underline;
-  }
-
-  @include hover {
-    color: var(--gray);
   }
 }
 
