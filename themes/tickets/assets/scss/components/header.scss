@@ -67,6 +67,8 @@
     &[aria-current="page"] {
       color: var(--gold);
       border: 1px solid var(--color-scheme-border);
+      text-shadow: 0 0 1px #9c6527, 0 0 4px #9c6527, 0 0 8px #9c6527, 0 0 12px #9c6527, 0 0 18px #9c6527;
+      animation: flicker 2s infinite alternate;
     }
 
     @include hover {

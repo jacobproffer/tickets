@@ -1,10 +1,5 @@
 // Animation source: https://daneden.github.io/animate.css/
 
-.animated {
-  animation-duration: 1.5s;
-  animation-fill-mode: both;
-}
-
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -13,6 +8,29 @@
   to {
     opacity: 1;
   }
+}
+
+/* Keyframe for the flickering effect */
+@keyframes flicker {
+  0% {
+    opacity: 1;
+    text-shadow: 0 0 2px #9c6527, 0 0 5px #9c6527, 0 0 10px #9c6527, 0 0 15px #9c6527, 0 0 20px #9c6527;
+  }
+
+  50% {
+    opacity: 0.9;
+    text-shadow: 0 0 1px #9c6527, 0 0 4px #9c6527, 0 0 8px #9c6527, 0 0 12px #9c6527;
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 2px #9c6527, 0 0 5px #9c6527, 0 0 10px #9c6527, 0 0 15px #9c6527, 0 0 20px #9c6527;
+  }
+}
+
+.animated {
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
 }
 
 .fade-in {
