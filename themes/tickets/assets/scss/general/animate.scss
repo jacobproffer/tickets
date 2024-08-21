@@ -10,24 +10,6 @@
   }
 }
 
-/* Keyframe for the flickering effect */
-@keyframes flicker {
-  0% {
-    opacity: 1;
-    text-shadow: 0 0 2px var(--dark-gold), 0 0 5px var(--dark-gold), 0 0 10px var(--dark-gold), 0 0 15px var(--dark-gold), 0 0 20px var(--dark-gold);
-  }
-
-  50% {
-    opacity: 0.9;
-    text-shadow: 0 0 1px var(--dark-gold), 0 0 4px var(--dark-gold), 0 0 8px var(--dark-gold), 0 0 12px var(--dark-gold);
-  }
-
-  100% {
-    opacity: 1;
-    text-shadow: 0 0 2px var(--dark-gold), 0 0 5px var(--dark-gold), 0 0 10px var(--dark-gold), 0 0 15px var(--dark-gold), 0 0 20px var(--dark-gold);
-  }
-}
-
 .animated {
   animation-duration: 1.5s;
   animation-fill-mode: both;
