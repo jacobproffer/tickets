@@ -1,0 +1,25 @@
+{{ define "title" }}
+  {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+<main id="content">
+
+  <section class="hero">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="container">
+
+      {{ .Content }}
+
+    </div>
+  </section>
+
+</main>
+
+{{ end }}

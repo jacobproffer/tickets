@@ -1,0 +1,36 @@
+{{ define "title" }}
+  About - {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+{{ $totalSpent := 0.00 }}
+{{ $totalItems := 0 }}
+
+{{ range .Site.RegularPages }}
+  {{ $price := float .Params.price }}
+  {{ $totalSpent = add $totalSpent $price }}
+  {{ $totalItems = add $totalItems 1 }}
+{{ end }}
+
+{{ $averagePrice := div $totalSpent $totalItems }}
+
+<main id="content">
+
+  <section class="hero">
+    <div class="container">
+      <h1>{{ .Title }}</h1>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="container">
+
+      <p>Since <span class="highlight">2007</span>, I've been collecting movie tickets as a way to capture memories and experiences across theaters near and far. What began with an average ticket price of just <span class="highlight">$5.00</span> has grown into a collection of <span class="highlight">298</span> tickets, with an average ticket price of <span class="highlight">${{ printf "%.2f" $averagePrice }}</span>. In total, I've currently spent roughly <span class="highlight">${{ printf "%.2f" $totalSpent }}</span> on movie tickets. While most tickets are from theaters in Marquette, Michigan, this collection also includes stubs from screenings in far-off places like <a href="/theaters/toho-cinemas-shinjuku/">Tokyo, Japan</a>, <a href="/theaters/konsertpaleet/">Norway</a>, and <a href="/theaters/sambio-egilsholl/">Iceland</a>. Each ticket represents a unique cinematic moment, spanning genres, cultures, and locations around the globe.</p>
+
+    </div>
+  </section>
+
+</main>
+
+{{ end }}
