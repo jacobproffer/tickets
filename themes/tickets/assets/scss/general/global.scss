@@ -17,7 +17,7 @@
   --size-5: #{createFluidValue(56px, 75px)};
 
   @include screen-below($desktopSm) {
-    --container: calc(100% - 20px);
+    --container: calc(100% - 40px);
   }
 }
 
@@ -64,6 +64,7 @@ a {
 
   &:not([class]) {
     text-decoration: underline;
+    text-decoration-color: var(--light-blue);
   }
 }
 

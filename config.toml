@@ -23,14 +23,20 @@ enableRobotsTXT = true
     weight = 1
 
   [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about/"
+    weight = 2
+
+  [[menu.main]]
     identifier = "theaters"
     name = "Theaters"
     pageRef = "/theaters/"
-    weight = 2
+    weight = 3
 
   [[menu.main]]
     identifier = "ratings"
     name = "Ratings"
     pageRef = "/ratings/"
-    weight = 3
+    weight = 4
 

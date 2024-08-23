@@ -4,7 +4,7 @@ $totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
 .Site.Taxonomies.theaters }} {{ $totalTickets := len .Site.RegularPages }}
 
 <main id="content">
-  <section class="hero border-bottom">
+  <section class="hero">
     <div class="container">
       <h1>{{ .Title }}</h1>
     </div>
@@ -19,18 +19,18 @@ $totalYears := sub (int $currentYear) $startYear }} {{ $theaters := len
 
         {{ if and (eq .Kind "taxonomy") (eq .Type "theaters") }}
           <h2>Breakdown by Theater</h2>
-          <div><span class="value" data-counter data-value="{{ $pageCount }}"></span> Theaters</div>
+          <div><span class="highlight" data-counter data-value="{{ $pageCount }}"></span> Theaters</div>
         {{ end }}
 
         {{ if and (eq .Kind "taxonomy") (eq .Type "ratings") }}
           <h2>Breakdown by Rating</h2>
-          <div><span class="value" data-counter data-value="{{ $pageCount }}"></span> Ratings</div>
+          <div><span class="highlight" data-counter data-value="{{ $pageCount }}"></span> Ratings</div>
         {{ end }}
 
         {{ if eq .Kind "term" }}
 
           <h2>Tickets Collected</h2>
-          <div><span class="value" data-counter data-value="{{ $pageCount }}"></span> Tickets</div>
+          <div><span class="highlight" data-counter data-value="{{ $pageCount }}"></span> Tickets</div>
 
         {{ end }}
 
