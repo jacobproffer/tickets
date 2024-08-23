@@ -80,6 +80,10 @@
     text-transform: uppercase;
     cursor: pointer;
 
+    &[aria-expanded="true"] {
+      color: var(--light-blue);
+    }
+
     @include screen-above($mobile) {
       display: none;
     }
