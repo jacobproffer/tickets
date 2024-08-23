@@ -1,7 +1,9 @@
 .ticket {
   z-index: 2;
   height: 100%;
-  border: 1px dashed var(--color-scheme-border);
+  color: var(--black);
+  background-color: var(--light-blue);
+  border-radius: var(--size-0);
 
   &__article {
     flex-direction: column;

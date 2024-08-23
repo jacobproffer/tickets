@@ -4,7 +4,7 @@
   width: 100%;
   height: auto;
   padding: var(--size-1) 0;
-  background-color: #fff;
+  background-color: var(--color-scheme-background);
   border-top: 8px solid var(--light-blue);
 
   &--navigation-open {
@@ -65,6 +65,7 @@
     text-decoration: none;
 
     &[aria-current="page"] {
+      color: var(--light-blue);
       border: 1px solid var(--color-scheme-border);
     }
 
@@ -75,9 +76,13 @@
   }
 
   &__navigation-toggle {
-    color: var(--black);
+    color: inherit;
     text-transform: uppercase;
     cursor: pointer;
+
+    &[aria-expanded="true"] {
+      color: var(--light-blue);
+    }
 
     @include screen-above($mobile) {
       display: none;
