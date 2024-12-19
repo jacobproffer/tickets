@@ -1,5 +1,5 @@
 ---
-title: "World War Z 2"
+title: "World War Z"
 date: "2013-07-09"
 price: "7.75"
 theaters: ["Carmike Royal Cinema 10"]
