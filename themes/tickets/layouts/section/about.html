@@ -22,10 +22,12 @@ $totalItems }}
         average ticket price of
         <span class="highlight">${{ printf "%.2f" $averagePrice }}</span>. In
         total, I've currently spent roughly
-        <span class="highlight">${{ printf "%.2f" $totalSpent }}</span> on movie
-        tickets. While most tickets are from theaters in Marquette, Michigan,
-        this collection also includes stubs from screenings in far-off places
-        like <a href="/theaters/toho-cinemas-shinjuku/">Tokyo, Japan</a>,
+        <span class="highlight"
+          >{{ $totalSpent | lang.FormatCurrency 2 "USD" }}</span
+        >
+        on movie tickets. While most tickets are from theaters in Marquette,
+        Michigan, this collection also includes stubs from screenings in far-off
+        places like <a href="/theaters/toho-cinemas-shinjuku/">Tokyo, Japan</a>,
         <a href="/theaters/konsertpaleet/">Norway</a>, and
         <a href="/theaters/sambio-egilsholl/">Iceland</a>. Each ticket
         represents a unique cinematic moment, spanning genres, cultures, and
