@@ -5,7 +5,7 @@ description = "Source code for Jacob Proffer's ticket project."
 homepage = "https://jacobproffer.com/"
 tags = ["collection", "tickets", "grid"]
 features = ["data", "grid"]
-min_version = "0.139.4"
+min_version = "0.141.0"
 
 [author]
   name = "Jacob Proffer"
